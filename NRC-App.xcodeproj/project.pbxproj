@@ -15,6 +15,7 @@
 		26813EE620FCF229008226B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26813EE420FCF229008226B2 /* LaunchScreen.storyboard */; };
 		26813EF120FCF229008226B2 /* NRC_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813EF020FCF229008226B2 /* NRC_AppTests.swift */; };
 		26813EFC20FCF229008226B2 /* NRC_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813EFB20FCF229008226B2 /* NRC_AppUITests.swift */; };
+		268DDE9D2103A4A600AF1995 /* logo-nrc-banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 268DDE9C2103A4A600AF1995 /* logo-nrc-banner.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		26813EF720FCF229008226B2 /* NRC-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NRC-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26813EFB20FCF229008226B2 /* NRC_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRC_AppUITests.swift; sourceTree = "<group>"; };
 		26813EFD20FCF229008226B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268DDE9C2103A4A600AF1995 /* logo-nrc-banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-nrc-banner.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		26813ED720FCF229008226B2 /* NRC-App */ = {
 			isa = PBXGroup;
 			children = (
+				268DDE9C2103A4A600AF1995 /* logo-nrc-banner.jpg */,
 				26813ED820FCF229008226B2 /* AppDelegate.swift */,
 				26813EDA20FCF229008226B2 /* ViewController.swift */,
 				26813EDC20FCF229008226B2 /* Main.storyboard */,
@@ -237,6 +240,7 @@
 			files = (
 				26813EE620FCF229008226B2 /* LaunchScreen.storyboard in Resources */,
 				26813EE320FCF229008226B2 /* Assets.xcassets in Resources */,
+				268DDE9D2103A4A600AF1995 /* logo-nrc-banner.jpg in Resources */,
 				26813EDE20FCF229008226B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
