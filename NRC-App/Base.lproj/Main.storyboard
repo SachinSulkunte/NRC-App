@@ -237,6 +237,45 @@
             <point key="canvasLocation" x="4604" y="-324"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="gPh-Lx-A3X">
+            <objects>
+                <viewController id="W04-ba-Dxo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RuJ-KO-0zJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregnant or Breastfeeding?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTn-Ud-Ksl">
+                                <rect key="frame" x="8" y="34" width="359" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4U-oP-XeS">
+                                <rect key="frame" x="8" y="0.0" width="57" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Back"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scn-Vc-hPs">
+                                <rect key="frame" x="12" y="116" width="351" height="317"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Worry not, your child is safe! Although it is possible that your baby will receive some of the dose through the womb or breast milk, medical professionals ensure that it remains at safe levels for both you and your baby.
+To determine how much radiation your baby may get, please use the “How much radiation am I getting” (link to page) calculator. </string>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Ahs-II-vfF"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fsz-Fj-eQc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6532" y="735.38230884557731"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="026-8K-1oE">
             <objects>
                 <viewController id="aTD-3p-9Ja" sceneMemberID="viewController">
@@ -283,6 +322,9 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="I'm Pregnant or Breastfeeding"/>
+                                <connections>
+                                    <segue destination="W04-ba-Dxo" kind="show" id="Yrq-SI-Ypc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ips-el-bWm">
                                 <rect key="frame" x="16" y="617" width="343" height="30"/>
@@ -812,7 +854,7 @@ Sieverts (abbreviated Sv) measure the biological risks associated with a certain
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dw0-0Y-Kjv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6061.6000000000004" y="1312.4437781109445"/>
+            <point key="canvasLocation" x="5678" y="2077"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="7UE-16-9Dc">
