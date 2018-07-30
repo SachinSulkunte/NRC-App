@@ -19,6 +19,7 @@
 		268DDE9F2103AA6300AF1995 /* Amyloid PET scan.png in Resources */ = {isa = PBXBuildFile; fileRef = 268DDE9E2103AA6300AF1995 /* Amyloid PET scan.png */; };
 		268DDEA32103ADE000AF1995 /* radiation treatment.png in Resources */ = {isa = PBXBuildFile; fileRef = 268DDEA22103ADE000AF1995 /* radiation treatment.png */; };
 		268DDEA52103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */; };
+		829BE9ED210EBA0400F43565 /* DiagnosticScreen1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829BE9EC210EBA0400F43565 /* DiagnosticScreen1VC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		268DDE9E2103AA6300AF1995 /* Amyloid PET scan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Amyloid PET scan.png"; sourceTree = "<group>"; };
 		268DDEA22103ADE000AF1995 /* radiation treatment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "radiation treatment.png"; path = "../../../Downloads/radiation treatment.png"; sourceTree = "<group>"; };
 		268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentsDiagnosticsVC.swift; sourceTree = "<group>"; };
+		829BE9EC210EBA0400F43565 /* DiagnosticScreen1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticScreen1VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				26813EE720FCF229008226B2 /* Info.plist */,
 				26813EDF20FCF229008226B2 /* NRC_App.xcdatamodeld */,
 				268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */,
+				829BE9EC210EBA0400F43565 /* DiagnosticScreen1VC.swift */,
 			);
 			path = "NRC-App";
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				268DDEA52103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift in Sources */,
 				26813EDB20FCF229008226B2 /* ViewController.swift in Sources */,
 				26813ED920FCF229008226B2 /* AppDelegate.swift in Sources */,
+				829BE9ED210EBA0400F43565 /* DiagnosticScreen1VC.swift in Sources */,
 				26813EE120FCF229008226B2 /* NRC_App.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
