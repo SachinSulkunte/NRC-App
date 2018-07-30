@@ -236,6 +236,73 @@
             </objects>
             <point key="canvasLocation" x="4604" y="-324"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="Oc6-FX-b7L">
+            <objects>
+                <viewController id="VRy-OD-8UM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oCk-ar-mTq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="9Jc-sA-7ZS"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Cgg-Ak-dFo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EJf-kS-zNi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8518" y="1295"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="e7s-Uu-TcL">
+            <objects>
+                <viewController id="DOk-gH-9Zk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ihq-VD-VEE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="R9a-Xn-pob"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="son-HE-8ur"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GEe-yG-nAb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8518" y="642"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="1U6-V7-77S">
+            <objects>
+                <viewController id="bQY-xF-Eo7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f3s-rR-i5Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="axr-C6-NBM"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="yfO-NP-44H"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="51i-xZ-RCh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8518" y="-9"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="U8W-7A-Hv6">
+            <objects>
+                <tabBarController id="GfF-n2-dk3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lbN-tS-YsE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="bQY-xF-Eo7" kind="relationship" relationship="viewControllers" id="ELL-mM-2eV"/>
+                        <segue destination="DOk-gH-9Zk" kind="relationship" relationship="viewControllers" id="bkI-Io-Z9c"/>
+                        <segue destination="VRy-OD-8UM" kind="relationship" relationship="viewControllers" id="QPb-i9-Kcb"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1b5-1a-E8Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7513" y="699"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="gPh-Lx-A3X">
             <objects>
@@ -405,11 +472,11 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gh-3v-cPp">
                                         <rect key="frame" x="8" y="8" width="224" height="112"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">It can be, but not when regulated carefully, which is the role of the Nuclear Regulatory Commission. Bullet: Doctors in the field also used the ALARA (As low as reasonably achievable) principle when selecting treatment.  
+                                        <string key="text">It can be, but not when regulated carefully, which is the role of the Nuclear Regulatory Commission. Bullet: Doctors in the field also used the ALARA (As low as reasonably achievable) principle when selecting treatment.  
     - The radioisotopes used in medical procedures all have short half-lives, the time it takes for half of the element to decay into a more stable form--so the radiation won’t stick around. 
     - The specific radioisotopes used in medical procedures are targeted only to kill cells which are bad for the body--such as those that are cancerous
     - The radiation they emit tends not to be more than what you would get normally over the course of a few years
-</mutableString>
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -733,12 +800,12 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ouJ-y3-ZT5">
                                                 <rect key="frame" x="8" y="126" width="359" height="607"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">To begin: let’s learn a bit about the units you’ll be seeing in your results. 
+                                                <string key="text">To begin: let’s learn a bit about the units you’ll be seeing in your results. 
 
 Becquerels (abbreviated Bq) are a direct measure of how radioactive something is. 1 Bq is representative of the decay of one radioactive atom--thus it is such a small unit that we experience thousands of Bq of radiation from the atoms in our own body. 
 
 Sieverts (abbreviated Sv) measure the biological risks associated with a certain form of radiation--when using Sv, you would consider the type of radiation present. Some types, such as gamma radiation, are more penetrating than others. 
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
