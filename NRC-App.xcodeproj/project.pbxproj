@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262ABB77210EB27C0045394B /* Product Sans Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 262ABB73210EB27A0045394B /* Product Sans Bold Italic.ttf */; };
+		262ABB78210EB27C0045394B /* Product Sans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 262ABB74210EB27B0045394B /* Product Sans Bold.ttf */; };
+		262ABB79210EB27C0045394B /* Product Sans Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 262ABB75210EB27B0045394B /* Product Sans Regular.ttf */; };
+		262ABB7A210EB27C0045394B /* Product Sans Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 262ABB76210EB27C0045394B /* Product Sans Italic.ttf */; };
+		262ABB7D210EB4FC0045394B /* test-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 262ABB7C210EB4FC0045394B /* test-image.png */; };
+		262ABB81210EB9190045394B /* skeletalmap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 262ABB80210EB9190045394B /* skeletalmap.jpg */; };
+		262ABB83210EBA910045394B /* globalvariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262ABB82210EBA910045394B /* globalvariables.swift */; };
+		262ABB85210F700C0045394B /* MTI-technetium-final.png in Resources */ = {isa = PBXBuildFile; fileRef = 262ABB84210F700C0045394B /* MTI-technetium-final.png */; };
 		26813ED920FCF229008226B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813ED820FCF229008226B2 /* AppDelegate.swift */; };
 		26813EDB20FCF229008226B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813EDA20FCF229008226B2 /* ViewController.swift */; };
 		26813EDE20FCF229008226B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26813EDC20FCF229008226B2 /* Main.storyboard */; };
@@ -39,6 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		262ABB73210EB27A0045394B /* Product Sans Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Product Sans Bold Italic.ttf"; sourceTree = "<group>"; };
+		262ABB74210EB27B0045394B /* Product Sans Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Product Sans Bold.ttf"; sourceTree = "<group>"; };
+		262ABB75210EB27B0045394B /* Product Sans Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Product Sans Regular.ttf"; sourceTree = "<group>"; };
+		262ABB76210EB27C0045394B /* Product Sans Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Product Sans Italic.ttf"; sourceTree = "<group>"; };
+		262ABB7C210EB4FC0045394B /* test-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test-image.png"; sourceTree = "<group>"; };
+		262ABB7F210EB5D00045394B /* radiation treatment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "radiation treatment.png"; path = "../../../../Downloads/radiation treatment.png"; sourceTree = "<group>"; };
+		262ABB80210EB9190045394B /* skeletalmap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skeletalmap.jpg; sourceTree = "<group>"; };
+		262ABB82210EBA910045394B /* globalvariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalvariables.swift; sourceTree = "<group>"; };
+		262ABB84210F700C0045394B /* MTI-technetium-final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MTI-technetium-final.png"; sourceTree = "<group>"; };
 		26813ED520FCF229008226B2 /* NRC-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NRC-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26813ED820FCF229008226B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26813EDA20FCF229008226B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +101,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		262ABB7B210EB4AE0045394B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				262ABB73210EB27A0045394B /* Product Sans Bold Italic.ttf */,
+				262ABB74210EB27B0045394B /* Product Sans Bold.ttf */,
+				262ABB76210EB27C0045394B /* Product Sans Italic.ttf */,
+				262ABB75210EB27B0045394B /* Product Sans Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		262ABB7E210EB5D00045394B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				262ABB84210F700C0045394B /* MTI-technetium-final.png */,
+				268DDE9E2103AA6300AF1995 /* Amyloid PET scan.png */,
+				262ABB80210EB9190045394B /* skeletalmap.jpg */,
+				262ABB7C210EB4FC0045394B /* test-image.png */,
+				262ABB7F210EB5D00045394B /* radiation treatment.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		26813ECC20FCF229008226B2 = {
 			isa = PBXGroup;
 			children = (
@@ -111,13 +151,15 @@
 				26813ED820FCF229008226B2 /* AppDelegate.swift */,
 				26813EDA20FCF229008226B2 /* ViewController.swift */,
 				26813EDC20FCF229008226B2 /* Main.storyboard */,
+				262ABB7E210EB5D00045394B /* Images */,
 				268DDEA22103ADE000AF1995 /* radiation treatment.png */,
-				268DDE9E2103AA6300AF1995 /* Amyloid PET scan.png */,
+				262ABB7B210EB4AE0045394B /* Fonts */,
 				26813EE220FCF229008226B2 /* Assets.xcassets */,
 				26813EE420FCF229008226B2 /* LaunchScreen.storyboard */,
 				26813EE720FCF229008226B2 /* Info.plist */,
 				26813EDF20FCF229008226B2 /* NRC_App.xcdatamodeld */,
 				268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */,
+				262ABB82210EBA910045394B /* globalvariables.swift */,
 			);
 			path = "NRC-App";
 			sourceTree = "<group>";
@@ -247,10 +289,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262ABB78210EB27C0045394B /* Product Sans Bold.ttf in Resources */,
+				262ABB81210EB9190045394B /* skeletalmap.jpg in Resources */,
+				262ABB77210EB27C0045394B /* Product Sans Bold Italic.ttf in Resources */,
 				26813EE620FCF229008226B2 /* LaunchScreen.storyboard in Resources */,
 				26813EE320FCF229008226B2 /* Assets.xcassets in Resources */,
+				262ABB7D210EB4FC0045394B /* test-image.png in Resources */,
+				262ABB85210F700C0045394B /* MTI-technetium-final.png in Resources */,
 				268DDE9D2103A4A600AF1995 /* logo-nrc-banner.jpg in Resources */,
+				262ABB79210EB27C0045394B /* Product Sans Regular.ttf in Resources */,
 				268DDEA32103ADE000AF1995 /* radiation treatment.png in Resources */,
+				262ABB7A210EB27C0045394B /* Product Sans Italic.ttf in Resources */,
 				26813EDE20FCF229008226B2 /* Main.storyboard in Resources */,
 				268DDE9F2103AA6300AF1995 /* Amyloid PET scan.png in Resources */,
 			);
@@ -280,6 +329,7 @@
 				268DDEA52103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift in Sources */,
 				26813EDB20FCF229008226B2 /* ViewController.swift in Sources */,
 				26813ED920FCF229008226B2 /* AppDelegate.swift in Sources */,
+				262ABB83210EBA910045394B /* globalvariables.swift in Sources */,
 				26813EE120FCF229008226B2 /* NRC_App.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
