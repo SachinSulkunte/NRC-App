@@ -84,8 +84,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ltB-Db-HNY">
-                                <rect key="frame" x="122" y="544" width="121" height="46"/>
+                                <rect key="frame" x="74" y="544" width="227" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Continue">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -630,6 +631,12 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                     <segue destination="Jmr-jV-BJQ" kind="show" id="gu2-4R-LS4"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GXt-wU-v2d">
+                                <rect key="frame" x="0.0" y="0.0" width="57" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Back"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.88493567709999998" green="0.96901029350000001" blue="0.95442503690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="tjp-Cz-Do4"/>
@@ -771,6 +778,12 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                     <outlet property="delegate" destination="Jmr-jV-BJQ" id="hQv-0e-6qV"/>
                                 </connections>
                             </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ofu-Uf-zZq">
+                                <rect key="frame" x="0.0" y="0.0" width="57" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Back"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Brb-O5-9Zc"/>
@@ -1290,11 +1303,10 @@ Sieverts (abbreviated Sv) measure the biological risks associated with a certain
         <image name="radiation treatment.png" width="552" height="311"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="S1C-tv-Pk5"/>
         <segue reference="evj-SZ-PDg"/>
         <segue reference="LgH-zU-7FE"/>
-        <segue reference="YXE-36-FUO"/>
+        <segue reference="flh-xY-Nq5"/>
         <segue reference="Yrq-SI-Ypc"/>
-        <segue reference="4zY-v5-wvw"/>
+        <segue reference="4fE-Yu-lK3"/>
     </inferredMetricsTieBreakers>
 </document>
