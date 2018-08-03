@@ -1290,7 +1290,6 @@
         <image name="radiation treatment.png" width="552" height="311"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="S1C-tv-Pk5"/>
         <segue reference="evj-SZ-PDg"/>
         <segue reference="LgH-zU-7FE"/>
         <segue reference="YXE-36-FUO"/>
@@ -1298,4 +1297,3 @@
         <segue reference="4zY-v5-wvw"/>
     </inferredMetricsTieBreakers>
 </document>
-
