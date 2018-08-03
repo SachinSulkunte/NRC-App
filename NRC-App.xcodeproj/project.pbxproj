@@ -25,7 +25,6 @@
 		26813EFC20FCF229008226B2 /* NRC_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813EFB20FCF229008226B2 /* NRC_AppUITests.swift */; };
 		268DDE9D2103A4A600AF1995 /* logo-nrc-banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 268DDE9C2103A4A600AF1995 /* logo-nrc-banner.jpg */; };
 		268DDE9F2103AA6300AF1995 /* Amyloid PET scan.png in Resources */ = {isa = PBXBuildFile; fileRef = 268DDE9E2103AA6300AF1995 /* Amyloid PET scan.png */; };
-		268DDEA32103ADE000AF1995 /* radiation treatment.png in Resources */ = {isa = PBXBuildFile; fileRef = 268DDEA22103ADE000AF1995 /* radiation treatment.png */; };
 		268DDEA52103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +51,6 @@
 		262ABB75210EB27B0045394B /* Product Sans Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Product Sans Regular.ttf"; sourceTree = "<group>"; };
 		262ABB76210EB27C0045394B /* Product Sans Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Product Sans Italic.ttf"; sourceTree = "<group>"; };
 		262ABB7C210EB4FC0045394B /* test-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test-image.png"; sourceTree = "<group>"; };
-		262ABB7F210EB5D00045394B /* radiation treatment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "radiation treatment.png"; path = "../../../../Downloads/radiation treatment.png"; sourceTree = "<group>"; };
 		262ABB80210EB9190045394B /* skeletalmap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skeletalmap.jpg; sourceTree = "<group>"; };
 		262ABB82210EBA910045394B /* globalvariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalvariables.swift; sourceTree = "<group>"; };
 		262ABB84210F700C0045394B /* MTI-technetium-final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MTI-technetium-final.png"; sourceTree = "<group>"; };
@@ -72,7 +70,6 @@
 		26813EFD20FCF229008226B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		268DDE9C2103A4A600AF1995 /* logo-nrc-banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-nrc-banner.jpg"; sourceTree = "<group>"; };
 		268DDE9E2103AA6300AF1995 /* Amyloid PET scan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Amyloid PET scan.png"; sourceTree = "<group>"; };
-		268DDEA22103ADE000AF1995 /* radiation treatment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "radiation treatment.png"; path = "../../../Downloads/radiation treatment.png"; sourceTree = "<group>"; };
 		268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentsDiagnosticsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,7 +116,6 @@
 				268DDE9E2103AA6300AF1995 /* Amyloid PET scan.png */,
 				262ABB80210EB9190045394B /* skeletalmap.jpg */,
 				262ABB7C210EB4FC0045394B /* test-image.png */,
-				262ABB7F210EB5D00045394B /* radiation treatment.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -152,7 +148,6 @@
 				26813EDA20FCF229008226B2 /* ViewController.swift */,
 				26813EDC20FCF229008226B2 /* Main.storyboard */,
 				262ABB7E210EB5D00045394B /* Images */,
-				268DDEA22103ADE000AF1995 /* radiation treatment.png */,
 				262ABB7B210EB4AE0045394B /* Fonts */,
 				26813EE220FCF229008226B2 /* Assets.xcassets */,
 				26813EE420FCF229008226B2 /* LaunchScreen.storyboard */,
@@ -245,7 +240,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "NRC-interns";
 				TargetAttributes = {
 					26813ED420FCF229008226B2 = {
@@ -298,7 +293,6 @@
 				262ABB85210F700C0045394B /* MTI-technetium-final.png in Resources */,
 				268DDE9D2103A4A600AF1995 /* logo-nrc-banner.jpg in Resources */,
 				262ABB79210EB27C0045394B /* Product Sans Regular.ttf in Resources */,
-				268DDEA32103ADE000AF1995 /* radiation treatment.png in Resources */,
 				262ABB7A210EB27C0045394B /* Product Sans Italic.ttf in Resources */,
 				26813EDE20FCF229008226B2 /* Main.storyboard in Resources */,
 				268DDE9F2103AA6300AF1995 /* Amyloid PET scan.png in Resources */,
@@ -399,6 +393,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -406,6 +401,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -456,6 +452,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -463,6 +460,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
