@@ -186,9 +186,6 @@
                                 <state key="normal" title="TREATMENTS">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="BiC-ol-acL" kind="show" id="Pek-aC-R5h"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SoQ-gp-TDk">
                                 <rect key="frame" x="0.0" y="393" width="369" height="185"/>
@@ -221,21 +218,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A23-gJ-gW4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3185" y="134"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="VS3-CX-MKx">
-            <objects>
-                <viewController id="BiC-ol-acL" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zuN-e7-gPe">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.88793760538101196" green="0.96927481889724731" blue="0.95306891202926636" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="nGe-ut-r7C"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fDF-II-Eby" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4943.1999999999998" y="-324.28785607196403"/>
         </scene>
         <!--After-->
         <scene sceneID="Oc6-FX-b7L">
@@ -1073,12 +1055,12 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ouJ-y3-ZT5">
                                                 <rect key="frame" x="8" y="126" width="359" height="607"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">To begin: let’s learn a bit about the units you’ll be seeing in your results.
+                                                <string key="text">To begin: let’s learn a bit about the units you’ll be seeing in your results.
                                                     
 Becquerels (abbreviated Bq) are a direct measure of how radioactive something is. 1 Bq is representative of the decay of one radioactive atom--thus it is such a small unit that we experience thousands of Bq of radiation from the atoms in our own body.
                                                     
 Sieverts (abbreviated Sv) measure the biological risks associated with a certain form of radiation--when using Sv, you would consider the type of radiation present. Some types, such as gamma radiation, are more penetrating than others.
-                                                </mutableString>
+                                                </string>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
