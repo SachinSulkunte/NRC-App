@@ -7,12 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		262ABB77210EB27C0045394B /* Product Sans Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 262ABB73210EB27A0045394B /* Product Sans Bold Italic.ttf */; };
-		262ABB78210EB27C0045394B /* Product Sans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 262ABB74210EB27B0045394B /* Product Sans Bold.ttf */; };
-		262ABB7D210EB4FC0045394B /* test-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 262ABB7C210EB4FC0045394B /* test-image.png */; };
-		262ABB81210EB9190045394B /* skeletalmap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 262ABB80210EB9190045394B /* skeletalmap.jpg */; };
 		262ABB83210EBA910045394B /* globalvariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262ABB82210EBA910045394B /* globalvariables.swift */; };
-		262ABB85210F700C0045394B /* MTI-technetium-final.png in Resources */ = {isa = PBXBuildFile; fileRef = 262ABB84210F700C0045394B /* MTI-technetium-final.png */; };
 		26813ED920FCF229008226B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813ED820FCF229008226B2 /* AppDelegate.swift */; };
 		26813EDB20FCF229008226B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813EDA20FCF229008226B2 /* ViewController.swift */; };
 		26813EDE20FCF229008226B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26813EDC20FCF229008226B2 /* Main.storyboard */; };
@@ -45,12 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		262ABB73210EB27A0045394B /* Product Sans Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Product Sans Bold Italic.ttf"; sourceTree = "<group>"; };
-		262ABB74210EB27B0045394B /* Product Sans Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Product Sans Bold.ttf"; sourceTree = "<group>"; };
-		262ABB7C210EB4FC0045394B /* test-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test-image.png"; sourceTree = "<group>"; };
-		262ABB80210EB9190045394B /* skeletalmap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skeletalmap.jpg; sourceTree = "<group>"; };
 		262ABB82210EBA910045394B /* globalvariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalvariables.swift; sourceTree = "<group>"; };
-		262ABB84210F700C0045394B /* MTI-technetium-final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MTI-technetium-final.png"; sourceTree = "<group>"; };
 		26813ED520FCF229008226B2 /* NRC-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NRC-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26813ED820FCF229008226B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26813EDA20FCF229008226B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -167,11 +157,6 @@
 		82A0F4342114DF9400C4C13A /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				262ABB74210EB27B0045394B /* Product Sans Bold.ttf */,
-				262ABB80210EB9190045394B /* skeletalmap.jpg */,
-				262ABB73210EB27A0045394B /* Product Sans Bold Italic.ttf */,
-				262ABB7C210EB4FC0045394B /* test-image.png */,
-				262ABB84210F700C0045394B /* MTI-technetium-final.png */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -291,13 +276,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				262ABB78210EB27C0045394B /* Product Sans Bold.ttf in Resources */,
-				262ABB81210EB9190045394B /* skeletalmap.jpg in Resources */,
-				262ABB77210EB27C0045394B /* Product Sans Bold Italic.ttf in Resources */,
 				26813EE620FCF229008226B2 /* LaunchScreen.storyboard in Resources */,
 				26813EE320FCF229008226B2 /* Assets.xcassets in Resources */,
-				262ABB7D210EB4FC0045394B /* test-image.png in Resources */,
-				262ABB85210F700C0045394B /* MTI-technetium-final.png in Resources */,
 				268DDE9D2103A4A600AF1995 /* logo-nrc-banner.jpg in Resources */,
 				26813EDE20FCF229008226B2 /* Main.storyboard in Resources */,
 			);
