@@ -261,6 +261,7 @@
         <!--After-->
         <scene sceneID="Oc6-FX-b7L">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EJf-kS-zNi" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="VRy-OD-8UM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oCk-ar-mTq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -318,13 +319,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="After" id="Cgg-Ak-dFo"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EJf-kS-zNi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="8517.6000000000004" y="1764.4677661169417"/>
         </scene>
         <!--During-->
         <scene sceneID="e7s-Uu-TcL">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GEe-yG-nAb" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="DOk-gH-9Zk" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ihq-VD-VEE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
@@ -407,13 +408,13 @@
                     <tabBarItem key="tabBarItem" title="During" id="son-HE-8ur"/>
                     <size key="freeformSize" width="375" height="1000"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GEe-yG-nAb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8518" y="827"/>
+            <point key="canvasLocation" x="9345" y="325"/>
         </scene>
         <!--Before-->
         <scene sceneID="1U6-V7-77S">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="51i-xZ-RCh" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController title="Before" id="bQY-xF-Eo7" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f3s-rR-i5Y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -464,13 +465,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Before" id="yfO-NP-44H"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="51i-xZ-RCh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="8517.6000000000004" y="-9.4452773613193415"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="U8W-7A-Hv6">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1b5-1a-E8Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tabBarController id="GfF-n2-dk3" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lbN-tS-YsE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
@@ -483,9 +484,8 @@
                         <segue destination="VRy-OD-8UM" kind="relationship" relationship="viewControllers" id="QPb-i9-Kcb"/>
                     </connections>
                 </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1b5-1a-E8Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7513" y="699"/>
+            <point key="canvasLocation" x="7366" y="611"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="s9v-Cu-l9p">
@@ -538,6 +538,7 @@
         <!--View Controller-->
         <scene sceneID="gPh-Lx-A3X">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fsz-Fj-eQc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="W04-ba-Dxo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RuJ-KO-0zJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -579,9 +580,8 @@ To determine how much radiation your baby may get, please use the “How much ra
                         <viewLayoutGuide key="safeArea" id="Ahs-II-vfF"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Fsz-Fj-eQc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6194" y="1121"/>
+            <point key="canvasLocation" x="5641" y="1352"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="026-8K-1oE">
@@ -673,6 +673,7 @@ It’s natural to want to know how much radiation you’re getting, or what that
         <!--Treatments-->
         <scene sceneID="fsO-V4-yfg">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BHH-nb-q5d" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="qQm-ag-ECd" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z31-pD-iJg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -745,13 +746,13 @@ It’s natural to want to know how much radiation you’re getting, or what that
                     </view>
                     <navigationItem key="navigationItem" title="Treatments" id="CmD-yZ-Oky"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BHH-nb-q5d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5848.8000000000002" y="-191.1544227886057"/>
         </scene>
         <!--Brachytherapy-->
         <scene sceneID="VHp-qf-EIw">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gas-4D-xeT" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="H4g-Ty-WRX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pSH-6V-e4z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -822,13 +823,13 @@ It’s natural to want to know how much radiation you’re getting, or what that
                     </view>
                     <navigationItem key="navigationItem" title="Brachytherapy" id="Cwk-6k-jcR"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gas-4D-xeT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7149.6000000000004" y="-191.1544227886057"/>
+            <point key="canvasLocation" x="7482" y="-191"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="m4H-Rj-fYe">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1nH-pg-D6d" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="UNG-bv-bgb" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nfF-i7-UaI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -837,13 +838,13 @@ It’s natural to want to know how much radiation you’re getting, or what that
                         <viewLayoutGuide key="safeArea" id="zR9-lJ-NaP"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1nH-pg-D6d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8666" y="-265"/>
+            <point key="canvasLocation" x="8658" y="-850"/>
         </scene>
         <!--Yttrium Microspheres-->
         <scene sceneID="w0Z-Wh-9Wh">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bvt-63-z43" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Ng5-aP-m6u" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cxg-Fo-D3c">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -905,13 +906,13 @@ It’s natural to want to know how much radiation you’re getting, or what that
                     </view>
                     <navigationItem key="navigationItem" title="Yttrium Microspheres" id="Bjw-lr-gQA"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bvt-63-z43" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7149.6000000000004" y="568.06596701649175"/>
+            <point key="canvasLocation" x="6134" y="573"/>
         </scene>
         <!--Radionuclide Therapy-->
         <scene sceneID="RyL-DP-sDu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ha2-3k-hGD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="p6N-OF-fmB" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZBA-YB-dM4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -979,13 +980,13 @@ It’s natural to want to know how much radiation you’re getting, or what that
                     </view>
                     <navigationItem key="navigationItem" title="Radionuclide Therapy" id="50z-pf-dWH"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ha2-3k-hGD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7149.6000000000004" y="1280.5097451274364"/>
+            <point key="canvasLocation" x="6724" y="1488"/>
         </scene>
         <!--E.B.R.T-->
         <scene sceneID="DfA-IY-OFR">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VSP-0v-634" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="89Q-k4-Fwd" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZXL-O5-xof">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -1056,9 +1057,8 @@ It’s natural to want to know how much radiation you’re getting, or what that
                     </view>
                     <navigationItem key="navigationItem" title="E.B.R.T" id="ml3-bp-TE2"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VSP-0v-634" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7149.6000000000004" y="-913.49325337331345"/>
+            <point key="canvasLocation" x="7529" y="-1051"/>
         </scene>
         <!--Item-->
         <scene sceneID="s3d-LI-BVJ">
@@ -1087,9 +1087,8 @@ It’s natural to want to know how much radiation you’re getting, or what that
         <image name="test-image.png" width="377" height="390"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="nzD-Hc-isz"/>
-        <segue reference="Cqc-QL-tWY"/>
+        <segue reference="5NY-SA-el3"/>
         <segue reference="jdk-Tm-XfS"/>
-        <segue reference="LRv-AW-LME"/>
+        <segue reference="Yrq-SI-Ypc"/>
     </inferredMetricsTieBreakers>
 </document>
