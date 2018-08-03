@@ -44,7 +44,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRA-MS-zru">
-                                <rect key="frame" x="16" y="545" width="343" height="84"/>
+                                <rect key="frame" x="16" y="485" width="343" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="I confirm that I have read the above statement">
@@ -71,20 +71,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ky5-lD-hJc">
-                                <rect key="frame" x="16" y="341" width="343" height="184"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">This app is designed to assist patients navigate procedures they might receive that fall under the category of nuclear medicine. </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-nrc-banner.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ci9-mw-w8M">
                                 <rect key="frame" x="0.0" y="101" width="375" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ltB-Db-HNY">
-                                <rect key="frame" x="74" y="544" width="227" height="46"/>
+                                <rect key="frame" x="74" y="533" width="227" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
@@ -95,6 +87,14 @@
                                     <segue destination="NaP-YE-Xu6" kind="show" id="EY1-m3-d0K"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ky5-lD-hJc">
+                                <rect key="frame" x="16" y="310" width="343" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">This app is designed to assist patients navigate procedures they might receive that fall under the category of nuclear medicine. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.2077777087688446" green="0.31697237491607666" blue="0.37133607268333435" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Dme-Cu-QXp"/>
@@ -1303,10 +1303,10 @@ Sieverts (abbreviated Sv) measure the biological risks associated with a certain
         <image name="radiation treatment.png" width="552" height="311"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="evj-SZ-PDg"/>
+        <segue reference="lMR-KU-8Yu"/>
         <segue reference="LgH-zU-7FE"/>
         <segue reference="flh-xY-Nq5"/>
         <segue reference="Yrq-SI-Ypc"/>
-        <segue reference="4fE-Yu-lK3"/>
+        <segue reference="4zY-v5-wvw"/>
     </inferredMetricsTieBreakers>
 </document>
