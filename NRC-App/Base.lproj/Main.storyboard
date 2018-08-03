@@ -139,7 +139,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="L73-gc-ksK" kind="show" id="4fE-Yu-lK3"/>
+                                    <segue destination="L73-gc-ksK" kind="show" id="mMz-ao-BY0"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -181,9 +181,6 @@
                                 <state key="normal" title="TREATMENTS">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="ubS-fT-MrP" kind="show" id="qiE-LS-YS9"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SoQ-gp-TDk">
                                 <rect key="frame" x="0.0" y="393" width="369" height="185"/>
@@ -211,10 +208,11 @@
                         <color key="backgroundColor" red="0.095586024224758148" green="0.46350753307342529" blue="0.64657580852508545" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="lbz-iQ-55a"/>
                     </view>
+                    <navigationItem key="navigationItem" id="0RV-Ri-b11"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A23-gJ-gW4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3160.8000000000002" y="130.88455772113943"/>
+            <point key="canvasLocation" x="3185" y="134"/>
         </scene>
         <!--After-->
         <scene sceneID="Oc6-FX-b7L">
@@ -367,7 +365,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GEe-yG-nAb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8518" y="827"/>
+            <point key="canvasLocation" x="8856.7999999999993" y="826.6866566716642"/>
         </scene>
         <!--Before-->
         <scene sceneID="1U6-V7-77S">
@@ -424,7 +422,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="51i-xZ-RCh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8517.6000000000004" y="-9.4452773613193415"/>
+            <point key="canvasLocation" x="8856.7999999999993" y="-9.4452773613193415"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="U8W-7A-Hv6">
@@ -443,7 +441,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1b5-1a-E8Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7513" y="699"/>
+            <point key="canvasLocation" x="7852" y="698.5007496251875"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="s9v-Cu-l9p">
@@ -491,7 +489,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oc9-tC-c9E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6618.3999999999996" y="-46.326836581709152"/>
+            <point key="canvasLocation" x="6957.6000000000004" y="-46.326836581709152"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gPh-Lx-A3X">
@@ -515,10 +513,10 @@
                                 <state key="normal" title="Back"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scn-Vc-hPs">
-                                <rect key="frame" x="12" y="116" width="351" height="317"/>
+                                <rect key="frame" x="12" y="116" width="351" height="363"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Worry not, your child is safe! Although it is possible that your baby will receive some of the dose through the womb or breast milk, medical professionals ensure that it remains at safe levels for both you and your baby.
-                                    To determine how much radiation your baby may get, please use the “How much radiation am I getting” (link to page) calculator. </string>
+                                                                   To determine how much radiation your baby may get, please use the “How much radiation am I getting” (link to page) calculator. </string>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -539,7 +537,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fsz-Fj-eQc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6532" y="735.38230884557731"/>
+            <point key="canvasLocation" x="6871.1999999999998" y="735.38230884557731"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="026-8K-1oE">
@@ -561,7 +559,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Various factors come into play when considering diagnostic procedures involving radioisotopes.
                                     
-                                    It’s natural to want to know how much radiation you’re getting, or what that fancy imaging machine actually does. That’s what we’re here for.
+It’s natural to want to know how much radiation you’re getting, or what that fancy imaging machine actually does. That’s what we’re here for.
                                 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
@@ -617,7 +615,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cfr-Mh-IH9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4604" y="423.23838080959524"/>
+            <point key="canvasLocation" x="4943.1999999999998" y="423.23838080959524"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ANM-VP-l3s">
@@ -715,9 +713,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="L73-gc-ksK" kind="show" id="4zY-v5-wvw"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.88793760538101196" green="0.96927481889724731" blue="0.95306891202926636" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1035,7 +1030,7 @@
         <!--DiagnosticScreen1-->
         <scene sceneID="S1T-qF-pAV">
             <objects>
-                <viewController title="DiagnosticScreen1" id="0Gf-Kk-ain" sceneMemberID="viewController">
+                <viewController title="DiagnosticScreen1" id="0Gf-Kk-ain" customClass="RadiationVC" customModule="NRC_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pql-2B-iZ2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="2000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1057,9 +1052,9 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">To begin: let’s learn a bit about the units you’ll be seeing in your results.
                                                     
-                                                    Becquerels (abbreviated Bq) are a direct measure of how radioactive something is. 1 Bq is representative of the decay of one radioactive atom--thus it is such a small unit that we experience thousands of Bq of radiation from the atoms in our own body.
+Becquerels (abbreviated Bq) are a direct measure of how radioactive something is. 1 Bq is representative of the decay of one radioactive atom--thus it is such a small unit that we experience thousands of Bq of radiation from the atoms in our own body.
                                                     
-                                                    Sieverts (abbreviated Sv) measure the biological risks associated with a certain form of radiation--when using Sv, you would consider the type of radiation present. Some types, such as gamma radiation, are more penetrating than others.
+Sieverts (abbreviated Sv) measure the biological risks associated with a certain form of radiation--when using Sv, you would consider the type of radiation present. Some types, such as gamma radiation, are more penetrating than others.
                                                 </string>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
                                                 <nil key="textColor"/>
@@ -1173,6 +1168,9 @@
                         <viewLayoutGuide key="safeArea" id="jHU-8D-uqr"/>
                     </view>
                     <size key="freeformSize" width="375" height="2000"/>
+                    <connections>
+                        <outlet property="picker" destination="T27-i9-iz2" id="jrD-Ly-Phm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dw0-0Y-Kjv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1641,8 +1639,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="evj-SZ-PDg"/>
         <segue reference="uYz-ye-jNj"/>
-        <segue reference="flh-xY-Nq5"/>
+        <segue reference="YXE-36-FUO"/>
         <segue reference="Yrq-SI-Ypc"/>
-        <segue reference="4zY-v5-wvw"/>
     </inferredMetricsTieBreakers>
 </document>

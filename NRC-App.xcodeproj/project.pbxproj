@@ -20,6 +20,7 @@
 		268DDEA52103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */; };
 		821D337E2114D6B500B1BEFD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821D337D2114D6B500B1BEFD /* StoreKit.framework */; };
 		821D33802114D70400B1BEFD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821D337F2114D70400B1BEFD /* MapKit.framework */; };
+		82A0F4362114EBEC00C4C13A /* RadiationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A0F4352114EBEC00C4C13A /* RadiationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentsDiagnosticsVC.swift; sourceTree = "<group>"; };
 		821D337D2114D6B500B1BEFD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		821D337F2114D70400B1BEFD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		82A0F4352114EBEC00C4C13A /* RadiationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +124,7 @@
 				26813EE720FCF229008226B2 /* Info.plist */,
 				26813EDF20FCF229008226B2 /* NRC_App.xcdatamodeld */,
 				268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */,
-				262ABB82210EBA910045394B /* globalvariables.swift */,
+				82A0F4352114EBEC00C4C13A /* RadiationVC.swift */,
 			);
 			path = "NRC-App";
 			sourceTree = "<group>";
@@ -304,10 +306,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82A0F4362114EBEC00C4C13A /* RadiationVC.swift in Sources */,
 				268DDEA52103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift in Sources */,
 				26813EDB20FCF229008226B2 /* ViewController.swift in Sources */,
 				26813ED920FCF229008226B2 /* AppDelegate.swift in Sources */,
-				262ABB83210EBA910045394B /* globalvariables.swift in Sources */,
 				26813EE120FCF229008226B2 /* NRC_App.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
