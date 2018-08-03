@@ -18,6 +18,8 @@
 		268DDE9D2103A4A600AF1995 /* logo-nrc-banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 268DDE9C2103A4A600AF1995 /* logo-nrc-banner.jpg */; };
 		268DDE9F2103AA6300AF1995 /* Amyloid PET scan.png in Resources */ = {isa = PBXBuildFile; fileRef = 268DDE9E2103AA6300AF1995 /* Amyloid PET scan.png */; };
 		268DDEA52103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */; };
+		821D337E2114D6B500B1BEFD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821D337D2114D6B500B1BEFD /* StoreKit.framework */; };
+		821D33802114D70400B1BEFD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821D337F2114D70400B1BEFD /* MapKit.framework */; };
 		829BE9ED210EBA0400F43565 /* DiagnosticScreen1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829BE9EC210EBA0400F43565 /* DiagnosticScreen1VC.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +58,8 @@
 		268DDE9C2103A4A600AF1995 /* logo-nrc-banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-nrc-banner.jpg"; sourceTree = "<group>"; };
 		268DDE9E2103AA6300AF1995 /* Amyloid PET scan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Amyloid PET scan.png"; sourceTree = "<group>"; };
 		268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentsDiagnosticsVC.swift; sourceTree = "<group>"; };
+		821D337D2114D6B500B1BEFD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		821D337F2114D70400B1BEFD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		829BE9EC210EBA0400F43565 /* DiagnosticScreen1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticScreen1VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				821D33802114D70400B1BEFD /* MapKit.framework in Frameworks */,
+				821D337E2114D6B500B1BEFD /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +97,7 @@
 				26813EEF20FCF229008226B2 /* NRC-AppTests */,
 				26813EFA20FCF229008226B2 /* NRC-AppUITests */,
 				26813ED620FCF229008226B2 /* Products */,
+				821D337C2114D6B500B1BEFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +145,15 @@
 				26813EFD20FCF229008226B2 /* Info.plist */,
 			);
 			path = "NRC-AppUITests";
+			sourceTree = "<group>";
+		};
+		821D337C2114D6B500B1BEFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				821D337F2114D70400B1BEFD /* MapKit.framework */,
+				821D337D2114D6B500B1BEFD /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +225,14 @@
 					26813ED420FCF229008226B2 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					26813EEB20FCF229008226B2 = {
 						CreatedOnToolsVersion = 9.2;
@@ -447,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VU2MB6QXW;
 				INFOPLIST_FILE = "NRC-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nrcinterns.NRC-App";
@@ -461,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VU2MB6QXW;
 				INFOPLIST_FILE = "NRC-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nrcinterns.NRC-App";
