@@ -26,6 +26,7 @@
 		268DDE9D2103A4A600AF1995 /* logo-nrc-banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 268DDE9C2103A4A600AF1995 /* logo-nrc-banner.jpg */; };
 		268DDE9F2103AA6300AF1995 /* Amyloid PET scan.png in Resources */ = {isa = PBXBuildFile; fileRef = 268DDE9E2103AA6300AF1995 /* Amyloid PET scan.png */; };
 		268DDEA52103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */; };
+		829BE9ED210EBA0400F43565 /* DiagnosticScreen1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829BE9EC210EBA0400F43565 /* DiagnosticScreen1VC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		268DDE9C2103A4A600AF1995 /* logo-nrc-banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-nrc-banner.jpg"; sourceTree = "<group>"; };
 		268DDE9E2103AA6300AF1995 /* Amyloid PET scan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Amyloid PET scan.png"; sourceTree = "<group>"; };
 		268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentsDiagnosticsVC.swift; sourceTree = "<group>"; };
+		829BE9EC210EBA0400F43565 /* DiagnosticScreen1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticScreen1VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
