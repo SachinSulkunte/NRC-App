@@ -16,9 +16,6 @@
         <array key="Product Sans Regular.ttf">
             <string>ProductSans-Regular</string>
         </array>
-        <array key="Palatino.ttc">
-            <string>Palatino-Roman</string>
-        </array>
     </customFonts>
     <scenes>
         <!--DisclaimerVC-->
@@ -536,7 +533,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oc9-tC-c9E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6618.3999999999996" y="-46.326836581709152"/>
+            <point key="canvasLocation" x="4604" y="1209"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gPh-Lx-A3X">
@@ -584,7 +581,7 @@ To determine how much radiation your baby may get, please use the “How much ra
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fsz-Fj-eQc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6532" y="735.38230884557731"/>
+            <point key="canvasLocation" x="6194" y="1121"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="026-8K-1oE">
@@ -624,9 +621,6 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="How Much Radiation Am I Getting?"/>
-                                <connections>
-                                    <segue destination="0Gf-Kk-ain" kind="show" id="S1C-tv-Pk5"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wcj-xB-wHB">
                                 <rect key="frame" x="16" y="516" width="343" height="35"/>
@@ -651,9 +645,6 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Research a Specific Isotope/Procedure"/>
-                                <connections>
-                                    <segue destination="Jmr-jV-BJQ" kind="show" id="gu2-4R-LS4"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.88493567709999998" green="0.96901029350000001" blue="0.95442503690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1096,6 +1087,9 @@ It’s natural to want to know how much radiation you’re getting, or what that
         <image name="test-image.png" width="377" height="390"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="nzD-Hc-isz"/>
         <segue reference="Cqc-QL-tWY"/>
+        <segue reference="jdk-Tm-XfS"/>
+        <segue reference="LRv-AW-LME"/>
     </inferredMetricsTieBreakers>
 </document>
