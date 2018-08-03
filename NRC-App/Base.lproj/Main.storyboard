@@ -50,6 +50,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.083862461149692535" green="0.72595566511154175" blue="0.77363020181655884" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
                         <viewLayoutGuide key="safeArea" id="TzV-MB-r8u"/>
                     </view>
                 </viewController>
