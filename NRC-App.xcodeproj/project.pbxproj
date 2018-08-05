@@ -42,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		22D0372E2114F498007AB683 /* IntroVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVCViewController.swift; sourceTree = "<group>"; };
+		22D037322117C422007AB683 /* brachytherapy super high def.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brachytherapy super high def.png"; sourceTree = "<group>"; };
 		26813ED520FCF229008226B2 /* NRC-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NRC-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26813ED820FCF229008226B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26813EDA20FCF229008226B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +127,7 @@
 				22D0372E2114F498007AB683 /* IntroVCViewController.swift */,
 				268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */,
 				82A0F4352114EBEC00C4C13A /* RadiationVC.swift */,
+				22D037322117C422007AB683 /* brachytherapy super high def.png */,
 			);
 			path = "NRC-App";
 			sourceTree = "<group>";
