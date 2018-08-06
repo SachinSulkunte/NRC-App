@@ -155,7 +155,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Yq6-qu-azG" kind="show" id="uYz-ye-jNj"/>
+                                    <segue destination="Yq6-qu-azG" kind="show" id="F70-0u-P5q"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -784,6 +784,26 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ss0-bL-lxq">
+                                <rect key="frame" x="72" y="414" width="240" height="128"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Cj-9V-5Lh">
+                                        <rect key="frame" x="8" y="8" width="224" height="112"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">It all depends on the chemistry of the element. Some elements, like iodine, are naturally taken up by parts of the body such as the thyroid, and thus work well in procedures involving the thyroid. Others can be linked to substances called tracers which guide them to the designated part of the body. </string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Why are so many different types used in nuclear medicine?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L1H-9m-3Au">
+                                        <rect key="frame" x="-51" y="8" width="343" height="63"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Isn’t radiation bad for the body? " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7J-Ov-fVz">
                                 <rect key="frame" x="16" y="479" width="343" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -809,24 +829,16 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                     </label>
                                 </subviews>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYh-lD-Ch3">
-                                <rect key="frame" x="313" y="3" width="62" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYh-lD-Ch3">
+                                <rect key="frame" x="318" y="12" width="41" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
                                     <segue destination="TZo-VM-M9p" kind="show" id="GA3-qZ-RrR"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Introduction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geO-Oa-yIp">
-                                <rect key="frame" x="117" y="20" width="140" height="21"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTO-VZ-9Mh">
-                                <rect key="frame" x="0.0" y="0.0" width="58" height="30"/>
+                                <rect key="frame" x="10" y="12" width="58" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Back"/>
@@ -835,10 +847,14 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JFu-Tj-pve">
-                                <rect key="frame" x="5" y="84" width="375" height="30"/>
+                                <rect key="frame" x="5" y="84" width="375" height="100"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMQ-fc-JVQ">
-                                        <rect key="frame" x="105" y="0.0" width="165" height="30"/>
+                                        <rect key="frame" x="103" y="0.0" width="169" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="cmx-d1-eRz"/>
+                                        </constraints>
+                                        <inset key="contentEdgeInsets" minX="4" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="What is a Radioisotope?"/>
                                         <connections>
                                             <action selector="handleSelection:" destination="Yq6-qu-azG" eventType="touchUpInside" id="f1B-eu-b13"/>
@@ -859,34 +875,23 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                     <constraint firstItem="uMQ-fc-JVQ" firstAttribute="top" secondItem="xgT-P4-jmr" secondAttribute="bottom" constant="50" id="UaI-jN-2jb"/>
                                 </constraints>
                             </stackView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ss0-bL-lxq">
-                                <rect key="frame" x="72" y="414" width="240" height="128"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Cj-9V-5Lh">
-                                        <rect key="frame" x="8" y="8" width="224" height="112"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">It all depends on the chemistry of the element. Some elements, like iodine, are naturally taken up by parts of the body such as the thyroid, and thus work well in procedures involving the thyroid. Others can be linked to substances called tracers which guide them to the designated part of the body. </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Why are so many different types used in nuclear medicine?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L1H-9m-3Au">
-                                        <rect key="frame" x="-51" y="8" width="343" height="63"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Introduction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geO-Oa-yIp">
+                                <rect key="frame" x="122" y="21" width="140" height="21"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.7751621286" green="0.85243005849999998" blue="0.97474569079999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="NYh-lD-Ch3" firstAttribute="trailing" secondItem="3uY-RP-Ygd" secondAttribute="trailing" constant="10" id="0Ll-O2-hcY"/>
                             <constraint firstItem="Ss0-bL-lxq" firstAttribute="top" secondItem="JFu-Tj-pve" secondAttribute="bottom" id="4Bn-mZ-WhP"/>
                             <constraint firstItem="Ss0-bL-lxq" firstAttribute="top" secondItem="JFu-Tj-pve" secondAttribute="bottom" constant="10" id="7J9-4d-INP"/>
                             <constraint firstAttribute="trailing" secondItem="JFu-Tj-pve" secondAttribute="trailing" constant="10" id="87Y-96-2HU"/>
                             <constraint firstAttribute="trailing" secondItem="JFu-Tj-pve" secondAttribute="trailing" constant="10" id="AHq-XE-gjX"/>
                             <constraint firstItem="Ss0-bL-lxq" firstAttribute="top" secondItem="JFu-Tj-pve" secondAttribute="bottom" constant="100" id="Dq8-uk-m58"/>
+                            <constraint firstItem="NYh-lD-Ch3" firstAttribute="top" secondItem="GPj-8p-0yu" secondAttribute="top" constant="10" id="Kkx-8L-gG6"/>
                             <constraint firstAttribute="trailing" secondItem="JFu-Tj-pve" secondAttribute="trailing" id="L96-4P-vOF"/>
                             <constraint firstItem="JFu-Tj-pve" firstAttribute="trailing" secondItem="3uY-RP-Ygd" secondAttribute="trailing" constant="5" id="Qeh-O1-B2Q"/>
                             <constraint firstItem="JFu-Tj-pve" firstAttribute="leading" secondItem="GPj-8p-0yu" secondAttribute="leading" id="RbO-2z-f7b"/>
@@ -1805,8 +1810,8 @@ It’s natural to want to know how much radiation you’re getting, or what that
         <image name="radiation sign .png" width="600" height="525"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="evj-SZ-PDg"/>
-        <segue reference="uYz-ye-jNj"/>
+        <segue reference="GA3-qZ-RrR"/>
+        <segue reference="F70-0u-P5q"/>
         <segue reference="flh-xY-Nq5"/>
         <segue reference="f9f-HZ-8h6"/>
         <segue reference="aQw-h8-v1r"/>
