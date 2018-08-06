@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The views represented here are not those of the NRC or of medical professionals." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DRV-kR-E8E">
-                                <rect key="frame" x="22" y="171" width="335" height="286"/>
+                                <rect key="frame" x="22" y="204" width="335" height="218"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
                                 <color key="textColor" red="0.88793760538101196" green="0.96927481889724731" blue="0.95306891202926636" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -41,8 +41,8 @@
                                     <segue destination="L73-gc-ksK" kind="show" id="7Yz-rY-rh7"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Disclaimer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lRZ-eO-RaR">
-                                <rect key="frame" x="70" y="75" width="235" height="44"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Disclaimer:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lRZ-eO-RaR">
+                                <rect key="frame" x="0.0" y="204" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="35"/>
                                 <nil key="textColor"/>
@@ -98,31 +98,31 @@
             </objects>
             <point key="canvasLocation" x="429.60000000000002" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--OptionVC-->
         <scene sceneID="fHc-8s-4FO">
             <objects>
-                <viewController id="L73-gc-ksK" sceneMemberID="viewController">
+                <viewController id="L73-gc-ksK" customClass="OptionVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tro-al-SVK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView hidden="YES" opaque="NO" userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SPECT probably .jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4Fw-VF-249">
+                                <rect key="frame" x="-4" y="295" width="378" height="187"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What are you interested in finding out about today?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JuV-Kw-a0W">
-                                <rect key="frame" x="29" y="0.0" width="322" height="135"/>
+                                <rect key="frame" x="29" y="-13" width="322" height="135"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Amyloid PET scan.png" translatesAutoresizingMaskIntoConstraints="NO" id="4Fw-VF-249">
-                                <rect key="frame" x="0.0" y="318" width="376" height="192"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brachytherapy super high def.png" translatesAutoresizingMaskIntoConstraints="NO" id="sbI-D8-Hjr">
-                                <rect key="frame" x="-2" y="103" width="378" height="192"/>
+                                <rect key="frame" x="-2" y="103" width="378" height="184"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evn-ov-Aag">
-                                <rect key="frame" x="1" y="103" width="375" height="192"/>
+                                <rect key="frame" x="1" y="103" width="375" height="184"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="27"/>
                                 <state key="normal" title="TREATMENTS">
@@ -133,10 +133,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSA-sk-7tU">
-                                <rect key="frame" x="29" y="587" width="322" height="60"/>
+                                <rect key="frame" x="16" y="546" width="374" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Radioisotopes">
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="26"/>
+                                <state key="normal" title="RADIOISOTOPES">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -144,7 +144,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SoQ-gp-TDk">
-                                <rect key="frame" x="7" y="293" width="369" height="185"/>
+                                <rect key="frame" x="0.0" y="297" width="376" height="185"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="26"/>
                                 <state key="normal" title="DIAGNOSTICS">
@@ -154,8 +154,12 @@
                                     <segue destination="aTD-3p-9Ja" kind="show" id="flh-xY-Nq5"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OoX-pS-scX">
+                                <rect key="frame" x="1" y="490" width="375" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.095586024224758148" green="0.46350753307342529" blue="0.64657580852508545" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.92455017566680908" green="0.93245726823806763" blue="0.97474569082260132" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="lbz-iQ-55a"/>
                     </view>
                     <navigationItem key="navigationItem" id="0RV-Ri-b11"/>
@@ -1569,7 +1573,7 @@ It’s natural to want to know how much radiation you’re getting, or what that
         </scene>
     </scenes>
     <resources>
-        <image name="Amyloid PET scan.png" width="446" height="229"/>
+        <image name="SPECT probably .jpg" width="1101" height="778"/>
         <image name="brachytherapy super high def.png" width="1107" height="910"/>
         <image name="logo-nrc-banner.jpg" width="285" height="120"/>
     </resources>
