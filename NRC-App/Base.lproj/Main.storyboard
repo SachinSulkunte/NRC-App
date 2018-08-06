@@ -777,13 +777,6 @@ It’s natural to want to know how much radiation you’re getting, or what that
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N98-HX-U3J">
-                                <rect key="frame" x="59" y="84" width="256" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ss0-bL-lxq">
                                 <rect key="frame" x="72" y="414" width="240" height="128"/>
                                 <subviews>
@@ -837,6 +830,13 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                     <segue destination="TZo-VM-M9p" kind="show" id="GA3-qZ-RrR"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Introduction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geO-Oa-yIp">
+                                <rect key="frame" x="122" y="21" width="140" height="21"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTO-VZ-9Mh">
                                 <rect key="frame" x="10" y="12" width="58" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -846,8 +846,15 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                     <segue destination="L73-gc-ksK" kind="show" id="aQw-h8-v1r"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N98-HX-U3J">
+                                <rect key="frame" x="54" y="176" width="256" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JFu-Tj-pve">
-                                <rect key="frame" x="5" y="84" width="375" height="100"/>
+                                <rect key="frame" x="5" y="176" width="375" height="100"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMQ-fc-JVQ">
                                         <rect key="frame" x="103" y="0.0" width="169" height="100"/>
@@ -861,7 +868,7 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                         </connections>
                                     </button>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xgT-P4-jmr">
-                                        <rect key="frame" x="10" y="-50" width="355" height="0.0"/>
+                                        <rect key="frame" x="10" y="50" width="355" height="0.0"/>
                                         <string key="text">A radioisotope is one of the primary ingredients of both treatment and diagnostic procedures in the field of nuclear medicine. The elements on the periodic table come in different isotopes--different versions of the atom that share the same amount of protons but different amounts of electrons. A radioisotope is unstable--meaning it will decay into a different element or a more stable version of the same element over time. </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -871,17 +878,12 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                 <rect key="contentStretch" x="0.20000000000000001" y="0.0" width="1" height="1"/>
                                 <constraints>
                                     <constraint firstItem="uMQ-fc-JVQ" firstAttribute="top" secondItem="xgT-P4-jmr" secondAttribute="bottom" constant="100" id="09P-SP-WNy"/>
+                                    <constraint firstItem="xgT-P4-jmr" firstAttribute="top" secondItem="JFu-Tj-pve" secondAttribute="top" constant="10" id="B77-hR-3w5"/>
                                     <constraint firstAttribute="trailing" secondItem="xgT-P4-jmr" secondAttribute="trailing" constant="10" id="GRL-iQ-Bfz"/>
+                                    <constraint firstItem="xgT-P4-jmr" firstAttribute="top" secondItem="JFu-Tj-pve" secondAttribute="top" constant="50" id="Ihc-99-AQe"/>
                                     <constraint firstItem="uMQ-fc-JVQ" firstAttribute="top" secondItem="xgT-P4-jmr" secondAttribute="bottom" constant="50" id="UaI-jN-2jb"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Introduction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geO-Oa-yIp">
-                                <rect key="frame" x="122" y="21" width="140" height="21"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.7751621286" green="0.85243005849999998" blue="0.97474569079999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
