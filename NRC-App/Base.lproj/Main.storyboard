@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sY2-rw-t6e">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sY2-rw-t6e">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Copperplate.ttc">
-            <string>Copperplate</string>
-        </array>
-        <array key="Georgia.ttf">
-            <string>Georgia</string>
-        </array>
-        <array key="HoeflerText.ttc">
-            <string>HoeflerText-Regular</string>
-        </array>
         <array key="Palatino.ttc">
             <string>Palatino-Roman</string>
         </array>
@@ -36,7 +27,7 @@
                                 <rect key="frame" x="22" y="204" width="335" height="218"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
-                                <color key="textColor" red="0.88793760538101196" green="0.96927481889724731" blue="0.95306891202926636" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.56183772076157579" green="0.61485853003714364" blue="0.60767411993196785" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="mRA-MS-zru">
@@ -44,7 +35,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="19"/>
                                 <state key="normal" title="I confirm that I have read and understand the above statement.">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <segue destination="L73-gc-ksK" kind="show" id="7Yz-rY-rh7"/>
@@ -58,7 +49,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.16105064749717712" green="0.44766932725906372" blue="0.6449815034866333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.77516212863106004" green="0.85243005846066988" blue="0.97474569082260132" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
                         <viewLayoutGuide key="safeArea" id="TzV-MB-r8u"/>
                     </view>
@@ -152,8 +143,8 @@
                                     <segue destination="aTD-3p-9Ja" kind="show" id="flh-xY-Nq5"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OoX-pS-scX">
-                                <rect key="frame" x="1" y="489" width="375" height="177"/>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="radiation sign .png" translatesAutoresizingMaskIntoConstraints="NO" id="OoX-pS-scX">
+                                <rect key="frame" x="81" y="492" width="201" height="159"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSA-sk-7tU">
@@ -168,7 +159,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.92455017566680908" green="0.93245726823806763" blue="0.97474569082260132" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.7751621286" green="0.85243005849999998" blue="0.97474569079999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="lbz-iQ-55a"/>
                     </view>
                     <navigationItem key="navigationItem" id="0RV-Ri-b11"/>
@@ -505,8 +496,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mu9-1a-l7w">
                                 <rect key="frame" x="16" y="256" width="343" height="411"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Gamma Cameras take images of the patient's body which will have a tracer in it. A tracer is a specific radioactive compound that is specifically chosen depending on the area of the body to be imaged. As it travels through the body, the tracer emits radiation in the form of gamma rays. These rays are picked up by a crystal which scintillates in response to the radiation. A bank of light sensors pick up the resulting flash of light and convert it into electrical signals that doctors are able to use to determine bodily functions
-</mutableString>
+                                <string key="text">Gamma Cameras take images of the patient's body which will have a tracer in it. A tracer is a specific radioactive compound that is specifically chosen depending on the area of the body to be imaged. As it travels through the body, the tracer emits radiation in the form of gamma rays. These rays are picked up by a crystal which scintillates in response to the radiation. A bank of light sensors pick up the resulting flash of light and convert it into electrical signals that doctors are able to use to determine bodily functions
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -548,8 +539,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scz-l5-GAp">
                                 <rect key="frame" x="16" y="252" width="343" height="411"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Radioactive tracers are either injected, inhaled, or injected into a vein depending on what part of the body is being imaged. The tracer will gaher in areas of higher chemical activity; these areas are typically associated with disease. While under a PET scanner, the tracer will appear as brightly lit areas on the scan. This type of scan can measure blood flow, oxygen use, how your body uses sugar, and much more. As it is an outpatient procedure, typically patietns may leave about one day after the scan was completed.
-</mutableString>
+                                <string key="text">Radioactive tracers are either injected, inhaled, or injected into a vein depending on what part of the body is being imaged. The tracer will gaher in areas of higher chemical activity; these areas are typically associated with disease. While under a PET scanner, the tracer will appear as brightly lit areas on the scan. This type of scan can measure blood flow, oxygen use, how your body uses sugar, and much more. As it is an outpatient procedure, typically patietns may leave about one day after the scan was completed.
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -634,7 +625,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NoM-0i-rCk">
                                 <rect key="frame" x="16" y="252" width="343" height="411"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">This scan helps diagnose a variety of bone diseases and conditions. Small amounts of radioactive tracers are injected into the patient's bloodstream. These tracers emit gamma rays which are then detected by a gamma camera. A computer takes the information from these gamma rays and forms an image of the patient's bones. The scan offers the potential to detect bone disease in its earliest stages. Inform your doctor if you are pregnant or breastfeeding as early as possible. Also discuss if you have taken any bismuth-containing medicine.</mutableString>
+                                <string key="text">This scan helps diagnose a variety of bone diseases and conditions. Small amounts of radioactive tracers are injected into the patient's bloodstream. These tracers emit gamma rays which are then detected by a gamma camera. A computer takes the information from these gamma rays and forms an image of the patient's bones. The scan offers the potential to detect bone disease in its earliest stages. Inform your doctor if you are pregnant or breastfeeding as early as possible. Also discuss if you have taken any bismuth-containing medicine.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -778,11 +769,11 @@ It’s natural to want to know how much radiation you’re getting, or what that
             </objects>
             <point key="canvasLocation" x="4943.1999999999998" y="423.23838080959524"/>
         </scene>
-        <!--View Controller-->
+        <!--IntroVC View Controller-->
         <scene sceneID="ANM-VP-l3s">
             <objects>
-                <viewController id="Yq6-qu-azG" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="GPj-8p-0yu">
+                <viewController id="Yq6-qu-azG" customClass="IntroVCViewController" customModule="NRC_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GPj-8p-0yu" customClass="UIWindow">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -876,7 +867,7 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                 <state key="normal" title="Back"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.88793760538101196" green="0.96927481889724731" blue="0.95306891202926636" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.7751621286" green="0.85243005849999998" blue="0.97474569079999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="3uY-RP-Ygd"/>
                     </view>
                 </viewController>
@@ -1783,11 +1774,12 @@ It’s natural to want to know how much radiation you’re getting, or what that
         <image name="SPECT probably .jpg" width="1101" height="778"/>
         <image name="brachytherapy super high def.png" width="1107" height="910"/>
         <image name="logo-nrc-banner.jpg" width="285" height="120"/>
+        <image name="radiation sign .png" width="600" height="525"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="lMR-KU-8Yu"/>
         <segue reference="uYz-ye-jNj"/>
-        <segue reference="YXE-36-FUO"/>
+        <segue reference="flh-xY-Nq5"/>
         <segue reference="f9f-HZ-8h6"/>
     </inferredMetricsTieBreakers>
 </document>

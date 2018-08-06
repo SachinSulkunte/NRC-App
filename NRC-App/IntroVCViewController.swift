@@ -9,11 +9,22 @@
 import UIKit
 
 class IntroVCViewController: UIViewController {
-
+    var button = dropDownTxt()
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+        
+        button = dropDownTxt.init(frame:CGRect(x: 0, y: 0, width: 0, height: 0))
+        button.setTitle("What is a radioisotope?", for: .normal)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        
+        self.view.addSubview(button)
+        button.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
+        button.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
+        button.widthAnchor.constraint(equalToConstant: 150).isActive = true
+        button.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,4 +43,25 @@ class IntroVCViewController: UIViewController {
     }
     */
 
+}
+
+class dropDownTxt: UIButton {
+    override init(frame: CGRect) {
+        super.init(frame:frame)
+        
+        self.backgroundColor = UIColor.darkGray
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+}
+
+class dropDownView: UIView, UITableViewDelegate,UITableViewDataSource {
+    var dropDownOptions = [String]()
+    func numberofSections(in tableView: UITableView) -> Int { return 1
+    }
+    func tableView (in tableView: UITableView, numberofRowsInSection section: Int) -> Int {
+        return dropdownOptions.count
+    }
 }
