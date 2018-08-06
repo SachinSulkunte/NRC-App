@@ -1805,7 +1805,7 @@ It’s natural to want to know how much radiation you’re getting, or what that
         <image name="radiation sign .png" width="600" height="525"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="GA3-qZ-RrR"/>
+        <segue reference="evj-SZ-PDg"/>
         <segue reference="uYz-ye-jNj"/>
         <segue reference="flh-xY-Nq5"/>
         <segue reference="f9f-HZ-8h6"/>
