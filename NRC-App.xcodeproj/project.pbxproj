@@ -10,6 +10,10 @@
 		22D0372F2114F498007AB683 /* IntroVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D0372E2114F498007AB683 /* IntroVCViewController.swift */; };
 		22D037342117C6EF007AB683 /* SPECT probably .jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22D037332117C6EF007AB683 /* SPECT probably .jpg */; };
 		22D037362117FA84007AB683 /* radiation sign .png in Resources */ = {isa = PBXBuildFile; fileRef = 22D037352117FA83007AB683 /* radiation sign .png */; };
+		22D037382118F98C007AB683 /* possiblelogodesign .jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22D037372118F98B007AB683 /* possiblelogodesign .jpg */; };
+		22D0373A2118FAA8007AB683 /* possiblelogodesign .paint in Resources */ = {isa = PBXBuildFile; fileRef = 22D037392118FAA7007AB683 /* possiblelogodesign .paint */; };
+		22D0373C2118FBB1007AB683 /* imageedit_6_4789737608.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D0373B2118FBB0007AB683 /* imageedit_6_4789737608.png */; };
+		22D0373E211904E3007AB683 /* usnrc1.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D0373D211904E3007AB683 /* usnrc1.png */; };
 		26813ED920FCF229008226B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813ED820FCF229008226B2 /* AppDelegate.swift */; };
 		26813EDB20FCF229008226B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813EDA20FCF229008226B2 /* ViewController.swift */; };
 		26813EDE20FCF229008226B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26813EDC20FCF229008226B2 /* Main.storyboard */; };
@@ -47,6 +51,10 @@
 		22D037322117C422007AB683 /* brachytherapy super high def.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brachytherapy super high def.png"; sourceTree = "<group>"; };
 		22D037332117C6EF007AB683 /* SPECT probably .jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "SPECT probably .jpg"; path = "../../../Downloads/SPECT probably .jpg"; sourceTree = "<group>"; };
 		22D037352117FA83007AB683 /* radiation sign .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "radiation sign .png"; path = "../../../Downloads/radiation sign .png"; sourceTree = "<group>"; };
+		22D037372118F98B007AB683 /* possiblelogodesign .jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "possiblelogodesign .jpg"; path = "../../../Downloads/possiblelogodesign .jpg"; sourceTree = "<group>"; };
+		22D037392118FAA7007AB683 /* possiblelogodesign .paint */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = "possiblelogodesign .paint"; path = "../../../Downloads/possiblelogodesign .paint"; sourceTree = "<group>"; };
+		22D0373B2118FBB0007AB683 /* imageedit_6_4789737608.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = imageedit_6_4789737608.png; path = ../../../Downloads/imageedit_6_4789737608.png; sourceTree = "<group>"; };
+		22D0373D211904E3007AB683 /* usnrc1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = usnrc1.png; path = ../../../Downloads/usnrc1.png; sourceTree = "<group>"; };
 		26813ED520FCF229008226B2 /* NRC-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NRC-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26813ED820FCF229008226B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26813EDA20FCF229008226B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,11 +132,15 @@
 				26813ED820FCF229008226B2 /* AppDelegate.swift */,
 				26813EDA20FCF229008226B2 /* ViewController.swift */,
 				26813EDC20FCF229008226B2 /* Main.storyboard */,
+				22D0373D211904E3007AB683 /* usnrc1.png */,
 				22D0372E2114F498007AB683 /* IntroVCViewController.swift */,
 				22D037352117FA83007AB683 /* radiation sign .png */,
 				22D037332117C6EF007AB683 /* SPECT probably .jpg */,
 				26813EE220FCF229008226B2 /* Assets.xcassets */,
 				26813EE420FCF229008226B2 /* LaunchScreen.storyboard */,
+				22D0373B2118FBB0007AB683 /* imageedit_6_4789737608.png */,
+				22D037372118F98B007AB683 /* possiblelogodesign .jpg */,
+				22D037392118FAA7007AB683 /* possiblelogodesign .paint */,
 				26813EE720FCF229008226B2 /* Info.plist */,
 				26813EDF20FCF229008226B2 /* NRC_App.xcdatamodeld */,
 				268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */,
@@ -290,9 +302,13 @@
 				22D037362117FA84007AB683 /* radiation sign .png in Resources */,
 				26813EE620FCF229008226B2 /* LaunchScreen.storyboard in Resources */,
 				26813EE320FCF229008226B2 /* Assets.xcassets in Resources */,
+				22D037382118F98C007AB683 /* possiblelogodesign .jpg in Resources */,
 				22D037342117C6EF007AB683 /* SPECT probably .jpg in Resources */,
 				268DDE9D2103A4A600AF1995 /* logo-nrc-banner.jpg in Resources */,
+				22D0373C2118FBB1007AB683 /* imageedit_6_4789737608.png in Resources */,
 				26813EDE20FCF229008226B2 /* Main.storyboard in Resources */,
+				22D0373A2118FAA8007AB683 /* possiblelogodesign .paint in Resources */,
+				22D0373E211904E3007AB683 /* usnrc1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
