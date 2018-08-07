@@ -89,12 +89,20 @@ class RadiationVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
     
     func getItemFromDict(_ bodypart: String, isotope: String, isPregnant: Bool) -> Result {
         if let data = sourceData[bodypart] as? [[String:Any]] {
+            var pos = 0
+            for (index, val) in data.enumerated() {
+                if(isotope == val["Isotope"] as? String){
+                    pos = index
+                    break
+                }
+            }
+            var info = data[pos]
             
+            return Result(bodypart: bodypart, isotope: isotope, dose: info["dose"] as! Double, isPregnant: isPregnant, pregnantDose: info["pregnant_dose"] as! Double)
+        }else{
+            print("Something went wrong, check the dictionary for any unimplemented structural changes")
+            return Result(bodypart: bodypart, isotope: isotope, dose: 0.0, isPregnant: false, pregnantDose: 0.0)
         }
-        
-        
-        
-        return Result(bodypart: bodypart, isotope: isotope, dose: <#T##Double#>, isPregnant: <#T##Bool#>, pregnantDose: <#T##Double#>)
     }
     
     /*
