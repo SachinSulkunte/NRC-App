@@ -8,12 +8,52 @@
 
 import UIKit
 
+struct Result {
+    var bodypart: String
+    var isotope: String
+    var dose: Double
+    var isPregnant: Bool
+    var pregnantDose: Double
+}
+
 class RadiationVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
 
     @IBOutlet weak var picker: UIPickerView!
     
     var pickerData: [String] = [String]()
     
+    let sourceData: [String: Any] = [
+        "Brain": [["Isotope": "99mTc DTPA", "dose": 3.6, "pregnant_dose": 14],
+                   ["Isotope": "15O water", "dose": 2.0, "pregnant_dose": 0.0],
+                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0]
+                ],
+        "Hepatobiliary": [["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0]
+            ],
+        "Bone": [["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0]
+            ],
+        "Kidney": [["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0]
+            ],
+        "Heart": [["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0]
+            ],
+        "Tumor": [["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0]
+            ]
+    ]
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -45,6 +85,24 @@ class RadiationVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
     //the data to return for the row and component (column) that's being passed in
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return pickerData[row]
+    }
+    
+    func getItemFromDict(_ bodypart: String, isotope: String, isPregnant: Bool) -> Result {
+        if let data = sourceData[bodypart] as? [[String:Any]] {
+            var pos = 0
+            for (index, val) in data.enumerated() {
+                if(isotope == val["Isotope"] as? String){
+                    pos = index
+                    break
+                }
+            }
+            var info = data[pos]
+            
+            return Result(bodypart: bodypart, isotope: isotope, dose: info["dose"] as! Double, isPregnant: isPregnant, pregnantDose: info["pregnant_dose"] as! Double)
+        }else{
+            print("Something went wrong, check the dictionary for any unimplemented structural changes")
+            return Result(bodypart: bodypart, isotope: isotope, dose: 0.0, isPregnant: false, pregnantDose: 0.0)
+        }
     }
     
     /*
