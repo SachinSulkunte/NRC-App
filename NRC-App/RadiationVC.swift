@@ -19,6 +19,7 @@ struct Result {
 class RadiationVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
 
     @IBOutlet weak var picker: UIPickerView!
+    @IBOutlet weak var pSwitch: UISwitch!
     
     var pickerData: [String] = [String]()
     
@@ -105,6 +106,9 @@ class RadiationVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
         }
     }
     
+    @IBAction func calculateResults(_ sender: Any) {
+        
+    }
     /*
     // MARK: - Navigation
 
