@@ -32,7 +32,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageedit_6_4789737608.png" translatesAutoresizingMaskIntoConstraints="NO" id="J9F-DX-Qwk">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-nrc-banner" translatesAutoresizingMaskIntoConstraints="NO" id="J9F-DX-Qwk">
                                 <rect key="frame" x="229" y="196" width="146" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -47,6 +47,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="imageedit_6_4789737608.png" width="640" height="480"/>
+        <image name="logo-nrc-banner" width="285" height="120"/>
     </resources>
 </document>
