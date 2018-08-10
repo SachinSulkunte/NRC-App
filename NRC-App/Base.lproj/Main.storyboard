@@ -61,7 +61,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="usnrc1.png" translatesAutoresizingMaskIntoConstraints="NO" id="waq-7G-cMb">
+                            <imageView userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="usnrc1" translatesAutoresizingMaskIntoConstraints="NO" id="waq-7G-cMb">
                                 <rect key="frame" x="53" y="149" width="269" height="279"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -960,7 +960,7 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                     <segue destination="TZo-VM-M9p" kind="show" id="jbD-mh-zqH"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fluorine final 3.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Th-UL-4Lp">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fluorine final 3" translatesAutoresizingMaskIntoConstraints="NO" id="6Th-UL-4Lp">
                                 <rect key="frame" x="-106" y="25" width="368" height="273"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1113,7 +1113,7 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Iodinefinal.png" translatesAutoresizingMaskIntoConstraints="NO" id="eVs-Da-fK3">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Iodinefinal" translatesAutoresizingMaskIntoConstraints="NO" id="eVs-Da-fK3">
                                 <rect key="frame" x="-38" y="37" width="424" height="293"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1178,7 +1178,7 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thalliumfinal.png" translatesAutoresizingMaskIntoConstraints="NO" id="rtn-Oj-KNM">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thalliumfinal" translatesAutoresizingMaskIntoConstraints="NO" id="rtn-Oj-KNM">
                                 <rect key="frame" x="55" y="102" width="264" height="178"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1378,15 +1378,15 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                     <segue destination="uXR-Qx-ueU" kind="show" id="tTZ-Fj-PwE"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fluorine final 3.png" translatesAutoresizingMaskIntoConstraints="NO" id="R6l-OE-c57">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fluorine final 3" translatesAutoresizingMaskIntoConstraints="NO" id="R6l-OE-c57">
                                 <rect key="frame" x="-61" y="20" width="320" height="246"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Iodinefinal.png" translatesAutoresizingMaskIntoConstraints="NO" id="1bN-1P-fdT">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Iodinefinal" translatesAutoresizingMaskIntoConstraints="NO" id="1bN-1P-fdT">
                                 <rect key="frame" x="120" y="124" width="303" height="198"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thalliumfinal.png" translatesAutoresizingMaskIntoConstraints="NO" id="880-fz-R7E">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thalliumfinal" translatesAutoresizingMaskIntoConstraints="NO" id="880-fz-R7E">
                                 <rect key="frame" x="141" y="442" width="227" height="151"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1417,7 +1417,7 @@ It’s natural to want to know how much radiation you’re getting, or what that
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-nrc-banner.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Fpi-ld-Oio">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-nrc-banner" translatesAutoresizingMaskIntoConstraints="NO" id="Fpi-ld-Oio">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1517,7 +1517,7 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brachytherapy super high def.png" translatesAutoresizingMaskIntoConstraints="NO" id="yVj-FH-sRy">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brachytherapy super high def" translatesAutoresizingMaskIntoConstraints="NO" id="yVj-FH-sRy">
                                         <rect key="frame" x="16" y="8" width="343" height="227"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -1794,18 +1794,19 @@ It’s natural to want to know how much radiation you’re getting, or what that
         </scene>
     </scenes>
     <resources>
-        <image name="Iodinefinal.png" width="640" height="480"/>
-        <image name="brachytherapy super high def.png" width="1107" height="910"/>
-        <image name="fluorine final 3.png" width="640" height="480"/>
-        <image name="logo-nrc-banner.jpg" width="285" height="120"/>
+        <image name="Iodinefinal" width="640" height="480"/>
+        <image name="brachytherapy super high def" width="1107" height="910"/>
+        <image name="fluorine final 3" width="640" height="480"/>
+        <image name="logo-nrc-banner" width="285" height="120"/>
         <image name="technetiumfinal.png" width="640" height="480"/>
-        <image name="thalliumfinal.png" width="640" height="480"/>
-        <image name="usnrc1.png" width="175" height="175"/>
+        <image name="thalliumfinal" width="640" height="480"/>
+        <image name="usnrc1" width="175" height="175"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Vfe-t6-d81"/>
-        <segue reference="GeH-yt-Pbr"/>
-        <segue reference="flh-xY-Nq5"/>
+        <segue reference="tTZ-Fj-PwE"/>
+        <segue reference="hIS-ty-bAM"/>
+        <segue reference="evj-SZ-PDg"/>
+        <segue reference="YXE-36-FUO"/>
         <segue reference="Yrq-SI-Ypc"/>
         <segue reference="z7B-Ae-Ds8"/>
     </inferredMetricsTieBreakers>
