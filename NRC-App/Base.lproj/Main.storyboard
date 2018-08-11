@@ -1545,7 +1545,7 @@ It’s natural to want to know how much radiation you’re getting, or what that
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EXI-di-Khp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4020" y="-575"/>
+            <point key="canvasLocation" x="4020" y="-575.26236881559225"/>
         </scene>
         <!--Brachytherapy-->
         <scene sceneID="Hhq-fy-Q2j">
