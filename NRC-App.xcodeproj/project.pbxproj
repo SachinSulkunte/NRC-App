@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		22D0372F2114F498007AB683 /* IntroVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D0372E2114F498007AB683 /* IntroVCViewController.swift */; };
-		22D037342117C6EF007AB683 /* SPECT probably .jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22D037332117C6EF007AB683 /* SPECT probably .jpg */; };
-		22D037362117FA84007AB683 /* radiation sign .png in Resources */ = {isa = PBXBuildFile; fileRef = 22D037352117FA83007AB683 /* radiation sign .png */; };
 		26813ED920FCF229008226B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813ED820FCF229008226B2 /* AppDelegate.swift */; };
 		26813EDB20FCF229008226B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813EDA20FCF229008226B2 /* ViewController.swift */; };
 		26813EDE20FCF229008226B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26813EDC20FCF229008226B2 /* Main.storyboard */; };
@@ -18,7 +16,6 @@
 		26813EE620FCF229008226B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26813EE420FCF229008226B2 /* LaunchScreen.storyboard */; };
 		26813EF120FCF229008226B2 /* NRC_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813EF020FCF229008226B2 /* NRC_AppTests.swift */; };
 		26813EFC20FCF229008226B2 /* NRC_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813EFB20FCF229008226B2 /* NRC_AppUITests.swift */; };
-		268DDE9D2103A4A600AF1995 /* logo-nrc-banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 268DDE9C2103A4A600AF1995 /* logo-nrc-banner.jpg */; };
 		268DDEA52103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */; };
 		82A0F4362114EBEC00C4C13A /* RadiationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A0F4352114EBEC00C4C13A /* RadiationVC.swift */; };
 /* End PBXBuildFile section */
@@ -42,9 +39,6 @@
 
 /* Begin PBXFileReference section */
 		22D0372E2114F498007AB683 /* IntroVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVCViewController.swift; sourceTree = "<group>"; };
-		22D037322117C422007AB683 /* brachytherapy super high def.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brachytherapy super high def.png"; sourceTree = "<group>"; };
-		22D037332117C6EF007AB683 /* SPECT probably .jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "SPECT probably .jpg"; path = "../../../Downloads/SPECT probably .jpg"; sourceTree = "<group>"; };
-		22D037352117FA83007AB683 /* radiation sign .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "radiation sign .png"; path = "../../../Downloads/radiation sign .png"; sourceTree = "<group>"; };
 		26813ED520FCF229008226B2 /* NRC-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NRC-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26813ED820FCF229008226B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26813EDA20FCF229008226B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +53,6 @@
 		26813EF720FCF229008226B2 /* NRC-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NRC-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26813EFB20FCF229008226B2 /* NRC_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRC_AppUITests.swift; sourceTree = "<group>"; };
 		26813EFD20FCF229008226B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		268DDE9C2103A4A600AF1995 /* logo-nrc-banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-nrc-banner.jpg"; sourceTree = "<group>"; };
 		268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentsDiagnosticsVC.swift; sourceTree = "<group>"; };
 		82A0F4352114EBEC00C4C13A /* RadiationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,20 +105,16 @@
 		26813ED720FCF229008226B2 /* NRC-App */ = {
 			isa = PBXGroup;
 			children = (
-				268DDE9C2103A4A600AF1995 /* logo-nrc-banner.jpg */,
 				26813ED820FCF229008226B2 /* AppDelegate.swift */,
 				26813EDA20FCF229008226B2 /* ViewController.swift */,
 				26813EDC20FCF229008226B2 /* Main.storyboard */,
 				22D0372E2114F498007AB683 /* IntroVCViewController.swift */,
-				22D037352117FA83007AB683 /* radiation sign .png */,
-				22D037332117C6EF007AB683 /* SPECT probably .jpg */,
 				26813EE220FCF229008226B2 /* Assets.xcassets */,
 				26813EE420FCF229008226B2 /* LaunchScreen.storyboard */,
 				26813EE720FCF229008226B2 /* Info.plist */,
 				26813EDF20FCF229008226B2 /* NRC_App.xcdatamodeld */,
 				268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */,
 				82A0F4352114EBEC00C4C13A /* RadiationVC.swift */,
-				22D037322117C422007AB683 /* brachytherapy super high def.png */,
 			);
 			path = "NRC-App";
 			sourceTree = "<group>";
@@ -263,11 +252,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22D037362117FA84007AB683 /* radiation sign .png in Resources */,
 				26813EE620FCF229008226B2 /* LaunchScreen.storyboard in Resources */,
 				26813EE320FCF229008226B2 /* Assets.xcassets in Resources */,
-				22D037342117C6EF007AB683 /* SPECT probably .jpg in Resources */,
-				268DDE9D2103A4A600AF1995 /* logo-nrc-banner.jpg in Resources */,
 				26813EDE20FCF229008226B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
