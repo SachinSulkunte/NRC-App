@@ -1386,6 +1386,19 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="usnrc1" translatesAutoresizingMaskIntoConstraints="NO" id="aVg-NH-o9H">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fCi-BR-zNv">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="xXp-l5-pJx">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </view>
+                                            <blurEffect style="light"/>
+                                        </visualEffectView>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7G-vU-40U">
                                             <rect key="frame" x="0.0" y="408" width="375" height="93"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -1448,10 +1461,6 @@ It’s natural to want to know how much radiation you’re getting, or what that
                                     <segue destination="L73-gc-ksK" kind="show" id="0fM-ay-RBv"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-nrc-banner" translatesAutoresizingMaskIntoConstraints="NO" id="Fpi-ld-Oio">
-                                <rect key="frame" x="-82" y="-83" width="517" height="881"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="3pT-jP-iq1"/>
@@ -1819,7 +1828,6 @@ It’s natural to want to know how much radiation you’re getting, or what that
         <image name="Iodinefinal" width="640" height="480"/>
         <image name="brachytherapy super high def" width="1107" height="910"/>
         <image name="fluorine final 3" width="640" height="480"/>
-        <image name="logo-nrc-banner" width="285" height="120"/>
         <image name="technetiumfinal.png" width="640" height="480"/>
         <image name="thalliumfinal" width="640" height="480"/>
         <image name="usnrc1" width="175" height="175"/>
