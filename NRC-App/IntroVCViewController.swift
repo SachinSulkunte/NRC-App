@@ -9,7 +9,6 @@
 import UIKit
 
 class IntroVCViewController: UIViewController {
-    @IBOutlet weak var whatisradiationdrop: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -21,9 +20,6 @@ class IntroVCViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-   
-    @IBAction func handleSelection(_ sender: UIButton) {
-        whatisradiationdrop.isHidden = !whatisradiationdrop.isHidden
     }
     
     /*
@@ -36,7 +32,7 @@ class IntroVCViewController: UIViewController {
     }
     */
 
-}
+
 
 
 
