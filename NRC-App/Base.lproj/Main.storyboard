@@ -1568,12 +1568,12 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2td-5c-RgB">
-                                        <rect key="frame" x="16" y="206" width="343" height="278"/>
+                                        <rect key="frame" x="18" y="206" width="340.5" height="364.5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <string key="text">Systemic radioisotope therapy (also known as radionuclide therapy) can be used to address a range of health conditions, such as cancer, blood disorders, or those affecting the thyroid gland. It involves small amounts of radioactive material, such as lutetium-177 or yttrium-90, taken into the body through a body cavity, intravenously, orally or other routes of administration that then target different body parts or organs for treatment. The radioactive material used for treatment is chosen for its isotope properties, or chemical properties, as certain body parts can absorb certain isotopes significantly more effectively than other body parts, which allows doctors to target those specific areas during treatment.
-                                        </string>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                        <mutableString key="text">Radionuclide therapy can be used to address cancer, blood and thyroid disorders. It involves small amounts of radioisotopes such as lutetium-177 or yttrium-90 attached to molecules that act as tracers to a particular antigen on cells of the body. Because radionuclides are injected systemically, they have a greater ability to combat metastases from the primary tumor site. Nonetheless, the radioisotopes used emit types of radiation (beta, alpha) that have relatively little penetrative ability, thus patient dose remains minimal. 
+                                        </mutableString>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="____________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FlY-dz-62T">
@@ -1847,7 +1847,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="flh-xY-Nq5"/>
-        <segue reference="tYa-0V-CuS"/>
+        <segue reference="qcg-3X-TIV"/>
         <segue reference="nec-Bc-urP"/>
         <segue reference="oOE-ly-0AB"/>
     </inferredMetricsTieBreakers>
