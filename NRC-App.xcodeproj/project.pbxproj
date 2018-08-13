@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22D0372F2114F498007AB683 /* IntroVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D0372E2114F498007AB683 /* IntroVCViewController.swift */; };
+		22F2A1C42122057900E0EA54 /* LearnMoreBrachy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2A1C32122057900E0EA54 /* LearnMoreBrachy.swift */; };
 		26813ED920FCF229008226B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813ED820FCF229008226B2 /* AppDelegate.swift */; };
 		26813EDB20FCF229008226B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813EDA20FCF229008226B2 /* ViewController.swift */; };
 		26813EDE20FCF229008226B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26813EDC20FCF229008226B2 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		22D0372E2114F498007AB683 /* IntroVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVCViewController.swift; sourceTree = "<group>"; };
+		22F2A1C32122057900E0EA54 /* LearnMoreBrachy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreBrachy.swift; sourceTree = "<group>"; };
 		26813ED520FCF229008226B2 /* NRC-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NRC-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26813ED820FCF229008226B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26813EDA20FCF229008226B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				26813ED820FCF229008226B2 /* AppDelegate.swift */,
 				26813EDA20FCF229008226B2 /* ViewController.swift */,
 				26813EDC20FCF229008226B2 /* Main.storyboard */,
+				22F2A1C32122057900E0EA54 /* LearnMoreBrachy.swift */,
 				22D0372E2114F498007AB683 /* IntroVCViewController.swift */,
 				26813EE220FCF229008226B2 /* Assets.xcassets */,
 				26813EE420FCF229008226B2 /* LaunchScreen.storyboard */,
@@ -283,6 +286,7 @@
 				268DDEA52103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift in Sources */,
 				26813EDB20FCF229008226B2 /* ViewController.swift in Sources */,
 				26813ED920FCF229008226B2 /* AppDelegate.swift in Sources */,
+				22F2A1C42122057900E0EA54 /* LearnMoreBrachy.swift in Sources */,
 				22D0372F2114F498007AB683 /* IntroVCViewController.swift in Sources */,
 				26813EE120FCF229008226B2 /* NRC_App.xcdatamodeld in Sources */,
 			);

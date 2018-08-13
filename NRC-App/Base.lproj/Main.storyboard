@@ -58,7 +58,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.77516212863106004" green="0.85243005846066988" blue="0.97474569082260132" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.88132619499999998" green="1" blue="0.92700236499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
                         <viewLayoutGuide key="safeArea" id="TzV-MB-r8u"/>
                     </view>
@@ -97,7 +97,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.7751621286" green="0.85243005849999998" blue="0.97474569079999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.88132619499999998" green="1" blue="0.92700236499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Dme-Cu-QXp"/>
                     </view>
                 </viewController>
@@ -114,22 +114,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evn-ov-Aag">
-                                <rect key="frame" x="-2" y="103" width="377" height="176"/>
+                                <rect key="frame" x="25" y="143" width="326" height="93"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="27"/>
-                                <state key="normal" title="TREATMENTS">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="TREATMENTS" backgroundImage="blueoval">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="ubS-fT-MrP" kind="show" id="Vfe-t6-d81"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SoQ-gp-TDk">
-                                <rect key="frame" x="-2" y="266" width="377" height="176"/>
+                                <rect key="frame" x="24" y="251" width="335" height="89"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="26"/>
-                                <state key="normal" title="DIAGNOSTICS">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="DIAGNOSTICS" backgroundImage="blueoval">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="dmj-6A-wVp" kind="show" id="flh-xY-Nq5"/>
@@ -143,18 +144,18 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSA-sk-7tU">
-                                <rect key="frame" x="0.0" y="450" width="377" height="176"/>
+                                <rect key="frame" x="25" y="352" width="334" height="91"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="26"/>
-                                <state key="normal" title="RADIOISOTOPES">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="RADIOISOTOPES" backgroundImage="blueoval">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Vjy-23-D40" kind="show" id="RFK-6v-ZDo"/>
+                                    <segue destination="Vjy-23-D40" kind="show" id="7AD-ko-w7G"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.7751621286" green="0.85243005849999998" blue="0.97474569079999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.88132619499999998" green="1" blue="0.92700236499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="lbz-iQ-55a"/>
                     </view>
                     <navigationItem key="navigationItem" id="0RV-Ri-b11"/>
@@ -174,37 +175,69 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="After" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YuU-Kg-b8a">
                                 <rect key="frame" x="133" y="64" width="109" height="57"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Even after delivery, radiation you previously received may still be transmitted to the child via breast milk" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Beh-Ix-soP">
-                                <rect key="frame" x="16" y="108" width="343" height="138"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Even after delivery, radiation you previously received may still be transmitted to the child via breast milk." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Beh-Ix-soP">
+                                <rect key="frame" x="40" y="108" width="295" height="138"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Luckily, this is only for treatments with particular isotopes:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRo-QG-CVd">
-                                <rect key="frame" x="16" y="219" width="343" height="81"/>
+                                <rect key="frame" x="16" y="231" width="343" height="81"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Quq-Xx-a1K">
-                                <rect key="frame" x="71" y="307" width="288" height="159"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <string key="text">- For iodine-125 and 131, sodium-22, gallium-67 and thallium-201, it is recommended that you stop breastfeeding for 3 weeks
-                                </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Radioisotope" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="007-VQ-GJL">
+                                <rect key="frame" x="16" y="311" width="167" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.97474569079999995" green="0.88839084099999999" blue="0.91864037440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- Breastfeeding should also be stopped for 12 hours after injection with any technetium-99" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPK-sE-BUD">
-                                <rect key="frame" x="71" y="458" width="288" height="117"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Period of time that breastfeeding should be stopped" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n7I-C1-0mC">
+                                <rect key="frame" x="191" y="311" width="176" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.97474569079999995" green="0.88839084099999999" blue="0.91864037440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Iodine-125 and 131, sodium-22, gallium-67 and thallium-201" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGr-Gn-Kph">
+                                <rect key="frame" x="16" y="379" width="167" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88132619503579679" green="1" blue="0.92700236501769018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Technetium-99m" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="73w-JN-Kx6">
+                                <rect key="frame" x="16" y="486" width="167" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88132619503579679" green="1" blue="0.92700236501769018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3 weeks" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z3a-ss-cuZ">
+                                <rect key="frame" x="191" y="379" width="176" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88132619503579679" green="1" blue="0.92700236501769018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12 hours" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v60-ar-bBh">
+                                <rect key="frame" x="191" y="486" width="176" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88132619503579679" green="1" blue="0.92700236501769018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -233,39 +266,91 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTg-Cz-mQp">
-                                                <rect key="frame" x="16" y="327" width="343" height="269"/>
+                                                <rect key="frame" x="16" y="291" width="343" height="205"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                                <string key="text">- One particular element –iodine-131 (131I) – tends to easily cross the placenta and dose the fetus with high amounts of radiation. For that reason, treatment for thyroid cancer, which involves this radioisotope, is often delayed
-                                                </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <string key="text">- One particular element –iodine-131 (131I) – tends to easily cross the placenta and dose the fetus with high amounts of radiation. For that reason, treatment for thyroid cancer, which involves this radioisotope, is often delayed until after breastfeeding.                                        </string>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJC-0g-YUw">
-                                                <rect key="frame" x="16" y="72" width="343" height="269"/>
+                                                <rect key="frame" x="16" y="45" width="343" height="141"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                                <string key="text">- In radiation imaging techniques, you are injected with a radiopharmaceutical, which is the radiation source. This happens before you enter an imaging room--so always mention to your doctor as early as possible if you are pregnant
-                                                </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <string key="text">- In radiation imaging techniques, you are injected with a radiopharmaceutical, which is the radiation source.                                          </string>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="During" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cpw-ux-R21">
-                                                <rect key="frame" x="133" y="18" width="109" height="57"/>
+                                                <rect key="frame" x="133" y="8" width="109" height="57"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y45-O9-3xn">
-                                                <rect key="frame" x="16" y="575" width="343" height="316"/>
+                                                <rect key="frame" x="16" y="453" width="343" height="234"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                                <string key="text">- Some radiopharmaceuticals, like Technetium-99 (99Tcm) are eliminated through the urinary tract, and in that case the bladder can serve as a source of radiation for a fetus. Hydration and frequent urination is recommended in these cases.
-                                                </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <string key="text">- Some radiopharmaceuticals, like Technetium-99 (99Tcm) are eliminated through the urinary tract, and in that case the bladder can dose the fetus with radiation. Hydration and frequent urination is recommended in these cases.                                        </string>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This happens before you even enter an imaging room--so always mention to your doctor as early as possible if you are pregnant!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Oz-5r-xcS">
+                                                <rect key="frame" x="32" y="178" width="311" height="113"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="0.43176671325255012" blue="0.51971991604433043" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Office of Women's Health recommends 10 cups of water per day for pregnant women, and 13 cups for breastfeeding women!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CR0-N7-Ko7">
+                                                <rect key="frame" x="206" y="661" width="152" height="185"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cupofwater1" translatesAutoresizingMaskIntoConstraints="NO" id="Emx-kt-nFG">
+                                                <rect key="frame" x="32" y="661" width="34" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cupofwater1" translatesAutoresizingMaskIntoConstraints="NO" id="YEE-C4-3Ul">
+                                                <rect key="frame" x="74" y="661" width="34" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cupofwater1" translatesAutoresizingMaskIntoConstraints="NO" id="2a9-Zi-k2f">
+                                                <rect key="frame" x="116" y="661" width="34" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cupofwater1" translatesAutoresizingMaskIntoConstraints="NO" id="8xv-gF-YJY">
+                                                <rect key="frame" x="158" y="661" width="34" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cupofwater1" translatesAutoresizingMaskIntoConstraints="NO" id="Pr2-YA-8a9">
+                                                <rect key="frame" x="32" y="728" width="34" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cupofwater1" translatesAutoresizingMaskIntoConstraints="NO" id="S7v-La-ZGd">
+                                                <rect key="frame" x="74" y="728" width="34" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cupofwater1" translatesAutoresizingMaskIntoConstraints="NO" id="YWp-oG-0FC">
+                                                <rect key="frame" x="116" y="728" width="34" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cupofwater1" translatesAutoresizingMaskIntoConstraints="NO" id="Jrz-n6-D1s">
+                                                <rect key="frame" x="158" y="728" width="34" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cupofwater1" translatesAutoresizingMaskIntoConstraints="NO" id="1jP-W0-Viv">
+                                                <rect key="frame" x="74" y="796" width="34" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cupofwater1" translatesAutoresizingMaskIntoConstraints="NO" id="nux-Gp-TRi">
+                                                <rect key="frame" x="116" y="796" width="34" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -309,30 +394,77 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- Ensure that your doctor is aware if you are pregnant or breastfeeding" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2n9-2p-d6Y">
                                 <rect key="frame" x="16" y="94" width="343" height="127"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rPQ-b4-4i9">
-                                <rect key="frame" x="16" y="208" width="343" height="250"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <string key="text">- If you have undergone radiation with either: iron-59 (59Fe) for metabolism studies, or selenium-75 (75Se) for adrenal imaging, it is advised that you wait 6 months and 12 months respectively before trying to conceive
-                                </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- Though radiological treatments are often not prescribed with pregnant women, radiological diagnostics tests are more common" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tqE-VR-8KW">
-                                <rect key="frame" x="16" y="452" width="343" height="166"/>
+                                <rect key="frame" x="16" y="167" width="343" height="166"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Before" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zRQ-zY-MVK">
-                                <rect key="frame" x="133" y="64" width="109" height="57"/>
+                                <rect key="frame" x="133" y="69" width="109" height="57"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Notice for women who are attempting to conceive" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x8I-Bp-U9W">
+                                <rect key="frame" x="16" y="325" width="351" height="73"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.37812308" green="0.79859572430000003" blue="0.78471556629999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Treatment:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hq8-w5-LhJ">
+                                <rect key="frame" x="16" y="397" width="167" height="69"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.72927130309764376" green="0.96174744062435236" blue="0.93556802223824653" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time you should wait before attempting to conceive:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WiE-KG-vj9">
+                                <rect key="frame" x="191" y="397" width="176" height="69"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.72927130309764376" green="0.96174744062435236" blue="0.93556802223824653" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Iron-59 (59Fe) for metabolism studies" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2kL-2v-F41">
+                                <rect key="frame" x="16" y="465" width="167" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.94719062930436382" green="0.95739973880039086" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Selenium-75 (75Se) for adrenal imaging" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Orh-Lk-b0x">
+                                <rect key="frame" x="16" y="528" width="167" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.94719062930436382" green="0.95739973880039086" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6 months" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Puq-3s-Gf7">
+                                <rect key="frame" x="191" y="465" width="176" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.94719062929999998" green="0.95739973879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12 months" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lCd-cY-dqb">
+                                <rect key="frame" x="191" y="527" width="176" height="68"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.94719062929999998" green="0.95739973879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -383,64 +515,64 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j84-6G-To6">
-                                <rect key="frame" x="16" y="124" width="343" height="290"/>
+                                <rect key="frame" x="16" y="118" width="343" height="290"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <string key="text">The majority of diagnostic nuclear medicine involves, primarily, two aspects: the radiopharmaceutical, and the imaging device. Different imaging techniques, such as PET or scintigraphy, may vary in application but are fundamentally similar in that they employ cameras that detect specific types of radiation, gamma rays being the most common.
                                 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To Learn More About Different Imaging Techniques, Choose an Option Below" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shF-er-jtN">
-                                <rect key="frame" x="16" y="422" width="343" height="87"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To learn about different imaging techniques and the machines involved, please select an option below:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shF-er-jtN">
+                                <rect key="frame" x="16" y="383" width="343" height="87"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQR-sA-hiU">
-                                <rect key="frame" x="189" y="517" width="182" height="30"/>
+                                <rect key="frame" x="0.0" y="506" width="375" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
                                 <state key="normal" title="SPECT"/>
                                 <connections>
                                     <segue destination="4ob-2U-XpY" kind="show" id="tgb-78-tZ0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Gp-qD-8Pf">
-                                <rect key="frame" x="4" y="567" width="182" height="30"/>
+                                <rect key="frame" x="0.0" y="542" width="375" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
                                 <state key="normal" title="PET"/>
                                 <connections>
                                     <segue destination="Tm1-v6-e8c" kind="show" id="OdX-Aw-Xbu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3m2-ol-XVB">
-                                <rect key="frame" x="189" y="567" width="182" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Skeletal Scintigraphy"/>
-                                <connections>
-                                    <segue destination="Ay6-32-ZjF" kind="show" id="R0r-hR-9SC"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1xN-p1-776">
-                                <rect key="frame" x="4" y="517" width="182" height="30"/>
+                                <rect key="frame" x="0.0" y="472" width="375" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
                                 <state key="normal" title="Gamma Camera"/>
                                 <connections>
                                     <segue destination="avI-P5-F6L" kind="show" id="StJ-xn-VSe"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Imaging Machines" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eAj-DA-yic">
-                                <rect key="frame" x="8" y="64" width="359" height="74"/>
+                                <rect key="frame" x="8" y="58" width="359" height="74"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3m2-ol-XVB">
+                                <rect key="frame" x="0.0" y="575" width="375" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <state key="normal" title="Skeletal Scintigraphy"/>
+                                <connections>
+                                    <segue destination="Ay6-32-ZjF" kind="show" id="R0r-hR-9SC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.88493567709999998" green="0.96901029350000001" blue="0.95442503690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="qoY-vq-zDo"/>
@@ -450,7 +582,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oc9-tC-c9E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8256.7999999999993" y="-101.19940029985008"/>
+            <point key="canvasLocation" x="8184.8000000000002" y="-5.8470764617691158"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="WAN-Na-rom">
@@ -632,38 +764,53 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scn-Vc-hPs">
-                                <rect key="frame" x="12" y="130" width="351" height="281"/>
+                                <rect key="frame" x="24" y="124" width="335" height="255"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <string key="text">Worry not, your child is safe! Although it is possible that your baby will receive some of the dose through the womb or breast milk, medical professionals ensure that it remains at safe levels for both you and your baby.</string>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                                <string key="text">Although it is possible that your baby will receive some of the dose through the womb or breast milk, medical professionals take measures to ensure that any exposure remains at safe levels for both you and your baby. As well, there are precautions you yourself can take before, during and after your procedure to guarantee you and your baby's health.</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zle-hQ-plY">
-                                <rect key="frame" x="107" y="521" width="161" height="49"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregnant or Breastfeeding?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTn-Ud-Ksl">
+                                <rect key="frame" x="8" y="64" width="359" height="74"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="27" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mud-Dj-gWJ">
+                                <rect key="frame" x="24" y="435" width="335" height="178"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">To determine about how much radiation you and your baby may be exposed to, please use the “How much radiation am I getting” calculator and specify that you are pregnant. 
+                                </string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H1J-Qc-Y2z">
+                                <rect key="frame" x="24" y="584" width="335" height="49"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Learn More"/>
+                                <color key="backgroundColor" red="0.37812308" green="0.79859572430000003" blue="0.78471556629999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                <state key="normal" title="For calculator, click here.">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0Gf-Kk-ain" kind="show" id="mmN-7v-NrQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zle-hQ-plY">
+                                <rect key="frame" x="24" y="388" width="335" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.37812308003969991" green="0.79859572430310877" blue="0.78471556633329187" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                <state key="normal" title="Learn More">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="GfF-n2-dk3" kind="show" id="nzD-Hc-isz"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregnant or Breastfeeding?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTn-Ud-Ksl">
-                                <rect key="frame" x="8" y="64" width="359" height="74"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mud-Dj-gWJ">
-                                <rect key="frame" x="16" y="368" width="351" height="159"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <string key="text">To determine how much radiation your baby may get, please use the “How much radiation am I getting” (link to page) calculator.
-                                </string>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.88493567709999998" green="0.96901029350000001" blue="0.95442503690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Ahs-II-vfF"/>
@@ -673,7 +820,7 @@
             </objects>
             <point key="canvasLocation" x="9688.7999999999993" y="735.38230884557731"/>
         </scene>
-        <!--Diagnostic Treatments-->
+        <!--View Controller-->
         <scene sceneID="026-8K-1oE">
             <objects>
                 <viewController id="aTD-3p-9Ja" sceneMemberID="viewController">
@@ -681,65 +828,65 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIa-bc-4lD">
-                                <rect key="frame" x="0.0" y="64" width="375" height="313"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <string key="text">Various factors come into play when considering diagnostic procedures involving radioisotopes.
-                                    
-                                    It’s natural to want to know how much radiation you’re getting, or what that fancy imaging machine actually does. That’s what we’re here for.
-                                </string>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCH-Xy-kVS">
-                                <rect key="frame" x="16" y="429" width="343" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="speechbubble1" translatesAutoresizingMaskIntoConstraints="NO" id="xfy-V3-2xR">
+                                <rect key="frame" x="16" y="360" width="343" height="315"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="XCH-Xy-kVS">
+                                <rect key="frame" x="78" y="453" width="120" height="30"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
                                 <state key="normal" title="How Much Radiation Am I Getting?"/>
                                 <connections>
                                     <segue destination="0Gf-Kk-ain" kind="show" id="i1w-TT-GG0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wcj-xB-wHB">
-                                <rect key="frame" x="16" y="467" width="343" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ips-el-bWm">
+                                <rect key="frame" x="37" y="510" width="322" height="36"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="I'm Pregnant or Breastfeeding"/>
-                                <connections>
-                                    <segue destination="W04-ba-Dxo" kind="show" id="Yrq-SI-Ypc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ips-el-bWm">
-                                <rect key="frame" x="16" y="548" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Imaging Machines"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
+                                <state key="normal" title="I want to know about my specific diagnostic procedure."/>
                                 <connections>
                                     <segue destination="hSK-ke-QKv" kind="show" id="eZW-ct-2ix"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gf-gA-uie">
-                                <rect key="frame" x="0.0" y="510" width="375" height="30"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Research a Specific Isotope/Procedure"/>
-                                <connections>
-                                    <segue destination="Jmr-jV-BJQ" kind="show" id="gu2-4R-LS4"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select your area of inquiry:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTy-5M-Z7I">
-                                <rect key="frame" x="0.0" y="356" width="375" height="65"/>
+                                <rect key="frame" x="0.0" y="315" width="375" height="65"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Diagnostics Homepage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GfQ-sb-fpZ">
+                                <rect key="frame" x="0.0" y="79" width="375" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIa-bc-4lD">
+                                <rect key="frame" x="16" y="119" width="343" height="238"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">Various factors come into play when considering diagnostic procedures involving radioisotopes. It’s natural to want to know how much radiation you’re getting, or what that fancy imaging machine actually does. That’s what we’re here for.
+                                </string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Wcj-xB-wHB">
+                                <rect key="frame" x="195" y="453" width="130" height="35"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
+                                <state key="normal" title="I'm Pregnant or Breastfeeding"/>
+                                <connections>
+                                    <segue destination="W04-ba-Dxo" kind="show" id="Yrq-SI-Ypc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.88493567709999998" green="0.96901029350000001" blue="0.95442503690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="tjp-Cz-Do4"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Diagnostic Treatments" id="S8b-af-bF8">
+                    <navigationItem key="navigationItem" id="S8b-af-bF8">
                         <barButtonItem key="leftBarButtonItem" title="Back" id="zWI-oM-coh">
                             <connections>
                                 <segue destination="L73-gc-ksK" kind="showDetail" id="Yly-se-l6A"/>
@@ -847,7 +994,6 @@
                                 <inset key="contentEdgeInsets" minX="4" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="What is a Radioisotope?"/>
                                 <connections>
-                                    <action selector="handleSelection:" destination="Yq6-qu-azG" eventType="touchUpInside" id="f1B-eu-b13"/>
                                     <segue destination="L73-gc-ksK" kind="showDetail" id="EOO-NJ-ezd"/>
                                 </connections>
                             </button>
@@ -867,57 +1013,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <outlet property="whatisradiationdrop" destination="xgT-P4-jmr" id="mxj-Fh-Ht1"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AHM-gV-sGl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3962" y="1271"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="6iZ-1S-gok">
-            <objects>
-                <viewController id="Jmr-jV-BJQ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="N8f-H3-4JK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn More About The Isotopes and Diagnostic Procedures" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyG-bK-tMx">
-                                <rect key="frame" x="8" y="64" width="359" height="153"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yTj-YQ-lAj">
-                                <rect key="frame" x="0.0" y="217" width="375" height="56"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <outlet property="delegate" destination="Jmr-jV-BJQ" id="hQv-0e-6qV"/>
-                                </connections>
-                            </searchBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="Brb-O5-9Zc"/>
-                    </view>
-                    <connections>
-                        <outlet property="searchDisplayController" destination="doO-RA-S7Y" id="LW7-iD-quA"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dFl-z5-IJZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <searchDisplayController id="doO-RA-S7Y">
-                    <connections>
-                        <outlet property="delegate" destination="Jmr-jV-BJQ" id="iej-HL-8Uo"/>
-                        <outlet property="searchBar" destination="yTj-YQ-lAj" id="EKx-f2-0Tk"/>
-                        <outlet property="searchContentsController" destination="Jmr-jV-BJQ" id="IbV-BL-HRI"/>
-                        <outlet property="searchResultsDataSource" destination="Jmr-jV-BJQ" id="GYg-t2-NQm"/>
-                        <outlet property="searchResultsDelegate" destination="Jmr-jV-BJQ" id="XbD-LK-eCW"/>
-                    </connections>
-                </searchDisplayController>
-            </objects>
-            <point key="canvasLocation" x="6284" y="1450.5247376311845"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="lsL-GQ-St5">
@@ -969,6 +1068,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="agk-eX-Rav">
+                                <rect key="frame" x="170" y="392" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" red="0.97474569079999995" green="0.88839084099999999" blue="0.91864037440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <rect key="contentStretch" x="0.0" y="0.25" width="1" height="1"/>
@@ -1189,22 +1292,22 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="2000"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How Much Radiation Am I Getting?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qpk-ui-oCW">
-                                                <rect key="frame" x="8" y="34" width="359" height="74"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                                                <rect key="frame" x="8" y="34" width="359" height="76.5"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="28"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 1:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FcT-UB-Nuc">
                                                 <rect key="frame" x="8" y="140" width="87" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select area of the body" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="35a-zc-hgS">
                                                 <rect key="frame" x="88" y="140" width="257" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1215,21 +1318,21 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 2:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAv-Rk-zRS">
                                                 <rect key="frame" x="8" y="463" width="87" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select specific radiopharmaceutical " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Bq-Gs-JnB">
                                                 <rect key="frame" x="88" y="463" width="257" height="59"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Results:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCv-jK-S3K">
                                                 <rect key="frame" x="8" y="1216" width="103" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1249,14 +1352,14 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 3:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UeZ-ll-2ku">
                                                 <rect key="frame" x="8" y="758" width="87" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are you pregnant?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kh7-cB-ZBI">
                                                 <rect key="frame" x="103" y="758" width="204" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1364,10 +1467,6 @@
                                 <rect key="frame" x="141" y="442" width="227" height="151"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="technetiumfinal.png" translatesAutoresizingMaskIntoConstraints="NO" id="YBZ-YM-n9l">
-                                <rect key="frame" x="-46" y="261" width="287" height="190"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.97474569079999995" green="0.88839084099999999" blue="0.91864037440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="GGa-93-eAH"/>
@@ -1386,7 +1485,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-nrc-banner" translatesAutoresizingMaskIntoConstraints="NO" id="Fpi-ld-Oio">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JIj-PP-zSx">
@@ -1444,6 +1543,13 @@
                                                 <segue destination="ZtQ-Ge-mdq" kind="show" id="ce8-Bh-lXj"/>
                                             </connections>
                                         </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Treatments Homepage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIb-k4-44f">
+                                            <rect key="frame" x="0.0" y="66" width="375" height="36"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                 </view>
                                 <blurEffect style="light"/>
@@ -1451,7 +1557,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Gm-wg-AM0">
                                 <rect key="frame" x="10" y="10" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="L73-gc-ksK" kind="show" id="0fM-ay-RBv"/>
                                 </connections>
@@ -1466,6 +1574,213 @@
             </objects>
             <point key="canvasLocation" x="4020" y="-575.26236881559225"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="09U-is-sAG">
+            <objects>
+                <viewController id="lcE-2s-ppu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wcR-4G-2f6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1010"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3uq-jM-yeh">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1010"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nHz-CH-3hc">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1010"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brachytherapy seeds" translatesAutoresizingMaskIntoConstraints="NO" id="X3U-kl-ESG">
+                                                <rect key="frame" x="207" y="281" width="81" height="79"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Nf-Ux-EFr">
+                                                <rect key="frame" x="0.0" y="0.0" width="52" height="48"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="AWv-aq-wHA"/>
+                                                </constraints>
+                                                <state key="normal" title="Back"/>
+                                                <connections>
+                                                    <segue destination="ZtQ-Ge-mdq" kind="show" id="4Bk-NH-I8H"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brachytherapy: What to Expect" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10L-Il-Uzx">
+                                                <rect key="frame" x="83" y="36" width="209" height="82"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="82" id="84E-KM-nfY"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="26"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Additional procedures/tests that may be involved" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BbF-cQ-J7p">
+                                                <rect key="frame" x="21" y="125" width="165" height="88"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.37812308" green="0.79859572430000003" blue="0.78471556629999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- X-rays, ultrasound, MRI and CT may be used to guide the placement of seeds" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ax-yr-vhX">
+                                                <rect key="frame" x="21" y="210" width="165" height="107"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.72927130309999999" green="0.96174744059999995" blue="0.93556802220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- Bowel preparation may be necessary if placement is via anus" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsF-RS-Rpr">
+                                                <rect key="frame" x="21" y="315" width="165" height="76"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.72927130309999999" green="0.96174744059999995" blue="0.93556802220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- Intravenous line for anesthetic or sedative may be inserted" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEs-ve-vBU">
+                                                <rect key="frame" x="21" y="388" width="165" height="104"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.72927130309999999" green="0.96174744059999995" blue="0.93556802220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Equipment used:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6sX-mT-wUq">
+                                                <rect key="frame" x="207" y="126" width="143" height="53"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Potential radiation hazards:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9nd-Uv-rEw">
+                                                <rect key="frame" x="21" y="495" width="335" height="53"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="169-Mc-Mfc">
+                                                <rect key="frame" x="207" y="178" width="143" height="101"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The seeds (left, below) used are encased, in a nonradioactive metal shell to shield the radioactive source to prevent excess dosage.</string>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teV-wD-qbC">
+                                                <rect key="frame" x="207" y="361" width="149" height="136"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The remote-afterloader (right, above) is a machine that via remote control automatically delivers brachytherapy seeds to the patient, thus eliminating medical personnel's exposure to radiation.</string>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="remote afterloading" translatesAutoresizingMaskIntoConstraints="NO" id="gQG-VY-tjv">
+                                                <rect key="frame" x="281" y="274" width="86" height="93"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Temporary brachytherapy*:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xku-Qx-Nb1">
+                                                <rect key="frame" x="21" y="543" width="165" height="42"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.095586024219999996" green="0.46350753309999998" blue="0.64657580849999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                                <color key="textColor" red="0.98832294522373787" green="0.95308432754115502" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Permanent brachytherapy*:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXC-IV-xIr">
+                                                <rect key="frame" x="191" y="543" width="165" height="42"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.095586024219999996" green="0.46350753309999998" blue="0.64657580849999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                                <color key="textColor" red="0.98832294519999997" green="0.95308432750000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3eV-j6-3tE">
+                                                <rect key="frame" x="21" y="587" width="165" height="199"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.7751621286" green="0.85243005849999998" blue="0.97474569079999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <string key="text">For LDR (low-dose rate), your hospitalization may take up to 1-2 days. During this time, visitors are limited to 30 minutes at a time due to the presence of radioactive materials**. Pregnant women and children are not permitted.</string>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contact with children and pregnant women should be somewhat limited--please consult your doctor for specific measures to take." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ktm-mA-wep">
+                                                <rect key="frame" x="191" y="587" width="165" height="127"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.7751621286" green="0.85243005849999998" blue="0.97474569079999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wuR-Si-gIV">
+                                                <rect key="frame" x="191" y="717" width="165" height="188"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.7751621286" green="0.85243005849999998" blue="0.97474569079999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <string key="text">For a few months following the implant, you will likely set off radiation detectors at airport security. It may be necessary to obtain a doctor's note explaining the situation.</string>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No matter the type of temp. brachytherapy, you should be completely radiation-free by the time of your hospital discharge." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5X-2W-IYX">
+                                                <rect key="frame" x="21" y="789" width="165" height="116"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.7751621286" green="0.85243005849999998" blue="0.97474569079999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ik6-RY-L6W">
+                                                <rect key="frame" x="21" y="915" width="335" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
+                                                <state key="normal" title="*To learn about the differences between permanent and temporary brachytherapy, click here."/>
+                                                <connections>
+                                                    <segue destination="DjN-Wx-Rd7" kind="show" id="S76-b9-s0i"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e93-Rl-pHL">
+                                                <rect key="frame" x="21" y="945" width="335" height="61"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">**This is a precaution taken because hospitals do not know the medical history of all potential visitors. You yourself are not at risk of excess radiation as a team of experts (dosimetrists, health physicists) should have determined a proper but safe dosage for your treatment. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="7Nf-Ux-EFr" firstAttribute="top" secondItem="nHz-CH-3hc" secondAttribute="top" id="7GY-rL-3Fn"/>
+                                            <constraint firstItem="10L-Il-Uzx" firstAttribute="centerX" secondItem="nHz-CH-3hc" secondAttribute="centerX" id="BOo-Ya-ARq"/>
+                                            <constraint firstAttribute="trailing" secondItem="10L-Il-Uzx" secondAttribute="trailing" constant="83" id="NlO-aw-lnH"/>
+                                            <constraint firstItem="7Nf-Ux-EFr" firstAttribute="leading" secondItem="nHz-CH-3hc" secondAttribute="leading" id="UT1-3z-alk"/>
+                                            <constraint firstItem="10L-Il-Uzx" firstAttribute="top" secondItem="nHz-CH-3hc" secondAttribute="top" constant="36" id="dOS-Pk-PcH"/>
+                                            <constraint firstItem="10L-Il-Uzx" firstAttribute="leading" secondItem="7Nf-Ux-EFr" secondAttribute="trailing" constant="31" id="wLc-x5-Kll"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="nHz-CH-3hc" secondAttribute="bottom" id="5j5-sW-7lm"/>
+                                    <constraint firstItem="nHz-CH-3hc" firstAttribute="centerX" secondItem="3uq-jM-yeh" secondAttribute="centerX" id="Rja-I9-X5f"/>
+                                    <constraint firstItem="nHz-CH-3hc" firstAttribute="top" secondItem="3uq-jM-yeh" secondAttribute="top" id="ds3-Fu-u7e"/>
+                                    <constraint firstAttribute="trailing" secondItem="nHz-CH-3hc" secondAttribute="trailing" id="emu-jo-uvu"/>
+                                    <constraint firstItem="nHz-CH-3hc" firstAttribute="centerY" secondItem="3uq-jM-yeh" secondAttribute="centerY" id="guH-j1-Vwo"/>
+                                    <constraint firstItem="nHz-CH-3hc" firstAttribute="leading" secondItem="3uq-jM-yeh" secondAttribute="leading" id="lUt-W4-InX"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3uq-jM-yeh" firstAttribute="top" secondItem="wcR-4G-2f6" secondAttribute="top" id="5ke-0T-SQA"/>
+                            <constraint firstItem="3uq-jM-yeh" firstAttribute="bottom" secondItem="bub-cr-b5V" secondAttribute="bottom" id="HWZ-r4-zO6"/>
+                            <constraint firstItem="3uq-jM-yeh" firstAttribute="leading" secondItem="wcR-4G-2f6" secondAttribute="leading" id="UCa-C6-BgJ"/>
+                            <constraint firstAttribute="trailing" secondItem="3uq-jM-yeh" secondAttribute="trailing" id="qnf-W0-X1I"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bub-cr-b5V"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="1010"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1fz-na-N5B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2588" y="-2241.6791604197902"/>
+        </scene>
         <!--Brachytherapy-->
         <scene sceneID="Hhq-fy-Q2j">
             <objects>
@@ -1474,67 +1789,103 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hcr-GF-tbh">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hcr-GF-tbh">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fvj-mV-j9M">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fvj-mV-j9M">
                                         <rect key="frame" x="187" y="301" width="0.0" height="0.0"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brachytherapy super high def" translatesAutoresizingMaskIntoConstraints="NO" id="yVj-FH-sRy">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brachytherapy super high def" translatesAutoresizingMaskIntoConstraints="NO" id="yVj-FH-sRy">
                                         <rect key="frame" x="16" y="8" width="343" height="227"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="227" id="C15-XE-suY"/>
+                                        </constraints>
                                     </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGg-LQ-xcb">
-                                        <rect key="frame" x="16" y="249" width="343" height="244"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGg-LQ-xcb">
+                                        <rect key="frame" x="16" y="236" width="343" height="360"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <string key="text">Brachytherapy is the placement of radioactive implants inside of the part of a  patient’s body that requires treatment. For example, in the case of cervical cancer, radioactive sources can be placed directly into the uterus in order to target a cervical mass. Brachytherapy allows for a tumour to be treated with high doses of localized radiation while reducing the probability of unnecessary exposure to surrounding healthy tissue.
-                                        </string>
+                                        <string key="text">Brachytherapy is the placement of radioactive implants inside of the part of a patient’s body that requires treatment. This allows a tumour to be treated with high doses of localized radiation and reduces  unnecessary exposure to surrounding healthy tissue. The implant may be temporary, in the form of a catheter/needle, or permanent, in the form of small metal seeds enclosing the radioactive source. To learn about the types of brachytherapy, please press "Learn More" below. </string>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More Information" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCm-km-haA">
-                                        <rect key="frame" x="118" y="492" width="138" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="More Information" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCm-km-haA">
+                                        <rect key="frame" x="0.0" y="501" width="375" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="n6E-6f-ukh"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acI-B1-4PO">
-                                        <rect key="frame" x="134" y="521" width="106" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                        <state key="normal" title="What to Expect"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgF-yw-kdr">
-                                        <rect key="frame" x="0.0" y="559" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <state key="normal" title="Learn More"/>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="____________________________________________" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q1O-3K-WZs">
-                                        <rect key="frame" x="28" y="463" width="318" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="____________________________________________" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q1O-3K-WZs">
+                                        <rect key="frame" x="0.0" y="475" width="375" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgF-yw-kdr">
+                                        <rect key="frame" x="195" y="531" width="147" height="54"/>
+                                        <color key="backgroundColor" red="0.7751621286" green="0.85243005849999998" blue="0.97474569079999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                        <state key="normal" title="Learn More"/>
+                                        <connections>
+                                            <segue destination="DjN-Wx-Rd7" kind="show" id="ymT-AS-OtM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acI-B1-4PO">
+                                        <rect key="frame" x="30" y="532" width="157" height="53"/>
+                                        <color key="backgroundColor" red="0.7751621286" green="0.85243005849999998" blue="0.97474569079999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="wcZ-ex-JSI"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                        <state key="normal" title="What to Expect"/>
+                                        <connections>
+                                            <segue destination="lcE-2s-ppu" kind="show" id="0ES-pB-Iij"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="GGg-LQ-xcb" firstAttribute="top" secondItem="yVj-FH-sRy" secondAttribute="bottom" constant="1" id="0Rd-cf-7q8"/>
+                                    <constraint firstAttribute="bottom" secondItem="GGg-LQ-xcb" secondAttribute="bottom" constant="7" id="4kJ-5t-wI3"/>
+                                    <constraint firstItem="Fvj-mV-j9M" firstAttribute="centerX" secondItem="Q1O-3K-WZs" secondAttribute="centerX" id="6nZ-Gu-20X"/>
+                                    <constraint firstItem="yVj-FH-sRy" firstAttribute="trailing" secondItem="GGg-LQ-xcb" secondAttribute="trailing" id="8Jl-yz-uhq"/>
+                                    <constraint firstItem="RCm-km-haA" firstAttribute="top" secondItem="Q1O-3K-WZs" secondAttribute="bottom" constant="5" id="I39-gZ-bmh"/>
+                                    <constraint firstItem="Q1O-3K-WZs" firstAttribute="leading" secondItem="RCm-km-haA" secondAttribute="leading" id="IEV-2z-Thc"/>
+                                    <constraint firstItem="jgF-yw-kdr" firstAttribute="top" secondItem="RCm-km-haA" secondAttribute="bottom" constant="9" id="JyC-JA-yNJ"/>
+                                    <constraint firstItem="Fvj-mV-j9M" firstAttribute="centerY" secondItem="hcr-GF-tbh" secondAttribute="centerY" id="LfR-IY-ieo"/>
+                                    <constraint firstItem="acI-B1-4PO" firstAttribute="leading" secondItem="hcr-GF-tbh" secondAttribute="leading" constant="30" id="MJQ-fP-poX"/>
+                                    <constraint firstItem="Fvj-mV-j9M" firstAttribute="trailing" secondItem="acI-B1-4PO" secondAttribute="trailing" id="RRW-gv-qDD"/>
+                                    <constraint firstAttribute="trailing" secondItem="Q1O-3K-WZs" secondAttribute="trailing" id="TGB-qd-kMP"/>
+                                    <constraint firstItem="Q1O-3K-WZs" firstAttribute="trailing" secondItem="RCm-km-haA" secondAttribute="trailing" id="YrD-nj-Rog"/>
+                                    <constraint firstItem="Fvj-mV-j9M" firstAttribute="centerX" secondItem="hcr-GF-tbh" secondAttribute="centerX" id="aBM-bK-4DC"/>
+                                    <constraint firstItem="yVj-FH-sRy" firstAttribute="leading" secondItem="GGg-LQ-xcb" secondAttribute="leading" id="aWf-5w-8lA"/>
+                                    <constraint firstItem="jgF-yw-kdr" firstAttribute="leading" secondItem="acI-B1-4PO" secondAttribute="trailing" constant="8" symbolic="YES" id="bZ3-Ha-m32"/>
+                                    <constraint firstItem="Q1O-3K-WZs" firstAttribute="top" secondItem="hcr-GF-tbh" secondAttribute="top" constant="475" id="gSe-3d-9F4"/>
+                                    <constraint firstItem="yVj-FH-sRy" firstAttribute="leading" secondItem="hcr-GF-tbh" secondAttribute="leading" constant="16" id="jah-MB-fCm"/>
+                                    <constraint firstItem="yVj-FH-sRy" firstAttribute="centerX" secondItem="Fvj-mV-j9M" secondAttribute="centerX" id="p7J-fa-BUi"/>
+                                    <constraint firstAttribute="trailing" secondItem="jgF-yw-kdr" secondAttribute="trailing" constant="33" id="q2I-b7-7Eg"/>
+                                    <constraint firstItem="acI-B1-4PO" firstAttribute="bottom" secondItem="jgF-yw-kdr" secondAttribute="bottom" id="qcq-M6-YGk"/>
+                                    <constraint firstItem="yVj-FH-sRy" firstAttribute="top" secondItem="hcr-GF-tbh" secondAttribute="topMargin" id="us6-83-yAi"/>
+                                    <constraint firstItem="acI-B1-4PO" firstAttribute="centerY" secondItem="jgF-yw-kdr" secondAttribute="centerY" id="wJj-sB-7W4"/>
+                                    <constraint firstAttribute="bottom" secondItem="acI-B1-4PO" secondAttribute="bottom" constant="18" id="xjf-8M-YNh"/>
+                                    <constraint firstItem="Q1O-3K-WZs" firstAttribute="leading" secondItem="hcr-GF-tbh" secondAttribute="leading" id="ySW-RL-ChY"/>
+                                </constraints>
                             </scrollView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Brachytherapy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gU-zz-pYB">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brachytherapy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gU-zz-pYB">
                                 <rect key="frame" x="0.0" y="27" width="375" height="29"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="HMv-sP-Dt6"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jy6-gR-4aM">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jy6-gR-4aM">
                                 <rect key="frame" x="1" y="1" width="52" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="ubS-fT-MrP" kind="show" id="Np4-U2-LcJ"/>
@@ -1542,13 +1893,210 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EIP-Co-fpm" firstAttribute="trailing" secondItem="jy6-gR-4aM" secondAttribute="trailing" constant="322" id="2PP-ya-tKa"/>
+                            <constraint firstItem="9gU-zz-pYB" firstAttribute="leading" secondItem="uYu-YO-Yxp" secondAttribute="leading" id="LSx-Fx-x5F"/>
+                            <constraint firstItem="hcr-GF-tbh" firstAttribute="bottom" secondItem="EIP-Co-fpm" secondAttribute="bottom" id="aSc-oE-d28"/>
+                            <constraint firstItem="9gU-zz-pYB" firstAttribute="leading" secondItem="hcr-GF-tbh" secondAttribute="leading" id="e8E-fn-wcT"/>
+                            <constraint firstItem="jy6-gR-4aM" firstAttribute="top" secondItem="uYu-YO-Yxp" secondAttribute="topMargin" constant="-19" id="hmu-KI-FQt"/>
+                            <constraint firstItem="hcr-GF-tbh" firstAttribute="top" secondItem="jy6-gR-4aM" secondAttribute="bottom" constant="15" id="jZl-Dx-qv9"/>
+                            <constraint firstAttribute="trailing" secondItem="9gU-zz-pYB" secondAttribute="trailing" id="mDm-uD-5gX"/>
+                            <constraint firstItem="9gU-zz-pYB" firstAttribute="top" secondItem="EIP-Co-fpm" secondAttribute="top" constant="7" id="mQ1-Cd-K45"/>
+                            <constraint firstItem="hcr-GF-tbh" firstAttribute="top" secondItem="9gU-zz-pYB" secondAttribute="bottom" constant="8" symbolic="YES" id="nkb-xJ-rTc"/>
+                            <constraint firstItem="9gU-zz-pYB" firstAttribute="trailing" secondItem="hcr-GF-tbh" secondAttribute="trailing" id="t8h-EN-6gG"/>
+                            <constraint firstItem="jy6-gR-4aM" firstAttribute="leading" secondItem="EIP-Co-fpm" secondAttribute="leading" constant="1" id="wAn-Il-SQr"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="EIP-Co-fpm"/>
                     </view>
                     <navigationItem key="navigationItem" title="Brachytherapy" id="7sI-PD-Sxw"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E6I-LJ-G7S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4173.6000000000004" y="-2081.1094452773614"/>
+            <point key="canvasLocation" x="3431" y="-2215"/>
+        </scene>
+        <!--Brachytherapy: Learn more-->
+        <scene sceneID="mr7-DP-8W5">
+            <objects>
+                <viewController title="Brachytherapy: Learn more" id="DjN-Wx-Rd7" customClass="LearnMoreBrachy" customModule="NRC_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xmD-3l-naj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fr2-aP-zNg">
+                                <rect key="frame" x="16" y="12" width="34" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="v7P-dH-H4L"/>
+                                </constraints>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="ZtQ-Ge-mdq" kind="show" id="yCh-Vm-ESW"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brachytherapy: The Specifics" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GUH-gQ-VXA">
+                                <rect key="frame" x="83" y="36" width="209" height="79"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click to learn about the different types of brachytherapy." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f8K-dj-PLF">
+                                <rect key="frame" x="16" y="114" width="343" height="63"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Mrf-Qa-gJB">
+                                <rect key="frame" x="16" y="185" width="118" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="GiA-fq-uS4"/>
+                                    <constraint firstAttribute="height" constant="45" id="t0x-0l-DB8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <state key="normal" title="Interstitial brachytherapy"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="nfa-We-K1p">
+                                <rect key="frame" x="16" y="276" width="118" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="F5Z-Z6-Xv3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <state key="normal" title="Intracavital brachytherapy"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interstitial brachytherapy involves applicators such as needles/catheters that help insert brachy seeds into body tissues." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4rb-ga-ZpH">
+                                <rect key="frame" x="154" y="185" width="205" height="73"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="Lpe-SD-MDN"/>
+                                    <constraint firstAttribute="width" constant="205" id="gkt-fV-lfl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="0Aw-gn-rdc">
+                                <rect key="frame" x="16" y="372" width="118" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="J2n-Kb-eZm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <state key="normal" title="Permanent brachytherapy"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIa-Ab-0NY">
+                                <rect key="frame" x="154" y="276" width="205" height="73"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="205" id="0OP-ag-tPD"/>
+                                    <constraint firstAttribute="height" constant="73" id="JGS-Xr-O75"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="73" id="MB6-Vm-WF3"/>
+                                </constraints>
+                                <string key="text">Intracavital brachytherapy involves applicators that are inserted into a specific body cavity, such as the vagina (for cervical cancer).</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzQ-HS-IR6">
+                                <rect key="frame" x="154" y="365" width="205" height="108"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="F1J-aC-Bvj"/>
+                                    <constraint firstAttribute="width" constant="205" id="dBz-14-axy"/>
+                                </constraints>
+                                <string key="text">Permanent brachytherapy is also called seed implantation because radioactive seeds are  implanted permanently in the body. Radioactivity of the seeds fades over time.</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="CMc-oM-k5e">
+                                <rect key="frame" x="0.0" y="470" width="375" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="0Xp-eT-j76"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <state key="normal" title="Temporary brachytherapy"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temporary brachytherapy is, well, temporary. It can be divided into two types: high-dose rate (HDR), and low-dose rate (LDR). " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nzb-s9-QXE">
+                                <rect key="frame" x="16" y="505" width="343" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="59" id="DrO-1j-j4L"/>
+                                    <constraint firstAttribute="width" constant="343" id="GFP-Ss-X4J"/>
+                                    <constraint firstAttribute="height" constant="59" id="gSe-gH-rHI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EzT-Pr-Ogi">
+                                <rect key="frame" x="16" y="559" width="343" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="9ZC-hy-avk"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="59" id="JnA-ev-dXq"/>
+                                    <constraint firstAttribute="height" constant="59" id="KQP-aD-eJX"/>
+                                </constraints>
+                                <string key="text">HDR typically only takes 10-20 minutes because the radiation source (iridium-192) releases large amounts of radiation quickly. It is an outpatient procedure.</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LDR involves hospitalization and a 1 to 2-day continuous dose of low amounts of radiation. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="guP-mV-a1v">
+                                <rect key="frame" x="16" y="606" width="343" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="2n9-eX-70u"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="59" id="h4G-sm-ZIC"/>
+                                    <constraint firstAttribute="width" constant="343" id="kaL-8k-GHJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Mrf-Qa-gJB" firstAttribute="top" secondItem="GUH-gQ-VXA" secondAttribute="bottom" constant="70" id="0Xq-6X-K3Z"/>
+                            <constraint firstItem="Nzb-s9-QXE" firstAttribute="trailing" secondItem="EzT-Pr-Ogi" secondAttribute="trailing" id="0g6-N5-d7v"/>
+                            <constraint firstItem="EzT-Pr-Ogi" firstAttribute="top" secondItem="CMc-oM-k5e" secondAttribute="bottom" constant="44" id="4NJ-Xx-K1I"/>
+                            <constraint firstItem="f8K-dj-PLF" firstAttribute="top" secondItem="fr2-aP-zNg" secondAttribute="bottom" constant="72" id="5e0-KZ-1XK"/>
+                            <constraint firstItem="pIa-Ab-0NY" firstAttribute="leading" secondItem="kzQ-HS-IR6" secondAttribute="leading" id="6yf-cO-bai"/>
+                            <constraint firstItem="EzT-Pr-Ogi" firstAttribute="leading" secondItem="guP-mV-a1v" secondAttribute="leading" id="7jL-jC-2oV"/>
+                            <constraint firstItem="kzQ-HS-IR6" firstAttribute="trailing" secondItem="Nzb-s9-QXE" secondAttribute="trailing" id="9Xl-g9-OR6"/>
+                            <constraint firstItem="f8K-dj-PLF" firstAttribute="trailing" secondItem="4rb-ga-ZpH" secondAttribute="trailing" id="9r6-ox-evX"/>
+                            <constraint firstItem="nfa-We-K1p" firstAttribute="leading" secondItem="0Aw-gn-rdc" secondAttribute="leading" id="BlX-js-uJm"/>
+                            <constraint firstItem="Mrf-Qa-gJB" firstAttribute="trailing" secondItem="nfa-We-K1p" secondAttribute="trailing" id="CJL-bi-rsH"/>
+                            <constraint firstItem="4rb-ga-ZpH" firstAttribute="leading" secondItem="pIa-Ab-0NY" secondAttribute="leading" id="FLa-qT-Ate"/>
+                            <constraint firstItem="CMc-oM-k5e" firstAttribute="leading" secondItem="xmD-3l-naj" secondAttribute="leading" id="H5E-Jc-QvW"/>
+                            <constraint firstItem="fr2-aP-zNg" firstAttribute="leading" secondItem="xmD-3l-naj" secondAttribute="leadingMargin" id="Hhq-OT-kuO"/>
+                            <constraint firstItem="gXD-f1-YAw" firstAttribute="trailing" secondItem="GUH-gQ-VXA" secondAttribute="trailing" constant="83" id="J68-mE-b4K"/>
+                            <constraint firstItem="4rb-ga-ZpH" firstAttribute="trailing" secondItem="pIa-Ab-0NY" secondAttribute="trailing" id="NWM-GT-JMl"/>
+                            <constraint firstItem="f8K-dj-PLF" firstAttribute="leading" secondItem="Mrf-Qa-gJB" secondAttribute="leading" id="O3u-ix-Xtc"/>
+                            <constraint firstItem="GUH-gQ-VXA" firstAttribute="centerX" secondItem="f8K-dj-PLF" secondAttribute="centerX" id="QWO-Si-YGE"/>
+                            <constraint firstItem="Nzb-s9-QXE" firstAttribute="top" secondItem="kzQ-HS-IR6" secondAttribute="bottom" constant="32" id="RIQ-Gx-DPL"/>
+                            <constraint firstItem="nfa-We-K1p" firstAttribute="trailing" secondItem="0Aw-gn-rdc" secondAttribute="trailing" id="Rah-Kj-ECF"/>
+                            <constraint firstItem="gXD-f1-YAw" firstAttribute="bottom" secondItem="guP-mV-a1v" secondAttribute="bottom" constant="2" id="Sj5-70-Dfu"/>
+                            <constraint firstItem="kzQ-HS-IR6" firstAttribute="top" secondItem="pIa-Ab-0NY" secondAttribute="bottom" constant="16" id="TUo-Fl-Wgw"/>
+                            <constraint firstItem="Mrf-Qa-gJB" firstAttribute="leading" secondItem="nfa-We-K1p" secondAttribute="leading" id="TZX-Oi-I28"/>
+                            <constraint firstItem="gXD-f1-YAw" firstAttribute="bottom" secondItem="EzT-Pr-Ogi" secondAttribute="bottom" constant="49" id="U4A-5P-WPS"/>
+                            <constraint firstItem="0Aw-gn-rdc" firstAttribute="top" secondItem="nfa-We-K1p" secondAttribute="bottom" constant="51" id="WvO-rX-j6x"/>
+                            <constraint firstItem="Mrf-Qa-gJB" firstAttribute="top" secondItem="f8K-dj-PLF" secondAttribute="bottom" constant="8" symbolic="YES" id="Xsk-Fb-aPy"/>
+                            <constraint firstItem="0Aw-gn-rdc" firstAttribute="leading" secondItem="Nzb-s9-QXE" secondAttribute="leading" id="db5-NT-wta"/>
+                            <constraint firstItem="pIa-Ab-0NY" firstAttribute="top" secondItem="4rb-ga-ZpH" secondAttribute="bottom" constant="18" id="efE-Ig-Iuu"/>
+                            <constraint firstItem="fr2-aP-zNg" firstAttribute="top" secondItem="xmD-3l-naj" secondAttribute="topMargin" constant="-8" id="gKf-mW-yxV"/>
+                            <constraint firstItem="pIa-Ab-0NY" firstAttribute="trailing" secondItem="kzQ-HS-IR6" secondAttribute="trailing" id="h6l-vm-Lp5"/>
+                            <constraint firstItem="guP-mV-a1v" firstAttribute="top" secondItem="Nzb-s9-QXE" secondAttribute="bottom" constant="42" id="iae-6N-jOb"/>
+                            <constraint firstItem="Mrf-Qa-gJB" firstAttribute="top" secondItem="4rb-ga-ZpH" secondAttribute="top" id="inK-av-spm"/>
+                            <constraint firstItem="CMc-oM-k5e" firstAttribute="top" secondItem="0Aw-gn-rdc" secondAttribute="bottom" constant="53" id="lSS-NE-amN"/>
+                            <constraint firstItem="fr2-aP-zNg" firstAttribute="leading" secondItem="f8K-dj-PLF" secondAttribute="leading" id="o0D-hf-N5Z"/>
+                            <constraint firstItem="nfa-We-K1p" firstAttribute="top" secondItem="pIa-Ab-0NY" secondAttribute="top" id="rFq-2Z-2G0"/>
+                            <constraint firstItem="CMc-oM-k5e" firstAttribute="centerX" secondItem="Nzb-s9-QXE" secondAttribute="centerX" id="vs2-Kg-hPL"/>
+                            <constraint firstAttribute="trailing" secondItem="CMc-oM-k5e" secondAttribute="trailing" id="x7M-8B-zp9"/>
+                            <constraint firstItem="Nzb-s9-QXE" firstAttribute="leading" secondItem="EzT-Pr-Ogi" secondAttribute="leading" id="xt1-aW-ytZ"/>
+                            <constraint firstItem="EzT-Pr-Ogi" firstAttribute="trailing" secondItem="guP-mV-a1v" secondAttribute="trailing" id="z1u-yC-Oal"/>
+                            <constraint firstItem="nfa-We-K1p" firstAttribute="top" secondItem="Mrf-Qa-gJB" secondAttribute="bottom" constant="46" id="zZl-Gx-xsf"/>
+                            <constraint firstItem="GUH-gQ-VXA" firstAttribute="top" secondItem="gXD-f1-YAw" secondAttribute="top" constant="16" id="ztE-mI-ZZ6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gXD-f1-YAw"/>
+                    </view>
+                    <connections>
+                        <outletCollection property="InterstitialText" destination="4rb-ga-ZpH" collectionClass="NSMutableArray" id="q49-0X-OIC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mpz-9v-IYI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4100" y="-2220.5397301349326"/>
         </scene>
         <!--Yttrium Microspheres-->
         <scene sceneID="Epx-s2-Vct">
@@ -1574,35 +2122,37 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2td-5c-RgB">
-                                        <rect key="frame" x="16" y="206" width="343" height="278"/>
+                                        <rect key="frame" x="18" y="206" width="341" height="389"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <string key="text">Systemic radioisotope therapy (also known as radionuclide therapy) can be used to address a range of health conditions, such as cancer, blood disorders, or those affecting the thyroid gland. It involves small amounts of radioactive material, such as lutetium-177 or yttrium-90, taken into the body through a body cavity, intravenously, orally or other routes of administration that then target different body parts or organs for treatment. The radioactive material used for treatment is chosen for its isotope properties, or chemical properties, as certain body parts can absorb certain isotopes significantly more effectively than other body parts, which allows doctors to target those specific areas during treatment.
+                                        <string key="text">Radionuclide therapy can be used to address cancer, blood and thyroid disorders. It involves small amounts of radioisotopes such as lutetium-177 or yttrium-90 attached to molecules that act as tracers to a particular antigen on cells of the body. Because radionuclides are injected systemically, they have a greater ability to combat metastases from the primary tumor site. The radioisotopes used emit types of radiation that have relatively little penetrative ability, thus patient dose remains minimal. To learn about these types of radiation, please click "Learn more".
                                         </string>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="____________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FlY-dz-62T">
-                                        <rect key="frame" x="28" y="478" width="318" height="21"/>
+                                        <rect key="frame" x="28" y="469" width="318" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More Information" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6e-aq-3pi">
-                                        <rect key="frame" x="118" y="507" width="138" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More Information" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8Z-KG-hti">
+                                        <rect key="frame" x="1" y="498" width="375" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYX-3f-S9D">
-                                        <rect key="frame" x="134" y="536" width="106" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rAX-gi-7Fk">
+                                        <rect key="frame" x="31" y="532" width="157" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.7751621286" green="0.85243005849999998" blue="0.97474569079999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                         <state key="normal" title="What to Expect"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VKh-uf-5FU">
-                                        <rect key="frame" x="0.0" y="559" width="375" height="44"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwd-zt-ccs">
+                                        <rect key="frame" x="196" y="531" width="147" height="54"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <state key="normal" title="Learn More"/>
@@ -1632,7 +2182,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="prr-dr-8l4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5416.8000000000002" y="-1939.8800599700151"/>
+            <point key="canvasLocation" x="5017" y="-2048"/>
         </scene>
         <!--Radionuclide Therapy-->
         <scene sceneID="1nH-E4-fBK">
@@ -1658,7 +2208,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHf-EH-grZ">
-                                        <rect key="frame" x="16" y="134" width="343" height="296"/>
+                                        <rect key="frame" x="16" y="134" width="343" height="461"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <string key="text">In the United States, this form of treatment is done by injecting small beads (called microspheres) that have a radioactive isotope (yttrium-90) stuck to them into the hepatic artery. Brand names for these beads include TheraSphere® and SIR-Spheres®. Once infused, the beads lodge in the blood vessels near the tumor, where they give small amounts of radiation to the tumor site for several days. The radiation travels a very short distance, so its effects are limited mainly to the tumor.
@@ -1666,29 +2216,32 @@
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="____________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhA-gZ-Rwk">
-                                        <rect key="frame" x="28" y="425" width="318" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="____________________________________________" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhA-gZ-Rwk">
+                                        <rect key="frame" x="0.0" y="480" width="375" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More Information" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFP-kc-hZU">
-                                        <rect key="frame" x="118" y="454" width="138" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More Information" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ll-Rm-Me0">
+                                        <rect key="frame" x="0.0" y="505" width="375" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXI-0q-vED">
-                                        <rect key="frame" x="134" y="521" width="106" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2cM-v7-fon">
+                                        <rect key="frame" x="30" y="534" width="157" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.7751621286" green="0.85243005849999998" blue="0.97474569079999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                         <state key="normal" title="What to Expect"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hlt-Gp-2yn">
-                                        <rect key="frame" x="0.0" y="559" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="78b-Zm-UFJ">
+                                        <rect key="frame" x="195" y="534" width="147" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.7751621286" green="0.85243005849999998" blue="0.97474569079999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                         <state key="normal" title="Learn More"/>
                                     </button>
                                 </subviews>
@@ -1742,38 +2295,41 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2NC-9h-mnO">
-                                        <rect key="frame" x="16" y="216" width="343" height="230"/>
+                                        <rect key="frame" x="16" y="216" width="343" height="379"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <string key="text">EBRT or (external beam radiation therapy) delivers a beam, or multiple beams, of radiation to target specific areas of a patient’s body. The beam is designed to minimize radiation exposure to healthy cells, while controlling or killing the cancer cells. The beams can consist of electrons and/or X-rays, gamma rays or, in the case of particle therapy, protons or carbon ions. In some cases, doctors also use these beams in conjunction with surgery where the surgical procedure is used to uncover the tumour in order to allow the beam to more directly target the mass. This type of procedure is called intraoperative radiation therapy.
+                                        <string key="text">External beam radiation therapy (EBRT) delivers a beams of X-ray, gamma or particle radiation to target specific areas of a patient’s body. The beam is designed to minimize radiation exposure to healthy cells, while controlling or killing the cancer cells. In some cases, doctors also use these beams in conjunction with surgery where surgery is used to uncover the tumour in order to allow the beam to more directly target the mass. This type of procedure is called intraoperative radiation therapy. To learn about the machine used during EBRT, click "Learn more".
                                         </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="____________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAz-zn-3qN">
-                                        <rect key="frame" x="28" y="445" width="318" height="21"/>
+                                        <rect key="frame" x="28" y="480" width="318" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More Information" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIe-N5-UwQ">
-                                        <rect key="frame" x="118" y="474" width="138" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More Information" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nkm-yD-Kua">
+                                        <rect key="frame" x="0.0" y="504" width="375" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djh-6a-p3V">
-                                        <rect key="frame" x="0.0" y="559" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <state key="normal" title="Learn More"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPc-qv-G28">
-                                        <rect key="frame" x="134" y="534" width="106" height="17"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WpS-CY-qKd">
+                                        <rect key="frame" x="30" y="533" width="157" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.7751621286" green="0.85243005849999998" blue="0.97474569079999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                         <state key="normal" title="What to Expect"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czG-Ni-98a">
+                                        <rect key="frame" x="195" y="533" width="147" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.7751621286" green="0.85243005849999998" blue="0.97474569079999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                        <state key="normal" title="Learn More"/>
                                     </button>
                                 </subviews>
                             </scrollView>
@@ -1839,20 +2395,27 @@
     </scenes>
     <resources>
         <image name="Iodinefinal" width="640" height="480"/>
+        <image name="blueoval" width="600" height="139"/>
+        <image name="brachytherapy seeds" width="217" height="237"/>
         <image name="brachytherapy super high def" width="1107" height="910"/>
+        <image name="cupofwater1" width="381" height="720"/>
         <image name="eternal beam radiation therapy " width="750" height="600"/>
         <image name="fluorine final 3" width="640" height="480"/>
         <image name="logo-nrc-banner" width="285" height="120"/>
         <image name="microspheres2" width="720" height="212"/>
         <image name="radionuclidetherapy" width="467" height="267"/>
-        <image name="technetiumfinal.png" width="640" height="480"/>
+        <image name="remote afterloading" width="500" height="500"/>
+        <image name="speechbubble1" width="512" height="512"/>
         <image name="thalliumfinal" width="640" height="480"/>
         <image name="usnrc1" width="175" height="175"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="flh-xY-Nq5"/>
-        <segue reference="tYa-0V-CuS"/>
+        <segue reference="S76-b9-s0i"/>
+        <segue reference="4Bk-NH-I8H"/>
+        <segue reference="Np4-U2-LcJ"/>
         <segue reference="nec-Bc-urP"/>
-        <segue reference="oOE-ly-0AB"/>
+        <segue reference="mmN-7v-NrQ"/>
+        <segue reference="EOO-NJ-ezd"/>
     </inferredMetricsTieBreakers>
 </document>
