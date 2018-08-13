@@ -145,7 +145,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Vjy-23-D40" kind="show" id="RFK-6v-ZDo"/>
+                                    <segue destination="Vjy-23-D40" kind="show" id="7AD-ko-w7G"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -988,7 +988,6 @@
                                 <inset key="contentEdgeInsets" minX="4" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="What is a Radioisotope?"/>
                                 <connections>
-                                    <action selector="handleSelection:" destination="Yq6-qu-azG" eventType="touchUpInside" id="f1B-eu-b13"/>
                                     <segue destination="L73-gc-ksK" kind="showDetail" id="EOO-NJ-ezd"/>
                                 </connections>
                             </button>
@@ -1008,9 +1007,6 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <outlet property="whatisradiationdrop" destination="xgT-P4-jmr" id="mxj-Fh-Ht1"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AHM-gV-sGl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1066,6 +1062,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="agk-eX-Rav">
+                                <rect key="frame" x="170" y="392" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" red="0.97474569079999995" green="0.88839084099999999" blue="0.91864037440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <rect key="contentStretch" x="0.0" y="0.25" width="1" height="1"/>
@@ -2058,10 +2058,10 @@
         <image name="usnrc1" width="175" height="175"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jdk-Tm-XfS"/>
-        <segue reference="qcg-3X-TIV"/>
+        <segue reference="flh-xY-Nq5"/>
+        <segue reference="Vfe-t6-d81"/>
         <segue reference="nec-Bc-urP"/>
         <segue reference="mmN-7v-NrQ"/>
-        <segue reference="7Yz-rY-rh7"/>
+        <segue reference="EOO-NJ-ezd"/>
     </inferredMetricsTieBreakers>
 </document>
