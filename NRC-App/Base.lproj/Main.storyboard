@@ -787,7 +787,7 @@
                                 <color key="backgroundColor" red="0.37812308" green="0.79859572430000003" blue="0.78471556629999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                 <state key="normal" title="For calculator, click here.">
-                                    <color key="titleColor" white="1" alpha="0.60000002379999995" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="0Gf-Kk-ain" kind="show" id="mmN-7v-NrQ"/>
@@ -799,7 +799,7 @@
                                 <color key="backgroundColor" red="0.37812308003969991" green="0.79859572430310877" blue="0.78471556633329187" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                 <state key="normal" title="Learn More">
-                                    <color key="titleColor" white="1" alpha="0.60000002379999995" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="GfF-n2-dk3" kind="show" id="nzD-Hc-isz"/>
@@ -2061,7 +2061,7 @@
         <segue reference="jdk-Tm-XfS"/>
         <segue reference="qcg-3X-TIV"/>
         <segue reference="nec-Bc-urP"/>
-        <segue reference="i1w-TT-GG0"/>
+        <segue reference="mmN-7v-NrQ"/>
         <segue reference="7Yz-rY-rh7"/>
     </inferredMetricsTieBreakers>
 </document>
