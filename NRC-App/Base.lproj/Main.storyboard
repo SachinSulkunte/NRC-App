@@ -430,7 +430,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Treatment:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hq8-w5-LhJ">
                                 <rect key="frame" x="16" y="397" width="167" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.72927130309764376" green="0.96174744062435236" blue="0.93556802223824653" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                 <nil key="textColor"/>
@@ -438,7 +438,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time you should wait before attempting to conceive:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WiE-KG-vj9">
                                 <rect key="frame" x="191" y="397" width="176" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.72927130309764376" green="0.96174744062435236" blue="0.93556802223824653" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
                                 <nil key="textColor"/>
@@ -446,7 +446,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Iron-59 (59Fe) for metabolism studies" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2kL-2v-F41">
                                 <rect key="frame" x="16" y="465" width="167" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.94719062930436382" green="0.95739973880039086" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -454,7 +454,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Selenium-75 (75Se) for adrenal imaging" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Orh-Lk-b0x">
                                 <rect key="frame" x="16" y="528" width="167" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.94719062930436382" green="0.95739973880039086" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -462,7 +462,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6 months" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Puq-3s-Gf7">
                                 <rect key="frame" x="191" y="465" width="176" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.94719062929999998" green="0.95739973879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -470,7 +470,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12 months" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lCd-cY-dqb">
                                 <rect key="frame" x="191" y="527" width="176" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.94719062929999998" green="0.95739973879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1590,47 +1590,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3uq-jM-yeh">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3uq-jM-yeh">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nHz-CH-3hc">
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nHz-CH-3hc">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Nf-Ux-EFr">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Nf-Ux-EFr">
                                                 <rect key="frame" x="0.0" y="0.0" width="52" height="48"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Back"/>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Brachytherapy: What to Expect" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10L-Il-Uzx">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Brachytherapy: What to Expect" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10L-Il-Uzx">
                                                 <rect key="frame" x="83" y="36" width="209" height="82"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="26"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="10L-Il-Uzx" secondAttribute="trailing" constant="83" id="5m6-8t-X8s"/>
-                                            <constraint firstAttribute="height" constant="1000" id="IRo-BP-lJB"/>
-                                            <constraint firstItem="10L-Il-Uzx" firstAttribute="leading" secondItem="7Nf-Ux-EFr" secondAttribute="trailing" constant="31" id="Jma-cZ-cCz"/>
-                                        </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="nHz-CH-3hc" firstAttribute="leading" secondItem="3uq-jM-yeh" secondAttribute="leading" id="CPw-oi-DrP"/>
-                                    <constraint firstAttribute="bottom" secondItem="nHz-CH-3hc" secondAttribute="bottom" id="DhW-a4-MwH"/>
-                                    <constraint firstAttribute="trailing" secondItem="nHz-CH-3hc" secondAttribute="trailing" id="b91-MC-r4b"/>
-                                    <constraint firstItem="nHz-CH-3hc" firstAttribute="top" secondItem="3uq-jM-yeh" secondAttribute="top" id="by5-NN-uGu"/>
-                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="3uq-jM-yeh" firstAttribute="leading" secondItem="bub-cr-b5V" secondAttribute="leading" id="5v5-7r-bcD"/>
-                            <constraint firstItem="nHz-CH-3hc" firstAttribute="width" secondItem="wcR-4G-2f6" secondAttribute="width" id="J9K-hX-laI"/>
-                            <constraint firstItem="3uq-jM-yeh" firstAttribute="top" secondItem="wcR-4G-2f6" secondAttribute="top" id="Mgw-hc-05G"/>
-                            <constraint firstItem="3uq-jM-yeh" firstAttribute="bottom" secondItem="bub-cr-b5V" secondAttribute="bottom" id="XUH-Bk-knb"/>
-                            <constraint firstItem="3uq-jM-yeh" firstAttribute="trailing" secondItem="bub-cr-b5V" secondAttribute="trailing" id="eTM-V1-q9G"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="bub-cr-b5V"/>
                     </view>
                     <size key="freeformSize" width="375" height="800"/>
@@ -1755,8 +1741,8 @@
                                         <rect key="frame" x="18" y="206" width="341" height="389"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text">Radionuclide therapy can be used to address cancer, blood and thyroid disorders. It involves small amounts of radioisotopes such as lutetium-177 or yttrium-90 attached to molecules that act as tracers to a particular antigen on cells of the body. Because radionuclides are injected systemically, they have a greater ability to combat metastases from the primary tumor site. The radioisotopes used emit types of radiation that have relatively little penetrative ability, thus patient dose remains minimal. To learn about these types of radiation, please click "Learn more".
-                                        </mutableString>
+                                        <string key="text">Radionuclide therapy can be used to address cancer, blood and thyroid disorders. It involves small amounts of radioisotopes such as lutetium-177 or yttrium-90 attached to molecules that act as tracers to a particular antigen on cells of the body. Because radionuclides are injected systemically, they have a greater ability to combat metastases from the primary tumor site. The radioisotopes used emit types of radiation that have relatively little penetrative ability, thus patient dose remains minimal. To learn about these types of radiation, please click "Learn more".
+                                        </string>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -1857,8 +1843,8 @@
                                         <rect key="frame" x="16" y="134" width="343" height="461"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text">This form of therapy involves injecting small plastic or resin beads, microspheres, that encapsulate the radioactive isotope (yttrium-90) into the hepatic artery and is typically used only for those patients with inoperable liver tumors that have not responded to other treatments. This serves as a form of radioembolization, which kills liver cancer by simultaneously blocking its blood supply and delivering radiation to the tumor. Unfortunately, microspheres serve as a form of palliative treatment, meaning that they only slow the progression of the disease rather than curing it completely. For questions regarding insurance coverage, see "Learn more".
-                                        </mutableString>
+                                        <string key="text">This form of therapy involves injecting small plastic or resin beads, microspheres, that encapsulate the radioactive isotope (yttrium-90) into the hepatic artery and is typically used only for those patients with inoperable liver tumors that have not responded to other treatments. This serves as a form of radioembolization, which kills liver cancer by simultaneously blocking its blood supply and delivering radiation to the tumor. Unfortunately, microspheres serve as a form of palliative treatment, meaning that they only slow the progression of the disease rather than curing it completely. For questions regarding insurance coverage, see "Learn more".
+                                        </string>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -1959,8 +1945,8 @@
                                         <rect key="frame" x="16" y="216" width="343" height="379"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text">External beam radiation therapy (EBRT) delivers a beams of X-ray, gamma or particle radiation to target specific areas of a patient’s body. The beam is designed to minimize radiation exposure to healthy cells, while controlling or killing the cancer cells. In some cases, doctors also use these beams in conjunction with surgery where surgery is used to uncover the tumour in order to allow the beam to more directly target the mass. This type of procedure is called intraoperative radiation therapy. To learn about the machine used during EBRT, click "Learn more".
-                                        </mutableString>
+                                        <string key="text">External beam radiation therapy (EBRT) delivers a beams of X-ray, gamma or particle radiation to target specific areas of a patient’s body. The beam is designed to minimize radiation exposure to healthy cells, while controlling or killing the cancer cells. In some cases, doctors also use these beams in conjunction with surgery where surgery is used to uncover the tumour in order to allow the beam to more directly target the mass. This type of procedure is called intraoperative radiation therapy. To learn about the machine used during EBRT, click "Learn more".
+                                        </string>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -2086,7 +2072,6 @@
         <image name="usnrc1" width="175" height="175"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="roX-gA-ftD"/>
         <segue reference="jdk-Tm-XfS"/>
         <segue reference="qcg-3X-TIV"/>
         <segue reference="nec-Bc-urP"/>
