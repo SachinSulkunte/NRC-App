@@ -1611,7 +1611,7 @@
                                             <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                             <state key="normal" title="Radionuclide Therapy">
-                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="titleColor" red="0.2487261687" green="0.25353059890000001" blue="0.27176817590000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
                                             <connections>
                                                 <segue destination="2R6-6c-rrY" kind="show" id="K3F-Nt-04c"/>
@@ -1623,7 +1623,7 @@
                                             <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                             <state key="normal" title="Yttrium microspheres">
-                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="titleColor" red="0.2470588235" green="0.25490196079999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
                                             <connections>
                                                 <segue destination="vSr-li-6la" kind="show" id="roX-gA-ftD"/>
@@ -1635,7 +1635,7 @@
                                             <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                             <state key="normal" title="External Radiation Beam Therapy">
-                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="titleColor" red="0.2470588235" green="0.25490196079999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
                                             <connections>
                                                 <segue destination="8OA-Lg-wKA" kind="show" id="6cO-Ky-rLa"/>
@@ -1647,7 +1647,7 @@
                                             <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                             <state key="normal" title="Brachytherapy">
-                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="titleColor" red="0.2470588235" green="0.25490196079999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
                                             <connections>
                                                 <segue destination="ZtQ-Ge-mdq" kind="show" id="ce8-Bh-lXj"/>
@@ -2507,10 +2507,10 @@
     <inferredMetricsTieBreakers>
         <segue reference="flh-xY-Nq5"/>
         <segue reference="S76-b9-s0i"/>
-        <segue reference="4Bk-NH-I8H"/>
+        <segue reference="ce8-Bh-lXj"/>
         <segue reference="Vfe-t6-d81"/>
         <segue reference="jbD-mh-zqH"/>
         <segue reference="mmN-7v-NrQ"/>
-        <segue reference="E21-Km-4mS"/>
+        <segue reference="0fM-ay-RBv"/>
     </inferredMetricsTieBreakers>
 </document>
