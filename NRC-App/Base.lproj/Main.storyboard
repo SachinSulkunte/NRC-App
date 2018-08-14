@@ -1911,7 +1911,7 @@
                                                 <state key="normal" title="*To learn about the differences between permanent and temporary brachytherapy, click here."/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e93-Rl-pHL">
-                                                <rect key="frame" x="20" y="953" width="335" height="61"/>
+                                                <rect key="frame" x="20" y="950" width="335" height="61"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">**This is a precaution taken because hospitals do not know the medical history of all potential visitors. You yourself are not at risk of excess radiation as a team of experts (dosimetrists, health physicists) should have determined a proper but safe dosage for your treatment. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="9"/>
@@ -1933,7 +1933,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Brachytherapy: What to Expect" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9s-WQ-xhz">
-                                        <rect key="frame" x="93" y="46" width="209" height="82"/>
+                                        <rect key="frame" x="93" y="38" width="209" height="82"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="26"/>
                                         <nil key="textColor"/>
@@ -2344,6 +2344,9 @@
                                         <color key="backgroundColor" red="0.7751621286" green="0.85243005849999998" blue="0.97474569079999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                         <state key="normal" title="Learn More"/>
+                                        <connections>
+                                            <segue destination="E7z-90-jge" kind="show" id="NB7-hW-af2"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </scrollView>
@@ -2370,7 +2373,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="prr-dr-8l4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5578" y="-2203"/>
+            <point key="canvasLocation" x="6020" y="-2354"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RiK-I9-Zrq">
@@ -2379,13 +2382,120 @@
                     <view key="view" contentMode="scaleToFill" id="Q4V-Wr-DYW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfa-tX-CQI">
+                                <rect key="frame" x="16" y="20" width="34" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="34" id="5fM-qp-8BL"/>
+                                </constraints>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="vSr-li-6la" kind="show" id="UnZ-vB-zVf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Radionuclide Therapy: Guide to Types of Radiation" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xau-eb-8YW">
+                                <rect key="frame" x="58" y="43" width="276" height="117"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alpha " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7r-f8-poJ">
+                                <rect key="frame" x="25" y="168" width="115" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82779974614765972" green="1" blue="0.74229651117489781" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Beta" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FXy-fP-AUa">
+                                <rect key="frame" x="25" y="218" width="115" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82779974614765972" green="1" blue="0.74229651117489781" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Auger Electron" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KPB-z5-a62">
+                                <rect key="frame" x="25" y="284" width="115" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82779974614765972" green="1" blue="0.74229651117489781" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gamma" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5dI-0n-VFp">
+                                <rect key="frame" x="25" y="350" width="115" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82779974614765972" green="1" blue="0.74229651117489781" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emits an alpha particle, which is a helium atom with no electrons" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yRm-tL-BuU">
+                                <rect key="frame" x="148" y="168" width="201" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.95876153679556142" blue="0.71398150014633088" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emits a beta particle, a high-speed electron. Produced from neutron* converting to a proton and electron." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="khR-36-UuG">
+                                <rect key="frame" x="148" y="218" width="201" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.95876153679999998" blue="0.71398150010000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Also emits an electron, but occurs in a different fashion. Less effective therapeutically than alpha and beta." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7l-hL-Hhj">
+                                <rect key="frame" x="148" y="284" width="201" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.95876153679999998" blue="0.71398150010000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xid-cY-nB6">
+                                <rect key="frame" x="148" y="350" width="201" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.95876153679999998" blue="0.71398150010000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Non-particulate, meaning it consists of massless entities called photons. It penetrates a lot farther than particulate radiation, but is less destructive to biological tissue. </string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="oTX-L3-J5G">
+                                <rect key="frame" x="25" y="476" width="324" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
+                                <state key="normal" title="What types of radiation does radionuclide therapy primarily use? (Guess based on their properties)">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHn-eO-HLD">
+                                <rect key="frame" x="35" y="520" width="324" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The radioisotopes used are alpha, beta and Auger electron emitters. These forms of radiation are more destructive but only penetrate a short distance and thus keep radiation localized to the area of the tumor. Gamma is typically used for imaging, since it penetrates multiple tissue layers.</string>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                                <color key="textColor" red="0.40766449972372504" green="0.49190414507772018" blue="0.36955151900120925" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3Jz-jd-000" firstAttribute="bottom" secondItem="Xau-eb-8YW" secondAttribute="bottom" constant="507" id="hnk-QJ-vwT"/>
+                            <constraint firstItem="Xau-eb-8YW" firstAttribute="top" secondItem="3Jz-jd-000" secondAttribute="top" constant="23" id="mAH-yq-sLz"/>
+                            <constraint firstItem="Xau-eb-8YW" firstAttribute="leading" secondItem="jfa-tX-CQI" secondAttribute="trailing" constant="8" symbolic="YES" id="o0S-kj-VHz"/>
+                            <constraint firstItem="3Jz-jd-000" firstAttribute="trailing" secondItem="Xau-eb-8YW" secondAttribute="trailing" constant="41" id="oEM-XP-bd9"/>
+                            <constraint firstItem="jfa-tX-CQI" firstAttribute="leading" secondItem="Q4V-Wr-DYW" secondAttribute="leadingMargin" id="pxa-li-h8j"/>
+                            <constraint firstItem="jfa-tX-CQI" firstAttribute="top" secondItem="3Jz-jd-000" secondAttribute="top" id="sXE-co-5Rt"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="3Jz-jd-000"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SYU-5l-qEf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6244" y="-2200"/>
+            <point key="canvasLocation" x="6805.6000000000004" y="-2354.5727136431788"/>
         </scene>
         <!--Yttrium microspheres-->
         <scene sceneID="1nH-E4-fBK">
@@ -2599,8 +2709,9 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="flh-xY-Nq5"/>
+        <segue reference="UnZ-vB-zVf"/>
         <segue reference="JJM-Rb-SuP"/>
-        <segue reference="Np4-U2-LcJ"/>
+        <segue reference="qcg-3X-TIV"/>
         <segue reference="nec-Bc-urP"/>
         <segue reference="i1w-TT-GG0"/>
         <segue reference="7Yz-rY-rh7"/>
