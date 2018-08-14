@@ -491,10 +491,10 @@
             </objects>
             <point key="canvasLocation" x="10669.6" y="698.5007496251875"/>
         </scene>
-        <!--View Controller-->
+        <!--Imaging MachinesVC-->
         <scene sceneID="s9v-Cu-l9p">
             <objects>
-                <viewController id="hSK-ke-QKv" sceneMemberID="viewController">
+                <viewController id="hSK-ke-QKv" customClass="ImagingMachinesVC" customModule="NRC_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PET-Wb-pxq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -548,7 +548,7 @@
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
                                 <state key="normal" title="Gamma Camera"/>
                                 <connections>
-                                    <segue destination="avI-P5-F6L" kind="show" id="StJ-xn-VSe"/>
+                                    <segue destination="avI-P5-F6L" kind="show" identifier="" id="StJ-xn-VSe"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Imaging Machines" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eAj-DA-yic">
@@ -1057,7 +1057,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jg4-lt-KYe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2093.5999999999999" y="3026.5367316341831"/>
+            <point key="canvasLocation" x="430" y="3027"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aPd-XX-a7z">
@@ -1088,7 +1088,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TOA-RC-gVL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3069.5999999999999" y="4289.9550224887562"/>
+            <point key="canvasLocation" x="-946" y="4199"/>
         </scene>
         <!--Isotope View Controller-->
         <scene sceneID="cyz-mH-IDI">
@@ -1103,7 +1103,7 @@
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ezs-CA-eAk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3174" y="3658"/>
+            <point key="canvasLocation" x="430" y="3682"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vrf-9B-T46">
@@ -1139,7 +1139,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s8b-pR-hN9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2361" y="4302"/>
+            <point key="canvasLocation" x="-946" y="3682"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="KIJ-xb-cvU">
@@ -1161,8 +1161,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">I am the backbone of the type of imaging known as positron emission tomography (PET). Scientists incorporate me into a glucose molecule (a simple sugar, used by the body for energy), and can thus use me to study how much cells in various areas of the body are using glucose, which corresponds to their level of activity.
-
-Also found: I’m not very stable so I decay into my cousin, fluorine-19, who is used in all types of products, from toothpaste to nonstick spray for cookware. 
 </string>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1174,7 +1172,7 @@ Also found: I’m not very stable so I decay into my cousin, fluorine-19, who is
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ua4-ew-B4x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3804" y="4290"/>
+            <point key="canvasLocation" x="20" y="4198"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oF3-iX-Gta">
@@ -1184,20 +1182,29 @@ Also found: I’m not very stable so I decay into my cousin, fluorine-19, who is
                         <rect key="frame" x="0.0" y="0.0" width="375" height="382"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Danger Level:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgp-x7-9hc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Me:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgp-x7-9hc">
                                 <rect key="frame" x="0.0" y="0.0" width="377" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UNKNOWN!!!! " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3t-hL-VU0">
-                                <rect key="frame" x="118" y="107" width="141" height="28"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3t-hL-VU0">
+                                <rect key="frame" x="-90" y="76" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Xdd-VR-sW7">
+                                <rect key="frame" x="37" y="95" width="301" height="207.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Oh and by the way: I’m not very stable so I decay into my cousin, fluorine-19, who is used in all types of products, from toothpaste to nonstick spray for cookware. 
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="rda-RL-OsY"/>
@@ -1205,7 +1212,7 @@ Also found: I’m not very stable so I decay into my cousin, fluorine-19, who is
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5fI-pu-E3L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4519" y="4290"/>
+            <point key="canvasLocation" x="920.79999999999995" y="4196.4017991004503"/>
         </scene>
         <!--TechnetiumVC-->
         <scene sceneID="uz0-Jg-7LG">
@@ -1238,6 +1245,9 @@ Also found: I’m not very stable so I decay into my cousin, fluorine-19, who is
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gHH-9T-TgW">
                                 <rect key="frame" x="0.0" y="285" width="375" height="382"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="LNf-zC-Fu7" kind="embed" id="FlZ-Bo-bzX"/>
+                                </connections>
                             </containerView>
                         </subviews>
                         <color key="backgroundColor" red="0.97474569079999995" green="0.88839084099999999" blue="0.91864037440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1246,7 +1256,149 @@ Also found: I’m not very stable so I decay into my cousin, fluorine-19, who is
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kAb-d5-CsD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2848.8000000000002" y="3026.5367316341831"/>
+            <point key="canvasLocation" x="2510" y="3027"/>
+        </scene>
+        <!--IsotopeT View Controller-->
+        <scene sceneID="HRd-xT-iVN">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="LNf-zC-Fu7" customClass="IsotopeTViewController" customModule="NRC_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="0Yd-ct-P84" kind="show" id="nIx-uZ-E0k"/>
+                        <segue destination="bl5-EH-uUo" kind="show" id="J7z-Ue-whN"/>
+                        <segue destination="o1m-nW-IMC" kind="show" id="PNg-iV-hQf"/>
+                        <segue destination="0pf-WD-CWf" kind="show" id="IH1-Jz-DT4"/>
+                    </connections>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vmr-ke-8Fm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2510" y="3682"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9aE-Jv-DJr">
+            <objects>
+                <viewController storyboardIdentifier="t1" id="0Yd-ct-P84" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="W9b-pr-eZY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="382"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type of radiation emitted: " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSp-y3-ptl">
+                                <rect key="frame" x="0.0" y="0.0" width="377" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gamma" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RZS-dn-aoQ">
+                                <rect key="frame" x="42" y="64" width="290" height="219"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="tCr-bE-mmi"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xos-Oc-8js" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2510" y="4375"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="o3H-gd-SAB">
+            <objects>
+                <viewController storyboardIdentifier="t2" id="bl5-EH-uUo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WOW-cq-BZB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="382"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Half-Life:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvC-en-7bN">
+                                <rect key="frame" x="-2" y="0.0" width="377" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Half-life: 6.03 hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcY-Km-y58">
+                                <rect key="frame" x="76" y="140" width="222" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="kRj-y4-X2v"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X1A-2y-sDV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1562" y="5176"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5Di-G9-58F">
+            <objects>
+                <viewController storyboardIdentifier="t4" id="o1m-nW-IMC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rOc-Jv-y4w">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="382"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How I am Used:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HWM-dK-hew">
+                                <rect key="frame" x="0.0" y="0.0" width="377" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FF5-Hy-Szl">
+                                <rect key="frame" x="16" y="64" width="343" height="262"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Some would call me the unsung hero of the nuclear medical field. I don’t really even serve much of a purpose outside of imaging, but I’m fantastic at my one job--I adhere to a variety of different tracers which allows me to be sent anywhere. The brain, the bone, your heart, kidney, liver--you name it.</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Xhl-GS-xgk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xgn-tt-UHv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2510" y="5201"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dvJ-KC-snX">
+            <objects>
+                <viewController storyboardIdentifier="t3" id="0pf-WD-CWf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lsj-At-7Bd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="382"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Me" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYG-LN-NE4">
+                                <rect key="frame" x="0.0" y="0.0" width="377" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wi8-7V-Kda">
+                                <rect key="frame" x="38" y="64" width="301" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">The small m next to 99 stands for “metastable”--, I’m called that because my MOST stable state is Tc-99, which has a half-life of over 200,000 years. Usually you can find me thyroid or GI tract.  
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="8CB-P7-rGJ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gaq-Ff-XWp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3430" y="5176"/>
         </scene>
         <!--IodineVC-->
         <scene sceneID="NgR-F2-5SS">
@@ -1279,15 +1431,177 @@ Also found: I’m not very stable so I decay into my cousin, fluorine-19, who is
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3l9-qm-RF0">
                                 <rect key="frame" x="0.0" y="285" width="375" height="382"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="xZr-sF-Om8" kind="embed" id="Oh2-uH-L1D"/>
+                                </connections>
                             </containerView>
                         </subviews>
                         <color key="backgroundColor" red="0.97474569079999995" green="0.88839084099999999" blue="0.91864037440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="AyW-xT-COL"/>
                     </view>
+                    <connections>
+                        <segue destination="dmj-6A-wVp" kind="show" identifier="gamma" id="vky-t1-cWe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Ca-hM-tDl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3536.8000000000002" y="3026.5367316341831"/>
+            <point key="canvasLocation" x="4385" y="3027"/>
+        </scene>
+        <!--IsotopeI View Controller-->
+        <scene sceneID="kDD-il-w2Q">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="xZr-sF-Om8" customClass="IsotopeIViewController" customModule="NRC_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="FF9-DC-vFt" kind="show" id="SRZ-nN-RZV"/>
+                        <segue destination="y0Z-PE-u30" kind="show" id="MVg-2P-Tqq"/>
+                        <segue destination="2Dl-Tm-Sz3" kind="show" id="TpC-0Y-61v"/>
+                        <segue destination="uiO-y6-vSd" kind="show" id="eJP-lY-h9l"/>
+                    </connections>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="38P-Lw-IqQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4385" y="3682"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="774-0d-eax">
+            <objects>
+                <viewController storyboardIdentifier="i1" id="FF9-DC-vFt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TeV-4j-jqL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="382"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type of radiation emitted: " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ml2-dn-zud">
+                                <rect key="frame" x="-2" y="0.0" width="377" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gamma" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p9i-2l-Pwp">
+                                <rect key="frame" x="42" y="64" width="290" height="219"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="cZq-he-fCK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QLi-hu-gIQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4503" y="4326"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MwZ-dz-8US">
+            <objects>
+                <viewController storyboardIdentifier="i2" id="2Dl-Tm-Sz3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZVm-p0-OuX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="382"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Half-Life:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qf2-0p-TDF">
+                                <rect key="frame" x="-2" y="0.0" width="377" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Half-life: 13.2 hours" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckk-de-INh">
+                                <rect key="frame" x="85" y="129" width="204" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="1jV-7G-bh5"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mvc-cD-tnp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4502" y="5101"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CcU-RG-h6k">
+            <objects>
+                <viewController storyboardIdentifier="i3" id="uiO-y6-vSd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tg9-fa-Azb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="382"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Me:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ts-F0-IlH">
+                                <rect key="frame" x="0.0" y="0.0" width="377" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rV6-Sm-Kji">
+                                <rect key="frame" x="17" y="74" width="343" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Currently in relationship with: the thyroid glands. They are conditioned to take me up from the bloodstream, and so I almost always end up there. I can also be used to do whole body scanning though, because I’m versatile.
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="EkE-2k-KUh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bAc-O7-kbX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5492" y="5072"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7D7-Gh-zeb">
+            <objects>
+                <viewController storyboardIdentifier="i4" id="y0Z-PE-u30" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ugd-2I-wDI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="382"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How I am Used:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fIm-k4-0Cj">
+                                <rect key="frame" x="0.0" y="0.0" width="377" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oaZ-jj-TV3">
+                                <rect key="frame" x="16" y="106" width="343" height="125.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">When I am used,  it is for imaging, specifically with the gamma camera. Find out how that works here. 
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HiY-bA-Dc8">
+                                <rect key="frame" x="20" y="263" width="335" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.37812308" green="0.79859572430000003" blue="0.78471556629999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                <state key="normal" title="Learn More">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="leaveChildViewController:" destination="S6x-t1-2uR" eventType="touchUpInside" id="2e9-ll-NPH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="PnB-Pv-v3i"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OTg-dk-1sG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="S6x-t1-2uR" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="5492" y="4326"/>
         </scene>
         <!--ThalliumVC-->
         <scene sceneID="Rbb-hK-3BG">
@@ -1320,6 +1634,9 @@ Also found: I’m not very stable so I decay into my cousin, fluorine-19, who is
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MW0-sT-Dl7">
                                 <rect key="frame" x="0.0" y="285" width="375" height="382"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="EQV-xt-PbH" kind="embed" id="J8C-rN-qQC"/>
+                                </connections>
                             </containerView>
                         </subviews>
                         <color key="backgroundColor" red="0.97474569079999995" green="0.88839084099999999" blue="0.91864037440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1328,7 +1645,150 @@ Also found: I’m not very stable so I decay into my cousin, fluorine-19, who is
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KvY-uh-K3D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4288.8000000000002" y="3026.5367316341831"/>
+            <point key="canvasLocation" x="6550" y="3027"/>
+        </scene>
+        <!--Isotope Th View Controller-->
+        <scene sceneID="LJV-SE-HR2">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="EQV-xt-PbH" customClass="IsotopeThViewController" customModule="NRC_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="Nby-C7-DqE" kind="show" id="A1G-P1-8Yi"/>
+                        <segue destination="EAJ-sN-kuO" kind="show" id="PDe-zA-oNW"/>
+                        <segue destination="C4d-P6-Ydr" kind="show" id="bfb-Pv-ohx"/>
+                        <segue destination="wHv-jd-NIe" kind="show" id="pMz-CV-EYs"/>
+                    </connections>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WZr-vJ-yB6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7732" y="3840"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WXb-Er-ODv">
+            <objects>
+                <viewController storyboardIdentifier="th1" id="Nby-C7-DqE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wDh-Z3-e7V">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="382"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type of radiation emitted: " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zT7-Yb-edx">
+                                <rect key="frame" x="0.0" y="0.0" width="377" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gamma" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NqR-O2-0FA">
+                                <rect key="frame" x="43" y="64" width="290" height="219"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="sIg-vW-tp1"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="33N-gf-ety" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6924" y="4427"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pDg-iY-Ape">
+            <objects>
+                <viewController storyboardIdentifier="th2" id="C4d-P6-Ydr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YHV-qW-p9l">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="382"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Half-Life:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kXX-R7-Axu">
+                                <rect key="frame" x="0.0" y="0.0" width="377" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Half-life: 73.1 hours" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQZ-Sa-QKD">
+                                <rect key="frame" x="85" y="95" width="204" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="bbF-Rm-gOq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kN6-7O-nRF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6924" y="5134"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="h9W-8X-PlV">
+            <objects>
+                <viewController storyboardIdentifier="th3" id="wHv-jd-NIe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4v6-jE-RF2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="382"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Me:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGl-VQ-eHh">
+                                <rect key="frame" x="-2" y="0.0" width="377" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LH8-iW-DCL">
+                                <rect key="frame" x="16" y="62" width="343" height="289.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">I've known for being poisonous. So I haven't had a great reputation, but I’ve never caused problems in the patients I’ve been put into. Its actually been the opposite, in fact! I’ve made a name for myself as the go-to radioisotope for imaging the heart to monitor blood flow and electrical signals!
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="BGn-ii-lHP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gyC-Z4-EXo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8473" y="5170"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bfF-Bz-Fcn">
+            <objects>
+                <viewController storyboardIdentifier="th4" id="EAJ-sN-kuO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xGR-O4-Umr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="382"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How I am Used:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYH-HB-tbV">
+                                <rect key="frame" x="-1" y="0.0" width="377" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhR-4L-cSm">
+                                <rect key="frame" x="16" y="64" width="343" height="258"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">What is it I do you ask? I pretend to be potassium and get picked up by cells thinking I am in fact potassium. It’s for a good cause though--I detect coronary heart disease, meaning I essentially prevent heart attacks!
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="weN-zw-iWo"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dqp-XN-6jA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8545" y="4431"/>
         </scene>
         <!--RadiationVC-->
         <scene sceneID="S1T-qF-pAV">
@@ -2412,10 +2872,10 @@ Also found: I’m not very stable so I decay into my cousin, fluorine-19, who is
             </objects>
             <point key="canvasLocation" x="6160.8000000000002" y="-538.38080959520244"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Nav DiagnosticsVC-->
         <scene sceneID="Mn6-fV-rO3">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dmj-6A-wVp" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dmj-6A-wVp" customClass="navDiagnosticsVC" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="daA-Qy-XJy">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -2448,12 +2908,12 @@ Also found: I’m not very stable so I decay into my cousin, fluorine-19, who is
         <image name="usnrc1" width="175" height="175"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="flh-xY-Nq5"/>
+        <segue reference="vky-t1-cWe"/>
         <segue reference="S76-b9-s0i"/>
         <segue reference="ce8-Bh-lXj"/>
         <segue reference="Vfe-t6-d81"/>
-        <segue reference="evj-SZ-PDg"/>
-        <segue reference="mmN-7v-NrQ"/>
-        <segue reference="7Yz-rY-rh7"/>
+        <segue reference="fs4-cR-a9U"/>
+        <segue reference="i1w-TT-GG0"/>
+        <segue reference="Yly-se-l6A"/>
     </inferredMetricsTieBreakers>
 </document>

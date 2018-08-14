@@ -1,5 +1,5 @@
 //
-//  IsotopeViewController.swift
+//  IsotopeIViewController.swift
 //  NRC-App
 //
 //  Created by Daniel on 8/13/18.
@@ -8,14 +8,17 @@
 
 import UIKit
 
-class IsotopeViewController: UIPageViewController, UIPageViewControllerDataSource {
+
+class IsotopeIViewController: UIPageViewController, UIPageViewControllerDataSource {
+    
+    
     
     lazy var viewControllerList: [UIViewController] = {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc1 = storyboard.instantiateViewController(withIdentifier: "emittedVC")
-        let vc2 = storyboard.instantiateViewController(withIdentifier: "halfLifeVC")
-        let vc3 = storyboard.instantiateViewController(withIdentifier: "dangerLevelVC")
-        let vc4 = storyboard.instantiateViewController(withIdentifier: "useVC")
+        let vc1 = storyboard.instantiateViewController(withIdentifier: "i1")
+        let vc2 = storyboard.instantiateViewController(withIdentifier: "i2")
+        let vc3 = storyboard.instantiateViewController(withIdentifier: "i3")
+        let vc4 = storyboard.instantiateViewController(withIdentifier: "i4")
         
         return [vc1,vc2,vc3,vc4]
     }()
@@ -23,12 +26,16 @@ class IsotopeViewController: UIPageViewController, UIPageViewControllerDataSourc
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         self.dataSource = self
         
         if let firstVC = viewControllerList.first {
             self.setViewControllers([firstVC], direction: .forward, animated: true, completion: nil)
         }
+        
+    }
+    
+    @IBAction func leaveChildViewController(_ sender: Any) {
+        
     }
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
@@ -52,3 +59,4 @@ class IsotopeViewController: UIPageViewController, UIPageViewControllerDataSourc
         return viewControllerList[nextIndex]
     }
 }
+
