@@ -153,7 +153,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Vjy-23-D40" kind="show" id="7AD-ko-w7G"/>
+                                    <segue destination="TZo-VM-M9p" kind="show" id="4E0-Jc-c48"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -900,10 +900,10 @@
             </objects>
             <point key="canvasLocation" x="5882.3999999999996" y="423.23838080959524"/>
         </scene>
-        <!--IntroVC View Controller-->
+        <!--View Controller-->
         <scene sceneID="ANM-VP-l3s">
             <objects>
-                <viewController id="Yq6-qu-azG" customClass="IntroVCViewController" customModule="NRC_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Yq6-qu-azG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GPj-8p-0yu" customClass="UIWindow">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -955,6 +955,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
+                                        <string key="userLabel">A radioisotope is one of the primary ingredients of both treatment and diagnostic procedures in the field of nuclear medicine. The elements on the periodic table come in different isotopes--different versions of the atom that share the same amount of protons but different amounts of electrons. A radioisotope is unstable--meaning it will decay into a different element or a more stable version of the same element over time.</string>
                                     </label>
                                 </subviews>
                                 <rect key="contentStretch" x="0.20000000000000001" y="0.0" width="1" height="1"/>
@@ -1101,10 +1102,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="agk-eX-Rav">
-                                <rect key="frame" x="170" y="392" width="39" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </pageControl>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lSi-oc-KfN">
+                                <rect key="frame" x="0.0" y="285" width="377" height="382"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="oJY-XR-5aJ" kind="embed" id="joZ-9s-NKp"/>
+                                </connections>
+                            </containerView>
                         </subviews>
                         <color key="backgroundColor" red="0.97474569079999995" green="0.88839084099999999" blue="0.91864037440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <rect key="contentStretch" x="0.0" y="0.25" width="1" height="1"/>
@@ -1114,6 +1118,117 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jg4-lt-KYe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2093.5999999999999" y="3026.5367316341831"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aPd-XX-a7z">
+            <objects>
+                <viewController id="nHh-PH-cbJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LmO-Xy-HU7">
+                        <rect key="frame" x="0.0" y="0.0" width="377" height="382"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Half-Life:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0SA-rY-7AE">
+                                <rect key="frame" x="0.0" y="81" width="377" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="NFD-HU-sah"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TOA-RC-gVL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1180" y="3658"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="cyz-mH-IDI">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="oJY-XR-5aJ" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="ECv-M5-Ym6" kind="show" id="j09-bT-Nxf"/>
+                        <segue destination="nHh-PH-cbJ" kind="show" id="Umq-wI-eqn"/>
+                        <segue destination="9NM-sv-qjw" kind="show" id="81q-jh-JbM"/>
+                        <segue destination="esm-3j-uOS" kind="show" id="IS7-DD-6Yj"/>
+                    </connections>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ezs-CA-eAk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2095" y="3658"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vrf-9B-T46">
+            <objects>
+                <viewController id="ECv-M5-Ym6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rwF-i2-1yd">
+                        <rect key="frame" x="0.0" y="0.0" width="377" height="382"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type of radiation emitted: " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNB-nB-PZw">
+                                <rect key="frame" x="2" y="64" width="377" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="CYQ-Kf-Pqp"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s8b-pR-hN9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2950" y="3658"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KIJ-xb-cvU">
+            <objects>
+                <viewController id="9NM-sv-qjw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OT5-MY-BmC">
+                        <rect key="frame" x="0.0" y="0.0" width="377" height="382"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How I am Used:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOL-ig-B5Q">
+                                <rect key="frame" x="0.0" y="110" width="377" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="LFh-FF-Oz2"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ua4-ew-B4x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1180" y="4113"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oF3-iX-Gta">
+            <objects>
+                <viewController id="esm-3j-uOS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="avn-Hh-fmt">
+                        <rect key="frame" x="0.0" y="0.0" width="377" height="382"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Danger Level:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgp-x7-9hc">
+                                <rect key="frame" x="0.0" y="53" width="377" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="rda-RL-OsY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5fI-pu-E3L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2950" y="4124"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uz0-Jg-7LG">
@@ -1507,7 +1622,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ftg-aV-qqy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3184.8000000000002" y="2077.5112443778112"/>
+            <point key="canvasLocation" x="2849" y="2056"/>
         </scene>
         <!--Treatments-->
         <scene sceneID="d8F-4B-sln">
@@ -1534,7 +1649,7 @@
                                             <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                             <state key="normal" title="Radionuclide Therapy">
-                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="titleColor" red="0.2487261687" green="0.25353059890000001" blue="0.27176817590000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
                                             <connections>
                                                 <segue destination="2R6-6c-rrY" kind="show" id="K3F-Nt-04c"/>
@@ -1546,7 +1661,7 @@
                                             <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                             <state key="normal" title="Yttrium microspheres">
-                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="titleColor" red="0.2470588235" green="0.25490196079999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
                                             <connections>
                                                 <segue destination="vSr-li-6la" kind="show" id="roX-gA-ftD"/>
@@ -1558,7 +1673,7 @@
                                             <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                             <state key="normal" title="External Radiation Beam Therapy">
-                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="titleColor" red="0.2470588235" green="0.25490196079999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
                                             <connections>
                                                 <segue destination="8OA-Lg-wKA" kind="show" id="6cO-Ky-rLa"/>
@@ -1570,7 +1685,7 @@
                                             <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                             <state key="normal" title="Brachytherapy">
-                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="titleColor" red="0.2470588235" green="0.25490196079999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
                                             <connections>
                                                 <segue destination="ZtQ-Ge-mdq" kind="show" id="ce8-Bh-lXj"/>
@@ -2409,24 +2524,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JQI-O6-Rqz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4943.1999999999998" y="423.23838080959524"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="lyu-8z-LDO">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Vjy-23-D40" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U8U-ly-Pna">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Yq6-qu-azG" kind="relationship" relationship="rootViewController" id="UyL-dp-5AD"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="t8o-20-LU6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3185" y="1271"/>
         </scene>
     </scenes>
     <resources>
