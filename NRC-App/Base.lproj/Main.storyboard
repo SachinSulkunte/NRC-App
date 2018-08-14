@@ -1266,6 +1266,15 @@
                                     <action selector="button2_Pressed:" destination="Yq6-qu-azG" eventType="touchUpInside" id="sXL-x9-LRe"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="05E-wo-nXU">
+                                <rect key="frame" x="5" y="0.0" width="58" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="L73-gc-ksK" kind="show" id="ojg-IX-UXs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97474569079999995" green="0.88839084102197619" blue="0.9186403743840571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -1861,6 +1870,15 @@
                                 <rect key="frame" x="7" y="293" width="184" height="141"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cx-xr-t3K">
+                                <rect key="frame" x="7" y="0.0" width="58" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="Yq6-qu-azG" kind="show" id="aLa-YA-foX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97474569079999995" green="0.88839084099999999" blue="0.91864037440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="GGa-93-eAH"/>
@@ -3065,12 +3083,14 @@
         <image name="usnrc1" width="175" height="175"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="3Na-R2-7iK"/>
         <segue reference="flh-xY-Nq5"/>
         <segue reference="roX-gA-ftD"/>
         <segue reference="ce8-Bh-lXj"/>
         <segue reference="Vfe-t6-d81"/>
-        <segue reference="jbD-mh-zqH"/>
+        <segue reference="o7c-47-dj0"/>
         <segue reference="i1w-TT-GG0"/>
+        <segue reference="aLa-YA-foX"/>
         <segue reference="NOa-qG-dmA"/>
         <segue reference="Jbs-eM-l2f"/>
         <segue reference="SGe-q5-g6B"/>
