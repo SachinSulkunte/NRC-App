@@ -18,6 +18,8 @@
 		26813EF120FCF229008226B2 /* NRC_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813EF020FCF229008226B2 /* NRC_AppTests.swift */; };
 		26813EFC20FCF229008226B2 /* NRC_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813EFB20FCF229008226B2 /* NRC_AppUITests.swift */; };
 		268DDEA52103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */; };
+		820F74A7212271A100CB41BB /* NRC Symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 820F74A62122719F00CB41BB /* NRC Symbol.png */; };
+		820F74A92122823800CB41BB /* Safety.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820F74A82122823800CB41BB /* Safety.swift */; };
 		82A0F4362114EBEC00C4C13A /* RadiationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A0F4352114EBEC00C4C13A /* RadiationVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +58,8 @@
 		26813EFB20FCF229008226B2 /* NRC_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRC_AppUITests.swift; sourceTree = "<group>"; };
 		26813EFD20FCF229008226B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentsDiagnosticsVC.swift; sourceTree = "<group>"; };
+		820F74A62122719F00CB41BB /* NRC Symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NRC Symbol.png"; sourceTree = "<group>"; };
+		820F74A82122823800CB41BB /* Safety.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safety.swift; sourceTree = "<group>"; };
 		82A0F4352114EBEC00C4C13A /* RadiationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +114,7 @@
 				26813ED820FCF229008226B2 /* AppDelegate.swift */,
 				26813EDA20FCF229008226B2 /* ViewController.swift */,
 				26813EDC20FCF229008226B2 /* Main.storyboard */,
+				820F74A62122719F00CB41BB /* NRC Symbol.png */,
 				22F2A1C32122057900E0EA54 /* LearnMoreBrachy.swift */,
 				22D0372E2114F498007AB683 /* IntroVCViewController.swift */,
 				26813EE220FCF229008226B2 /* Assets.xcassets */,
@@ -118,6 +123,7 @@
 				26813EDF20FCF229008226B2 /* NRC_App.xcdatamodeld */,
 				268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */,
 				82A0F4352114EBEC00C4C13A /* RadiationVC.swift */,
+				820F74A82122823800CB41BB /* Safety.swift */,
 			);
 			path = "NRC-App";
 			sourceTree = "<group>";
@@ -211,7 +217,7 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.Maps.iOS = {
 								enabled = 0;
@@ -257,6 +263,7 @@
 			files = (
 				26813EE620FCF229008226B2 /* LaunchScreen.storyboard in Resources */,
 				26813EE320FCF229008226B2 /* Assets.xcassets in Resources */,
+				820F74A7212271A100CB41BB /* NRC Symbol.png in Resources */,
 				26813EDE20FCF229008226B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +292,7 @@
 				82A0F4362114EBEC00C4C13A /* RadiationVC.swift in Sources */,
 				268DDEA52103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift in Sources */,
 				26813EDB20FCF229008226B2 /* ViewController.swift in Sources */,
+				820F74A92122823800CB41BB /* Safety.swift in Sources */,
 				26813ED920FCF229008226B2 /* AppDelegate.swift in Sources */,
 				22F2A1C42122057900E0EA54 /* LearnMoreBrachy.swift in Sources */,
 				22D0372F2114F498007AB683 /* IntroVCViewController.swift in Sources */,
@@ -459,10 +467,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5VU2MB6QXW;
 				INFOPLIST_FILE = "NRC-App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nrcinterns.NRC-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nrcinterns.NRC-App123";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -474,10 +483,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5VU2MB6QXW;
 				INFOPLIST_FILE = "NRC-App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nrcinterns.NRC-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nrcinterns.NRC-App123";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
