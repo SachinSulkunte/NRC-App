@@ -836,8 +836,8 @@
                                 <rect key="frame" x="16" y="292" width="343" height="331"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Gamma cameras take images of the patient's body which will have a tracer in it. A tracer is a specific radioactive compound that is specifically chosen depending on the area of the body to be imaged. As it travels through the body, the tracer emits radiation in the form of gamma rays. These rays are picked up by a crystal which scintillates in response to the radiation. A bank of light sensors pick up the resulting flash of light and convert it into electrical signals that doctors are able to use to determine bodily functions.
-                                </mutableString>
+                                <string key="text">Gamma cameras take images of the patient's body which will have a tracer in it. A tracer is a specific radioactive compound that is specifically chosen depending on the area of the body to be imaged. As it travels through the body, the tracer emits radiation in the form of gamma rays. These rays are picked up by a crystal which scintillates in response to the radiation. A bank of light sensors pick up the resulting flash of light and convert it into electrical signals that doctors are able to use to determine bodily functions.
+                                </string>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -873,8 +873,8 @@
                                 <rect key="frame" x="16" y="293" width="343" height="330"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Radioactive tracers are either injected, inhaled, or injected into a vein depending on what part of the body is being imaged. The tracer will gaher in areas of higher chemical activity; these areas are typically associated with disease. While under a PET scanner, the tracer will appear as brightly lit areas on the scan. This type of scan can measure blood flow, oxygen use, how your body uses sugar, and much more. As it is an outpatient procedure, typically patietns may leave about one day after the scan was completed.
-                                </mutableString>
+                                <string key="text">Radioactive tracers are either injected, inhaled, or injected into a vein depending on what part of the body is being imaged. The tracer will gaher in areas of higher chemical activity; these areas are typically associated with disease. While under a PET scanner, the tracer will appear as brightly lit areas on the scan. This type of scan can measure blood flow, oxygen use, how your body uses sugar, and much more. As it is an outpatient procedure, typically patietns may leave about one day after the scan was completed.
+                                </string>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -916,8 +916,8 @@
                                 <rect key="frame" x="16" y="272" width="343" height="337"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Before the scan, patients are injected with a radioactive tracer. The tracer will emit gamma ray as it travels throughout the patient's bloodstream, allowing a computer to form a 3D model of an area of the patient's body. This scan is used to observe blood flow to various organs and tissues in the body. Be prepared to spend approximately 1-2 hours at the place you are receiving the scan. The amount of radiation received is less than in a x-ray, however, pregnant women should not undergo SPECT scans.
-                                </mutableString>
+                                <string key="text">Before the scan, patients are injected with a radioactive tracer. The tracer will emit gamma ray as it travels throughout the patient's bloodstream, allowing a computer to form a 3D model of an area of the patient's body. This scan is used to observe blood flow to various organs and tissues in the body. Be prepared to spend approximately 1-2 hours at the place you are receiving the scan. The amount of radiation received is less than in a x-ray, however, pregnant women should not undergo SPECT scans.
+                                </string>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -959,7 +959,7 @@
                                 <rect key="frame" x="0.0" y="258" width="375" height="365"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">This scan helps diagnose a variety of bone diseases and conditions. Small amounts of radioactive tracers are injected into the patient's bloodstream. These tracers emit gamma rays which are then detected by a gamma camera. A computer takes the information from these gamma rays and forms an image of the patient's bones. The scan offers the potential to detect bone disease in its earliest stages. Inform your doctor if you are pregnant or breastfeeding as early as possible. Also discuss if you have taken any bismuth-containing medicine.</mutableString>
+                                <string key="text">This scan helps diagnose a variety of bone diseases and conditions. Small amounts of radioactive tracers are injected into the patient's bloodstream. These tracers emit gamma rays which are then detected by a gamma camera. A computer takes the information from these gamma rays and forms an image of the patient's bones. The scan offers the potential to detect bone disease in its earliest stages. Inform your doctor if you are pregnant or breastfeeding as early as possible. Also discuss if you have taken any bismuth-containing medicine.</string>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1880,7 +1880,7 @@
                                                 <color key="titleColor" red="0.2487261687" green="0.25353059890000001" blue="0.27176817590000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
                                             <connections>
-                                                <segue destination="2R6-6c-rrY" kind="show" id="K3F-Nt-04c"/>
+                                                <segue destination="vSr-li-6la" kind="show" id="5az-28-JrS"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvz-Wj-Hkd">
@@ -1892,7 +1892,7 @@
                                                 <color key="titleColor" red="0.2470588235" green="0.25490196079999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
                                             <connections>
-                                                <segue destination="vSr-li-6la" kind="show" id="roX-gA-ftD"/>
+                                                <segue destination="2R6-6c-rrY" kind="show" id="PkU-S6-AbD"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JrO-iF-G0D">
@@ -3048,12 +3048,12 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="flh-xY-Nq5"/>
-        <segue reference="roX-gA-ftD"/>
+        <segue reference="5az-28-JrS"/>
         <segue reference="ce8-Bh-lXj"/>
         <segue reference="Vfe-t6-d81"/>
         <segue reference="T0L-8B-G8G"/>
         <segue reference="i1w-TT-GG0"/>
-        <segue reference="beh-m7-ZU6"/>
+        <segue reference="0fM-ay-RBv"/>
         <segue reference="xLe-90-5a2"/>
         <segue reference="SGe-q5-g6B"/>
     </inferredMetricsTieBreakers>
