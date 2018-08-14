@@ -19,6 +19,7 @@
 		26813EFC20FCF229008226B2 /* NRC_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813EFB20FCF229008226B2 /* NRC_AppUITests.swift */; };
 		268DDEA52103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */; };
 		820F74A7212271A100CB41BB /* NRC Symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 820F74A62122719F00CB41BB /* NRC Symbol.png */; };
+		820F74A92122823800CB41BB /* Safety.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820F74A82122823800CB41BB /* Safety.swift */; };
 		82A0F4362114EBEC00C4C13A /* RadiationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A0F4352114EBEC00C4C13A /* RadiationVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		26813EFD20FCF229008226B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentsDiagnosticsVC.swift; sourceTree = "<group>"; };
 		820F74A62122719F00CB41BB /* NRC Symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NRC Symbol.png"; sourceTree = "<group>"; };
+		820F74A82122823800CB41BB /* Safety.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safety.swift; sourceTree = "<group>"; };
 		82A0F4352114EBEC00C4C13A /* RadiationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +123,7 @@
 				26813EDF20FCF229008226B2 /* NRC_App.xcdatamodeld */,
 				268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */,
 				82A0F4352114EBEC00C4C13A /* RadiationVC.swift */,
+				820F74A82122823800CB41BB /* Safety.swift */,
 			);
 			path = "NRC-App";
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				82A0F4362114EBEC00C4C13A /* RadiationVC.swift in Sources */,
 				268DDEA52103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift in Sources */,
 				26813EDB20FCF229008226B2 /* ViewController.swift in Sources */,
+				820F74A92122823800CB41BB /* Safety.swift in Sources */,
 				26813ED920FCF229008226B2 /* AppDelegate.swift in Sources */,
 				22F2A1C42122057900E0EA54 /* LearnMoreBrachy.swift in Sources */,
 				22D0372F2114F498007AB683 /* IntroVCViewController.swift in Sources */,
