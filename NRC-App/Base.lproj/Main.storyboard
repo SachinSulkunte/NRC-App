@@ -3057,7 +3057,6 @@
         <image name="usnrc1" width="175" height="175"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="tTZ-Fj-PwE"/>
         <segue reference="jdk-Tm-XfS"/>
         <segue reference="UnZ-vB-zVf"/>
         <segue reference="JJM-Rb-SuP"/>
