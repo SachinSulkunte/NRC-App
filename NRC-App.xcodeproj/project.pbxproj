@@ -50,7 +50,7 @@
 		26813EE020FCF229008226B2 /* NRC_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NRC_App.xcdatamodel; sourceTree = "<group>"; };
 		26813EE220FCF229008226B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26813EE520FCF229008226B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		26813EE720FCF229008226B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26813EE720FCF229008226B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../NRC-App/Info.plist"; sourceTree = "<group>"; };
 		26813EEC20FCF229008226B2 /* NRC-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NRC-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26813EF020FCF229008226B2 /* NRC_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRC_AppTests.swift; sourceTree = "<group>"; };
 		26813EF220FCF229008226B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,7 +119,6 @@
 				22D0372E2114F498007AB683 /* IntroVCViewController.swift */,
 				26813EE220FCF229008226B2 /* Assets.xcassets */,
 				26813EE420FCF229008226B2 /* LaunchScreen.storyboard */,
-				26813EE720FCF229008226B2 /* Info.plist */,
 				26813EDF20FCF229008226B2 /* NRC_App.xcdatamodeld */,
 				268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */,
 				82A0F4352114EBEC00C4C13A /* RadiationVC.swift */,
@@ -131,6 +130,7 @@
 		26813EEF20FCF229008226B2 /* NRC-AppTests */ = {
 			isa = PBXGroup;
 			children = (
+				26813EE720FCF229008226B2 /* Info.plist */,
 				26813EF020FCF229008226B2 /* NRC_AppTests.swift */,
 				26813EF220FCF229008226B2 /* Info.plist */,
 			);
