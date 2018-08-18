@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		22D0372F2114F498007AB683 /* IntroVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D0372E2114F498007AB683 /* IntroVCViewController.swift */; };
 		22F2A1C42122057900E0EA54 /* LearnMoreBrachy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2A1C32122057900E0EA54 /* LearnMoreBrachy.swift */; };
+		2675AB2E2128BEE800CF5E57 /* FlourineContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2675AB2D2128BEE800CF5E57 /* FlourineContainerVC.swift */; };
+		2675AB302128BF2000CF5E57 /* TechnetiumContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2675AB2F2128BF2000CF5E57 /* TechnetiumContainerVC.swift */; };
+		2675AB322128BF3700CF5E57 /* IodineContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2675AB312128BF3700CF5E57 /* IodineContainerVC.swift */; };
+		2675AB342128BF5700CF5E57 /* ThalliumContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2675AB332128BF5700CF5E57 /* ThalliumContainerVC.swift */; };
 		26813ED920FCF229008226B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813ED820FCF229008226B2 /* AppDelegate.swift */; };
 		26813EDB20FCF229008226B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813EDA20FCF229008226B2 /* ViewController.swift */; };
 		26813EDE20FCF229008226B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26813EDC20FCF229008226B2 /* Main.storyboard */; };
@@ -43,6 +47,10 @@
 /* Begin PBXFileReference section */
 		22D0372E2114F498007AB683 /* IntroVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVCViewController.swift; sourceTree = "<group>"; };
 		22F2A1C32122057900E0EA54 /* LearnMoreBrachy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreBrachy.swift; sourceTree = "<group>"; };
+		2675AB2D2128BEE800CF5E57 /* FlourineContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlourineContainerVC.swift; sourceTree = "<group>"; };
+		2675AB2F2128BF2000CF5E57 /* TechnetiumContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnetiumContainerVC.swift; sourceTree = "<group>"; };
+		2675AB312128BF3700CF5E57 /* IodineContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IodineContainerVC.swift; sourceTree = "<group>"; };
+		2675AB332128BF5700CF5E57 /* ThalliumContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThalliumContainerVC.swift; sourceTree = "<group>"; };
 		26813ED520FCF229008226B2 /* NRC-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NRC-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26813ED820FCF229008226B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26813EDA20FCF229008226B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +96,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2675AB352128BF6000CF5E57 /* Container Views */ = {
+			isa = PBXGroup;
+			children = (
+				2675AB2F2128BF2000CF5E57 /* TechnetiumContainerVC.swift */,
+				2675AB312128BF3700CF5E57 /* IodineContainerVC.swift */,
+				2675AB2D2128BEE800CF5E57 /* FlourineContainerVC.swift */,
+				2675AB332128BF5700CF5E57 /* ThalliumContainerVC.swift */,
+			);
+			path = "Container Views";
+			sourceTree = "<group>";
+		};
 		26813ECC20FCF229008226B2 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +130,7 @@
 		26813ED720FCF229008226B2 /* NRC-App */ = {
 			isa = PBXGroup;
 			children = (
+				2675AB352128BF6000CF5E57 /* Container Views */,
 				26813ED820FCF229008226B2 /* AppDelegate.swift */,
 				26813EDA20FCF229008226B2 /* ViewController.swift */,
 				26813EDC20FCF229008226B2 /* Main.storyboard */,
@@ -293,8 +313,12 @@
 				268DDEA52103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift in Sources */,
 				26813EDB20FCF229008226B2 /* ViewController.swift in Sources */,
 				820F74A92122823800CB41BB /* Safety.swift in Sources */,
+				2675AB322128BF3700CF5E57 /* IodineContainerVC.swift in Sources */,
 				26813ED920FCF229008226B2 /* AppDelegate.swift in Sources */,
 				22F2A1C42122057900E0EA54 /* LearnMoreBrachy.swift in Sources */,
+				2675AB302128BF2000CF5E57 /* TechnetiumContainerVC.swift in Sources */,
+				2675AB342128BF5700CF5E57 /* ThalliumContainerVC.swift in Sources */,
+				2675AB2E2128BEE800CF5E57 /* FlourineContainerVC.swift in Sources */,
 				22D0372F2114F498007AB683 /* IntroVCViewController.swift in Sources */,
 				26813EE120FCF229008226B2 /* NRC_App.xcdatamodeld in Sources */,
 			);
