@@ -848,7 +848,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4hJ-nn-sTh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8013.6000000000004" y="-740.7796101949026"/>
+            <point key="canvasLocation" x="8185" y="-746"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="R5d-lO-fKL">
@@ -3441,8 +3441,8 @@
                                         <rect key="frame" x="16" y="216" width="343" height="379"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <string key="text">External beam radiation therapy (EBRT) delivers a beams of X-ray, gamma or particle radiation to target specific areas of a patient’s body. The beam is designed to minimize radiation exposure to healthy cells, while controlling or killing the cancer cells. In some cases, doctors also use these beams in conjunction with surgery where surgery is used to uncover the tumour in order to allow the beam to more directly target the mass. This type of procedure is called intraoperative radiation therapy. To learn about the machine used during EBRT, click "Learn more".
-</string>
+                                        <mutableString key="text">External beam radiation therapy (EBRT) delivers a beams of X-ray, gamma or particle radiation to target specific areas of a patient’s body. This type of therapy differs from others in the sense that the radioactive source remains outside the patient's body. In some cases, doctors also use these beams in conjunction with surgery where surgery is used to uncover the tumour in order to allow the beam to more directly target the mass, or radiation is used to shrink a tumor prior to operation This is called intraoperative radiation therapy. To learn about the machine(s) used during EBRT, click "Learn more".
+</mutableString>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -3473,6 +3473,9 @@
                                         <color key="backgroundColor" red="0.7751621286" green="0.85243005849999998" blue="0.97474569079999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                         <state key="normal" title="Learn More"/>
+                                        <connections>
+                                            <segue destination="FJx-CH-Z8q" kind="show" id="inL-Up-VpB"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </scrollView>
@@ -3500,6 +3503,74 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bC2-oF-fvy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6806" y="-1424"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yYD-ut-OQX">
+            <objects>
+                <viewController id="FJx-CH-Z8q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8a1-x6-cuc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wxM-Zc-55b">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dl6-BL-Kbz">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nOr-vf-13x">
+                                                <rect key="frame" x="16" y="14" width="34" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Back"/>
+                                                <connections>
+                                                    <segue destination="8OA-Lg-wKA" kind="show" id="P5R-NT-eKC"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EBRT: LINAC vs Cobalt Machines" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BaL-jY-mus">
+                                                <rect key="frame" x="0.0" y="37" width="375" height="99"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="26"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWj-hX-U3k">
+                                                <rect key="frame" x="16" y="126" width="343" height="127"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">External beam radiation therapies have historically been used through two types of machines: tele-cobalt machines and linear accelerators (LINACs). Read below for a brief look at how these two machines differ.</string>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="800" id="UKg-ww-KGL"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="dl6-BL-Kbz" firstAttribute="top" secondItem="wxM-Zc-55b" secondAttribute="top" id="5Dj-Y7-KBF"/>
+                                    <constraint firstAttribute="trailing" secondItem="dl6-BL-Kbz" secondAttribute="trailing" id="CNY-et-BPL"/>
+                                    <constraint firstAttribute="bottom" secondItem="dl6-BL-Kbz" secondAttribute="bottom" id="R6g-2f-42z"/>
+                                    <constraint firstItem="dl6-BL-Kbz" firstAttribute="leading" secondItem="wxM-Zc-55b" secondAttribute="leading" id="xCF-bl-U6W"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dl6-BL-Kbz" firstAttribute="width" secondItem="8a1-x6-cuc" secondAttribute="width" id="K3d-Oh-5W3"/>
+                            <constraint firstItem="wxM-Zc-55b" firstAttribute="top" secondItem="8a1-x6-cuc" secondAttribute="top" id="Lml-DR-Cow"/>
+                            <constraint firstItem="wxM-Zc-55b" firstAttribute="leading" secondItem="gd5-gD-Po1" secondAttribute="leading" id="U5d-do-Mx3"/>
+                            <constraint firstItem="wxM-Zc-55b" firstAttribute="bottom" secondItem="gd5-gD-Po1" secondAttribute="bottom" id="n0c-61-5dg"/>
+                            <constraint firstItem="wxM-Zc-55b" firstAttribute="trailing" secondItem="gd5-gD-Po1" secondAttribute="trailing" id="yIj-50-aQT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gd5-gD-Po1"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="800"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hsC-ei-AIc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7502" y="-1365"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Mn6-fV-rO3">
@@ -3687,10 +3758,11 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="flh-xY-Nq5"/>
-        <segue reference="PkU-S6-AbD"/>
+        <segue reference="P5R-NT-eKC"/>
+        <segue reference="zU3-E5-QlP"/>
         <segue reference="lXh-8c-tnB"/>
         <segue reference="JJM-Rb-SuP"/>
-        <segue reference="tYa-0V-CuS"/>
+        <segue reference="Ghr-Jt-f07"/>
         <segue reference="T0L-8B-G8G"/>
         <segue reference="i1w-TT-GG0"/>
         <segue reference="0fM-ay-RBv"/>
