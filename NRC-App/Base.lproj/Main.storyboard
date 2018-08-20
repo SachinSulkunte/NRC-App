@@ -1839,7 +1839,7 @@
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                             <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
-                                            <state key="normal" title="External Radiation Beam Therapy">
+                                            <state key="normal" title="External Beam Radiation Therapy">
                                                 <color key="titleColor" red="0.2470588235" green="0.25490196079999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
                                             <connections>
@@ -3380,8 +3380,8 @@
                                         <rect key="frame" x="16" y="216" width="343" height="379"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text">External beam radiation therapy (EBRT) delivers a beams of X-ray, gamma or particle radiation to target specific areas of a patient’s body. This type of therapy differs from others in the sense that the radioactive source remains outside the patient's body. In some cases, doctors also use these beams in conjunction with surgery where surgery is used to uncover the tumour in order to allow the beam to more directly target the mass. This form of EBRT is called intraoperative radiation therapy. To find out more about the various types of EBRT and machine(s) used, click "Learn more".
-</mutableString>
+                                        <string key="text">External beam radiation therapy (EBRT) delivers a beams of X-ray, gamma or particle radiation to target specific areas of a patient’s body. This type of therapy differs from others in the sense that the radioactive source remains outside the patient's body. In some cases, doctors also use these beams in conjunction with surgery where surgery is used to uncover the tumour in order to allow the beam to more directly target the mass. This form of EBRT is called intraoperative radiation therapy. To find out more about the various types of EBRT and machine(s) used, click "Learn more".
+</string>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -3444,113 +3444,8 @@
             <point key="canvasLocation" x="5727" y="-1228"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="yYD-ut-OQX">
-            <objects>
-                <viewController id="FJx-CH-Z8q" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8a1-x6-cuc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="950"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wxM-Zc-55b">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="950"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dl6-BL-Kbz">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="950"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nOr-vf-13x">
-                                                <rect key="frame" x="16" y="14" width="34" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Back"/>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EBRT: LINAC vs Cobalt Machines" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BaL-jY-mus">
-                                                <rect key="frame" x="0.0" y="37" width="375" height="99"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="26"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWj-hX-U3k">
-                                                <rect key="frame" x="16" y="126" width="343" height="127"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">External beam radiation therapies have historically been used through two types of machines: cobalt machines and linear accelerators (LINACs). Read below for a brief look at how these two machines differ.</string>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="linac1" translatesAutoresizingMaskIntoConstraints="NO" id="wC1-Xu-8gU">
-                                                <rect key="frame" x="16" y="293" width="165" height="139"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kFe-II-aSy">
-                                                <rect key="frame" x="194" y="293" width="165" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LINAC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cx7-iJ-k5M">
-                                                <rect key="frame" x="77" y="264" width="48" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cobalt machine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXW-Eq-O3s">
-                                                <rect key="frame" x="216" y="264" width="120" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ahb-Vt-uCJ">
-                                                <rect key="frame" x="194" y="431" width="165" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                <state key="normal" title="Press to see how machine works."/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="FVD-31-Lsc">
-                                                <rect key="frame" x="16" y="431" width="165" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                <state key="normal" title="Press to see how machine works."/>
-                                            </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="The-schematic-diagram-of-a-linear-accelerator" translatesAutoresizingMaskIntoConstraints="NO" id="rW5-v2-2DO">
-                                                <rect key="frame" x="16" y="293" width="177" height="130"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="950" id="VgB-6H-FQR"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="dl6-BL-Kbz" firstAttribute="top" secondItem="wxM-Zc-55b" secondAttribute="top" id="5Dj-Y7-KBF"/>
-                                    <constraint firstAttribute="trailing" secondItem="dl6-BL-Kbz" secondAttribute="trailing" id="CNY-et-BPL"/>
-                                    <constraint firstAttribute="bottom" secondItem="dl6-BL-Kbz" secondAttribute="bottom" id="R6g-2f-42z"/>
-                                    <constraint firstItem="dl6-BL-Kbz" firstAttribute="leading" secondItem="wxM-Zc-55b" secondAttribute="leading" id="xCF-bl-U6W"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="dl6-BL-Kbz" firstAttribute="width" secondItem="8a1-x6-cuc" secondAttribute="width" id="ALh-2W-l4P"/>
-                            <constraint firstItem="dl6-BL-Kbz" firstAttribute="width" secondItem="8a1-x6-cuc" secondAttribute="width" id="K3d-Oh-5W3"/>
-                            <constraint firstItem="wxM-Zc-55b" firstAttribute="top" secondItem="8a1-x6-cuc" secondAttribute="top" id="Lml-DR-Cow"/>
-                            <constraint firstItem="wxM-Zc-55b" firstAttribute="leading" secondItem="gd5-gD-Po1" secondAttribute="leading" id="U5d-do-Mx3"/>
-                            <constraint firstItem="wxM-Zc-55b" firstAttribute="bottom" secondItem="gd5-gD-Po1" secondAttribute="bottom" id="n0c-61-5dg"/>
-                            <constraint firstItem="wxM-Zc-55b" firstAttribute="trailing" secondItem="gd5-gD-Po1" secondAttribute="trailing" id="yIj-50-aQT"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="gd5-gD-Po1"/>
-                    </view>
-                    <size key="freeformSize" width="375" height="950"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hsC-ei-AIc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="6665" y="-245"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="kgH-61-Unp">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BQr-QV-oRK" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="oaD-cx-Jcg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y0a-bP-Gzz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -3625,6 +3520,7 @@
                         <viewLayoutGuide key="safeArea" id="PBB-UD-gJg"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BQr-QV-oRK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6542" y="-1228"/>
         </scene>
@@ -3642,26 +3538,10 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="REx-KB-Agw">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2tp-LD-iEw">
-                                                <rect key="frame" x="16" y="11" width="34" height="30"/>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="30b-49-K6E">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Back"/>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EBRT: LINAC vs Cobalt Machines" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wkl-rV-atT">
-                                                <rect key="frame" x="0.0" y="34" width="375" height="99"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="26"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPh-eC-iNZ">
-                                                <rect key="frame" x="17" y="123" width="343" height="127"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">External beam radiation therapies have historically been used through two types of machines: cobalt machines and linear accelerators (LINACs). Read below for a brief look at how these two machines differ.</string>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            </scrollView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -3692,22 +3572,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="txz-jN-882" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8757.6000000000004" y="-1514.392803598201"/>
+            <point key="canvasLocation" x="9202" y="-1624"/>
         </scene>
         <!--Linear Accelerator-->
         <scene sceneID="hrx-LX-uBY">
             <objects>
-                <viewController id="8dT-YX-qcA" sceneMemberID="viewController">
+                <viewController id="8dT-YX-qcA" customClass="LINAC" customModule="NRC_App" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5xV-Qk-zUs">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1120"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G0x-GH-ij8">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1120"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="opf-RI-Co3">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1120"/>
                                         <subviews>
+                                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="The-schematic-diagram-of-a-linear-accelerator" translatesAutoresizingMaskIntoConstraints="NO" id="ZRH-xm-Wh7">
+                                                <rect key="frame" x="0.0" y="286" width="375" height="195"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gww-EZ-5Ox">
                                                 <rect key="frame" x="16" y="9" width="34" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -3720,45 +3604,149 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ssU-fc-Ort">
-                                                <rect key="frame" x="17" y="121" width="343" height="127"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ssU-fc-Ort">
+                                                <rect key="frame" x="19" y="121" width="336" height="126"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">External beam radiation therapies have historically been used through two types of machines: cobalt machines and linear accelerators (LINACs). Read below for a brief look at how these two machines differ.</string>
+                                                <string key="text">External beam radiation therapies have historically been performed using two types of machines: cobalt machines and linear accelerators (LINACs). Read below for a brief look at how these two machines differ.</string>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Linear Accelerator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YBQ-q5-hYL">
+                                                <rect key="frame" x="100" y="249" width="175" height="29"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="linac1" translatesAutoresizingMaskIntoConstraints="NO" id="yhZ-ST-hio">
+                                                <rect key="frame" x="44" y="286" width="288" height="187"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hy-uf-6Ko">
+                                                <rect key="frame" x="0.0" y="476" width="375" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                                <state key="normal" title="Press to see how the machine works."/>
+                                                <connections>
+                                                    <action selector="SwitchSchematic:" destination="8dT-YX-qcA" eventType="touchUpInside" id="gel-b9-8qD"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mi3-ds-RlS">
+                                                <rect key="frame" x="17" y="536" width="339" height="81"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">LINACs use microwaves to accelerate electrons. These can then directly be used for treatment, or can be collided with a heavy metal (such as lead) to create X-rays.</string>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Source of radiation" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XnF-yV-Hit">
+                                                <rect key="frame" x="16" y="507" width="157" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Benefits" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6eA-Ok-MX9">
+                                                <rect key="frame" x="16" y="625" width="89" height="28"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Disadvantages" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hW4-ya-p6f">
+                                                <rect key="frame" x="16" y="921" width="149" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LINACs are the preferred choice in the developed world for several reasons:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZK-u8-FP7">
+                                                <rect key="frame" x="17" y="653" width="340" height="45"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1G-bX-LXh">
+                                                <rect key="frame" x="113" y="727" width="242" height="63"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZ2-8T-yhP">
+                                                <rect key="frame" x="33" y="781" width="323" height="79"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">2. The development of intensity modulated therapies using linear accelerators better takes into account the 3D shape of tumors and adjusts dosage appropriately.</string>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3. There is no concern of reduced machine function due to radioisotope decay because no radioisotopes are being used." lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8b-I7-Ok3">
+                                                <rect key="frame" x="32" y="862" width="323" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. It is much more expensive  and takes much more time to maintain." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WO5-D8-hSX">
+                                                <rect key="frame" x="33" y="957" width="323" height="39"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2. Because of higher energy, more precautions have to be taken towards staff protection from radiation." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ka3-E6-Vgm">
+                                                <rect key="frame" x="33" y="999" width="323" height="59"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nd5-hQ-fgo">
+                                                <rect key="frame" x="33" y="697" width="322" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">1. The energy of the radioactive beam is higher, making it more penetrative and also smaller in size than gamma rays, and thus easier to focus so as to keep radiation away from healthy organs.</string>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="800" id="OiY-ud-2SL"/>
+                                            <constraint firstAttribute="height" constant="1120" id="Ptc-GT-jPG"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="opf-RI-Co3" firstAttribute="leading" secondItem="G0x-GH-ij8" secondAttribute="leading" id="1yG-Yi-1ju"/>
-                                    <constraint firstItem="opf-RI-Co3" firstAttribute="top" secondItem="G0x-GH-ij8" secondAttribute="top" id="4qo-ao-P8N"/>
-                                    <constraint firstAttribute="bottom" secondItem="opf-RI-Co3" secondAttribute="bottom" id="dow-IY-OIh"/>
-                                    <constraint firstAttribute="trailing" secondItem="opf-RI-Co3" secondAttribute="trailing" id="iUW-T5-JN6"/>
+                                    <constraint firstItem="opf-RI-Co3" firstAttribute="leading" secondItem="G0x-GH-ij8" secondAttribute="leading" id="22n-d1-dzq"/>
+                                    <constraint firstAttribute="bottom" secondItem="opf-RI-Co3" secondAttribute="bottom" id="RV9-ho-a0D"/>
+                                    <constraint firstAttribute="trailing" secondItem="opf-RI-Co3" secondAttribute="trailing" id="sqD-t6-Jgk"/>
+                                    <constraint firstItem="opf-RI-Co3" firstAttribute="top" secondItem="G0x-GH-ij8" secondAttribute="top" id="trx-K4-LQ1"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="G0x-GH-ij8" secondAttribute="bottom" id="Ubs-og-MyN"/>
-                            <constraint firstItem="G0x-GH-ij8" firstAttribute="top" secondItem="5xV-Qk-zUs" secondAttribute="top" id="Z22-LJ-R5u"/>
-                            <constraint firstItem="G0x-GH-ij8" firstAttribute="trailing" secondItem="3LA-oG-DSb" secondAttribute="trailing" id="ela-fy-cpB"/>
-                            <constraint firstItem="G0x-GH-ij8" firstAttribute="leading" secondItem="3LA-oG-DSb" secondAttribute="leading" id="jsw-3I-oTx"/>
-                            <constraint firstItem="opf-RI-Co3" firstAttribute="width" secondItem="5xV-Qk-zUs" secondAttribute="width" id="oHk-1W-5RK"/>
+                            <constraint firstItem="G0x-GH-ij8" firstAttribute="trailing" secondItem="3LA-oG-DSb" secondAttribute="trailing" id="2dl-zn-dUP"/>
+                            <constraint firstAttribute="bottom" secondItem="G0x-GH-ij8" secondAttribute="bottom" id="7ek-m3-0q5"/>
+                            <constraint firstItem="G0x-GH-ij8" firstAttribute="leading" secondItem="3LA-oG-DSb" secondAttribute="leading" id="WXA-0Z-oXL"/>
+                            <constraint firstItem="opf-RI-Co3" firstAttribute="width" secondItem="5xV-Qk-zUs" secondAttribute="width" id="aFi-d6-dH6"/>
+                            <constraint firstItem="G0x-GH-ij8" firstAttribute="top" secondItem="5xV-Qk-zUs" secondAttribute="top" id="l7N-7N-3D7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3LA-oG-DSb"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Linear Accelerator" id="Kiw-ge-E3Q"/>
-                    <size key="freeformSize" width="375" height="800"/>
+                    <size key="freeformSize" width="375" height="1120"/>
+                    <connections>
+                        <outlet property="LINAC" destination="yhZ-ST-hio" id="kzI-Rq-BYs"/>
+                        <outlet property="LinacSchematic" destination="ZRH-xm-Wh7" id="UiR-37-Iyb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkc-3o-e1g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8114" y="-1848"/>
+            <point key="canvasLocation" x="8112.8000000000002" y="-1848.5757121439283"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="MJk-d1-JCb">
@@ -4291,19 +4279,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y17-ts-Lrx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4289" y="4299"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Xyp-qT-uU9">
-            <objects>
-                <viewController id="jUz-e0-dQw" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Zrb-0K-O2D">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KJd-LV-PFM" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
         </scene>
     </scenes>
     <resources>

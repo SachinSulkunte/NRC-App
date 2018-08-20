@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221FF08B212A1D4D00514958 /* LINAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221FF08A212A1D4D00514958 /* LINAC.swift */; };
 		22D0372F2114F498007AB683 /* IntroVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D0372E2114F498007AB683 /* IntroVCViewController.swift */; };
 		22F2A1C42122057900E0EA54 /* LearnMoreBrachy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2A1C32122057900E0EA54 /* LearnMoreBrachy.swift */; };
 		2675AB2E2128BEE800CF5E57 /* FlourineContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2675AB2D2128BEE800CF5E57 /* FlourineContainerVC.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		221FF08A212A1D4D00514958 /* LINAC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LINAC.swift; sourceTree = "<group>"; };
 		22D0372E2114F498007AB683 /* IntroVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVCViewController.swift; sourceTree = "<group>"; };
 		22F2A1C32122057900E0EA54 /* LearnMoreBrachy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreBrachy.swift; sourceTree = "<group>"; };
 		2675AB2D2128BEE800CF5E57 /* FlourineContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlourineContainerVC.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				26813ED820FCF229008226B2 /* AppDelegate.swift */,
 				26813EDA20FCF229008226B2 /* ViewController.swift */,
 				26813EDC20FCF229008226B2 /* Main.storyboard */,
+				221FF08A212A1D4D00514958 /* LINAC.swift */,
 				820F74A62122719F00CB41BB /* NRC Symbol.png */,
 				22F2A1C32122057900E0EA54 /* LearnMoreBrachy.swift */,
 				22D0372E2114F498007AB683 /* IntroVCViewController.swift */,
@@ -314,6 +317,7 @@
 				26813EDB20FCF229008226B2 /* ViewController.swift in Sources */,
 				820F74A92122823800CB41BB /* Safety.swift in Sources */,
 				2675AB322128BF3700CF5E57 /* IodineContainerVC.swift in Sources */,
+				221FF08B212A1D4D00514958 /* LINAC.swift in Sources */,
 				26813ED920FCF229008226B2 /* AppDelegate.swift in Sources */,
 				22F2A1C42122057900E0EA54 /* LearnMoreBrachy.swift in Sources */,
 				2675AB302128BF2000CF5E57 /* TechnetiumContainerVC.swift in Sources */,
