@@ -3420,6 +3420,9 @@
                                         <color key="backgroundColor" red="0.7751621286" green="0.85243005849999998" blue="0.97474569079999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                         <state key="normal" title="What to Expect"/>
+                                        <connections>
+                                            <segue destination="lfy-ob-Zvt" kind="show" id="ODx-TS-dpl"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czG-Ni-98a">
                                         <rect key="frame" x="195" y="533" width="147" height="54"/>
@@ -3475,7 +3478,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Variations on a theme of EBRT" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jmi-8I-zQq">
-                                <rect key="frame" x="16" y="43" width="343" height="99"/>
+                                <rect key="frame" x="16" y="41" width="343" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="26"/>
                                 <nil key="textColor"/>
@@ -3490,21 +3493,21 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="oV3-wF-1SQ">
-                                <rect key="frame" x="16" y="133" width="162" height="39"/>
+                                <rect key="frame" x="16" y="131" width="162" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.61930903394844727" green="0.85369843664469269" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <state key="normal" title="3D-CRT"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="K12-v4-f2I">
-                                <rect key="frame" x="197" y="133" width="162" height="39"/>
+                                <rect key="frame" x="197" y="131" width="162" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.61930903394844727" green="0.85369843664469269" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <state key="normal" title="IMRT"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B67-z7-Sh1">
-                                <rect key="frame" x="197" y="175" width="162" height="136"/>
+                                <rect key="frame" x="197" y="173" width="162" height="136"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Intensity-modulated radiation therapy. 3D-CRT encompasses this technique but in addition, with IMRT, the intensity of radiation varies to even better insure that healthy organs aren't damaged in the process.</string>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
@@ -3512,13 +3515,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ZYZ-Sa-Pzh">
-                                <rect key="frame" x="16" y="376" width="343" height="27"/>
+                                <rect key="frame" x="16" y="372" width="343" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <state key="normal" title="Photon beam, proton beam...?"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCj-Tn-KRO">
-                                <rect key="frame" x="16" y="175" width="162" height="117"/>
+                                <rect key="frame" x="16" y="173" width="162" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">3-dimensional conformational radiation therapy. It's a mouthful, but it really just means that beams are delivered from all dimensions to better allow radiation to reach the tumor.</string>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
@@ -3526,7 +3529,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XRb-hm-jAC">
-                                <rect key="frame" x="16" y="401" width="343" height="73"/>
+                                <rect key="frame" x="16" y="397" width="343" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">There are a lot of types of radiation used in EBRT. Some of these use protons (positively charged particles), and some use photons (particles with no mass). X- and gamma rays photon beams. The difference? </string>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
@@ -3534,21 +3537,21 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" - IGRT - image guided radiation therapy. A form of 3D-CRT that couples imaging techniques like CT to aid 3D conformation." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="waf-i8-am5">
-                                <rect key="frame" x="35" y="293" width="143" height="75"/>
+                                <rect key="frame" x="35" y="291" width="143" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="10"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" - Helical tomotherapy - the delivery mechanism is via a donut that the treatment table slides through." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYC-ZV-1FX">
-                                <rect key="frame" x="216" y="310" width="143" height="58"/>
+                                <rect key="frame" x="216" y="308" width="143" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="10"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAR-oB-VcH">
-                                <rect key="frame" x="16" y="475" width="343" height="73"/>
+                                <rect key="frame" x="16" y="471" width="343" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Proton beam therapy is less penetrative and thus can be used to target more specific areas. Medical personnel will examine each individual's tumor and determine which type of radiation is the best option for them.</string>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
@@ -3556,7 +3559,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5w8-rL-Jyh">
-                                <rect key="frame" x="16" y="578" width="343" height="73"/>
+                                <rect key="frame" x="16" y="574" width="343" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Stereotactic describes a method of pinpointing a specific location in tissue via 3D diagrams. Stereotactic radiosurgery is NOT actually surgery but rather an ultra-specific EBRT procedure.</string>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
@@ -3564,7 +3567,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="wYJ-op-TSi">
-                                <rect key="frame" x="16" y="554" width="343" height="27"/>
+                                <rect key="frame" x="16" y="550" width="343" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <state key="normal" title="Stereotactic? What's that?"/>
@@ -4486,14 +4489,13 @@
         <image name="vialwithspheres" width="323" height="280"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="MgJ-3U-RvK"/>
         <segue reference="flh-xY-Nq5"/>
-        <segue reference="KaQ-xu-WeM"/>
+        <segue reference="sGi-Ry-39O"/>
         <segue reference="ZUF-qR-CGZ"/>
         <segue reference="zU3-E5-QlP"/>
         <segue reference="UnZ-vB-zVf"/>
         <segue reference="yCh-Vm-ESW"/>
-        <segue reference="tYa-0V-CuS"/>
+        <segue reference="Ghr-Jt-f07"/>
         <segue reference="T0L-8B-G8G"/>
         <segue reference="i1w-TT-GG0"/>
         <segue reference="0fM-ay-RBv"/>
