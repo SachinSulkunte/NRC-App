@@ -9,7 +9,9 @@
 import UIKit
 
 class CobaltMachine: UIViewController {
-
+    
+    @IBOutlet weak var howItWorks: UIImageView!
+    @IBOutlet weak var actualMachine: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,9 +22,11 @@ class CobaltMachine: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
     @IBAction func SwitchPicture(_ sender: UIButton) {
+        howItWorks.isHidden = !howItWorks.isHidden
+        actualMachine.isHidden = !actualMachine.isHidden
     }
+    
     
     /*
     // MARK: - Navigation
