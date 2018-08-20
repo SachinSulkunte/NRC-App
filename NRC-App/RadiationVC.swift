@@ -24,36 +24,13 @@ class RadiationVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
     var pickerData: [String] = [String]()
     
     let sourceData: [String: Any] = [
-        "Brain": [["Isotope": "99mTc DTPA", "dose": 3.6, "pregnant_dose": 14],
-                   ["Isotope": "15O water", "dose": 2.0, "pregnant_dose": 0.0],
-                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
-                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0]
-                ],
-        "Hepatobiliary": [["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
-                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
-                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
-                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0]
-            ],
-        "Bone": [["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
-                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
-                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
-                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0]
-            ],
-        "Kidney": [["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
-                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
-                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
-                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0]
-            ],
-        "Heart": [["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
-                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
-                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
-                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0]
-            ],
-        "Tumor": [["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
-                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
-                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
-                   ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0]
-            ]
+        "Brain": ["Isotope": "99mTc DTPA", "dose": 3.6, "pregnant_dose": 14],
+        "Hepatobiliary": ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+        "Bone": ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+        "Kidney": ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+        "Heart": ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+        "Tumor": ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+        
     ]
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -65,7 +42,7 @@ class RadiationVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
         self.picker.dataSource = self
         
         //initialize data into array
-        pickerData = ["Technetium-99m", "Oxygen-15", "Gallium-67", "Technetium-99m Sestimibi", "Thallium-201", "Fluorine-18"]
+        pickerData = [String] (sourceData.keys)
     }
 
     override func didReceiveMemoryWarning() {
