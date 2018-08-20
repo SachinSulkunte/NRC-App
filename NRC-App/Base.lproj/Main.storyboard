@@ -3529,25 +3529,66 @@
             <objects>
                 <viewController id="0o8-TS-Sfx" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ter-oS-VB8">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1120"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ADe-A8-Fz7">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1120"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="REx-KB-Agw">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1120"/>
                                         <subviews>
-                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="30b-49-K6E">
-                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cobaltmachine" translatesAutoresizingMaskIntoConstraints="NO" id="hTF-hd-6Pm">
+                                                <rect key="frame" x="34" y="282" width="308" height="194"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </scrollView>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="telecobaltmachine" translatesAutoresizingMaskIntoConstraints="NO" id="S0O-fX-ksR">
+                                                <rect key="frame" x="52" y="295" width="272" height="170"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="800" id="MI2-dl-fhM"/>
+                                            <constraint firstAttribute="height" constant="1120" id="MI2-dl-fhM"/>
                                         </constraints>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KML-t6-iVe">
+                                        <rect key="frame" x="16" y="10" width="34" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Back"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EBRT: LINAC vs Cobalt Machines" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WLA-3Z-fdr">
+                                        <rect key="frame" x="0.0" y="33" width="375" height="99"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="usq-iA-x8F">
+                                        <rect key="frame" x="19" y="122" width="336" height="126"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">External beam radiation therapies have historically been performed using two types of machines: cobalt machines and linear accelerators (LINACs). Read below for a brief look at how these two machines differ.</string>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cobalt Machine" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2KY-oh-aja">
+                                        <rect key="frame" x="0.0" y="250" width="375" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5G-ds-dbq">
+                                        <rect key="frame" x="0.0" y="477" width="375" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                        <state key="normal" title="Press to see how the machine works."/>
+                                        <connections>
+                                            <action selector="SwitchPicture:" destination="cIK-32-mb6" eventType="touchUpInside" id="2ue-Bd-y2x"/>
+                                            <action selector="SwitchSchematic:" destination="8dT-YX-qcA" eventType="touchUpInside" id="pXK-xm-8vg"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="REx-KB-Agw" secondAttribute="trailing" id="59e-WG-oi7"/>
@@ -3568,11 +3609,12 @@
                         <viewLayoutGuide key="safeArea" id="voW-T3-46D"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Cobalt Machine" id="gX3-BE-IsZ"/>
-                    <size key="freeformSize" width="375" height="800"/>
+                    <size key="freeformSize" width="375" height="1120"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="txz-jN-882" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="cIK-32-mb6" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="9202" y="-1624"/>
+            <point key="canvasLocation" x="9200.7999999999993" y="-1624.5877061469266"/>
         </scene>
         <!--Linear Accelerator-->
         <scene sceneID="hrx-LX-uBY">
@@ -4290,6 +4332,7 @@
         <image name="brachytherapy seeds" width="217" height="237"/>
         <image name="brachytherapy super high def" width="1107" height="910"/>
         <image name="catheter" width="511" height="271"/>
+        <image name="cobaltmachine" width="1251" height="1024"/>
         <image name="cupofwater1" width="381" height="720"/>
         <image name="eternal beam radiation therapy " width="750" height="600"/>
         <image name="finalliverdiagram" width="640" height="480"/>
@@ -4305,6 +4348,7 @@
         <image name="skeletalscintigraphy1" width="881" height="746"/>
         <image name="speechbubble1" width="512" height="512"/>
         <image name="technetiumgraphic" width="640" height="480"/>
+        <image name="telecobaltmachine" width="478" height="349"/>
         <image name="thalliumfinal" width="640" height="480"/>
         <image name="usnrc1" width="175" height="175"/>
         <image name="vialwithspheres" width="323" height="280"/>
