@@ -24,12 +24,12 @@ class RadiationVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
     var pickerData: [String] = [String]()
     
     let sourceData: [String: Any] = [
-        "Brain": ["Isotope": "99mTc DTPA", "dose": 3.6, "pregnant_dose": 14],
-        "Hepatobiliary": ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
-        "Bone": ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
-        "Kidney": ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
-        "Heart": ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
-        "Tumor": ["Isotope": "", "dose": 0.0, "pregnant_dose": 0.0],
+        "Brain": ["isotope": "99mTc DTPA","cname":"Technetium 99m", "dose": 3.6, "pregnant_dose": 14],
+        "Hepatobiliary": ["isotope": "99mTc SCO","cname":"Technetium 99m", "dose": 1.7, "pregnant_dose": 0.0],
+        "Bone": ["isotope": "99mTc MDP","cname":"Technetium 99m", "dose": 4.2, "pregnant_dose": 4.2],
+        "Kidney": ["isotope": "99mTc DTPA","cname":"Technetium 99m", "dose": 3.6, "pregnant_dose": 3.6],
+        "Heart": ["isotope": "99mTc sestimibi", "cname":"Technetium 99m","dose": 9.9, "pregnant_dose": 9.9],
+        "Liver": ["isotope": "99mTc disofenin/ mebrofenin","cname":"Technetium 99m", "dose": 0.0, "pregnant_dose": 6.0],
         
     ]
     override func viewDidLoad() {
@@ -69,7 +69,7 @@ class RadiationVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
         if let data = sourceData[bodypart] as? [[String:Any]] {
             var pos = 0
             for (index, val) in data.enumerated() {
-                if(isotope == val["Isotope"] as? String){
+                if(isotope == val["isotope"] as? String){
                     pos = index
                     break
                 }
@@ -84,6 +84,12 @@ class RadiationVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
     }
     
     @IBAction func calculateResults(_ sender: Any) {
+        
+    }
+    
+    
+    
+    func updateResults() {
         
     }
     /*
