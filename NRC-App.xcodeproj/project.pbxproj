@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221FF08B212A1D4D00514958 /* LINAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221FF08A212A1D4D00514958 /* LINAC.swift */; };
+		221FF08D212A516400514958 /* CobaltMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221FF08C212A516400514958 /* CobaltMachine.swift */; };
+		2258DE86212DFB5000BE0F11 /* WhatToExpectEBRT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258DE85212DFB5000BE0F11 /* WhatToExpectEBRT.swift */; };
 		22D0372F2114F498007AB683 /* IntroVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D0372E2114F498007AB683 /* IntroVCViewController.swift */; };
 		22F2A1C42122057900E0EA54 /* LearnMoreBrachy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2A1C32122057900E0EA54 /* LearnMoreBrachy.swift */; };
+		2675AB2E2128BEE800CF5E57 /* FlourineContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2675AB2D2128BEE800CF5E57 /* FlourineContainerVC.swift */; };
+		2675AB302128BF2000CF5E57 /* TechnetiumContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2675AB2F2128BF2000CF5E57 /* TechnetiumContainerVC.swift */; };
+		2675AB322128BF3700CF5E57 /* IodineContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2675AB312128BF3700CF5E57 /* IodineContainerVC.swift */; };
+		2675AB342128BF5700CF5E57 /* ThalliumContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2675AB332128BF5700CF5E57 /* ThalliumContainerVC.swift */; };
 		26813ED920FCF229008226B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813ED820FCF229008226B2 /* AppDelegate.swift */; };
 		26813EDB20FCF229008226B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26813EDA20FCF229008226B2 /* ViewController.swift */; };
 		26813EDE20FCF229008226B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26813EDC20FCF229008226B2 /* Main.storyboard */; };
@@ -41,8 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		221FF08A212A1D4D00514958 /* LINAC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LINAC.swift; sourceTree = "<group>"; };
+		221FF08C212A516400514958 /* CobaltMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobaltMachine.swift; sourceTree = "<group>"; };
+		2258DE85212DFB5000BE0F11 /* WhatToExpectEBRT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatToExpectEBRT.swift; sourceTree = "<group>"; };
 		22D0372E2114F498007AB683 /* IntroVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVCViewController.swift; sourceTree = "<group>"; };
 		22F2A1C32122057900E0EA54 /* LearnMoreBrachy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreBrachy.swift; sourceTree = "<group>"; };
+		2675AB2D2128BEE800CF5E57 /* FlourineContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlourineContainerVC.swift; sourceTree = "<group>"; };
+		2675AB2F2128BF2000CF5E57 /* TechnetiumContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnetiumContainerVC.swift; sourceTree = "<group>"; };
+		2675AB312128BF3700CF5E57 /* IodineContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IodineContainerVC.swift; sourceTree = "<group>"; };
+		2675AB332128BF5700CF5E57 /* ThalliumContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThalliumContainerVC.swift; sourceTree = "<group>"; };
 		26813ED520FCF229008226B2 /* NRC-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NRC-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26813ED820FCF229008226B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26813EDA20FCF229008226B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +64,7 @@
 		26813EE020FCF229008226B2 /* NRC_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NRC_App.xcdatamodel; sourceTree = "<group>"; };
 		26813EE220FCF229008226B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26813EE520FCF229008226B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		26813EE720FCF229008226B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26813EE720FCF229008226B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../NRC-App/Info.plist"; sourceTree = "<group>"; };
 		26813EEC20FCF229008226B2 /* NRC-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NRC-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26813EF020FCF229008226B2 /* NRC_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRC_AppTests.swift; sourceTree = "<group>"; };
 		26813EF220FCF229008226B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,6 +102,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2675AB352128BF6000CF5E57 /* Container Views */ = {
+			isa = PBXGroup;
+			children = (
+				2675AB2F2128BF2000CF5E57 /* TechnetiumContainerVC.swift */,
+				2675AB312128BF3700CF5E57 /* IodineContainerVC.swift */,
+				2675AB2D2128BEE800CF5E57 /* FlourineContainerVC.swift */,
+				2675AB332128BF5700CF5E57 /* ThalliumContainerVC.swift */,
+			);
+			path = "Container Views";
+			sourceTree = "<group>";
+		};
 		26813ECC20FCF229008226B2 = {
 			isa = PBXGroup;
 			children = (
@@ -111,15 +136,18 @@
 		26813ED720FCF229008226B2 /* NRC-App */ = {
 			isa = PBXGroup;
 			children = (
+				2675AB352128BF6000CF5E57 /* Container Views */,
 				26813ED820FCF229008226B2 /* AppDelegate.swift */,
 				26813EDA20FCF229008226B2 /* ViewController.swift */,
 				26813EDC20FCF229008226B2 /* Main.storyboard */,
+				2258DE85212DFB5000BE0F11 /* WhatToExpectEBRT.swift */,
+				221FF08C212A516400514958 /* CobaltMachine.swift */,
+				221FF08A212A1D4D00514958 /* LINAC.swift */,
 				820F74A62122719F00CB41BB /* NRC Symbol.png */,
 				22F2A1C32122057900E0EA54 /* LearnMoreBrachy.swift */,
 				22D0372E2114F498007AB683 /* IntroVCViewController.swift */,
 				26813EE220FCF229008226B2 /* Assets.xcassets */,
 				26813EE420FCF229008226B2 /* LaunchScreen.storyboard */,
-				26813EE720FCF229008226B2 /* Info.plist */,
 				26813EDF20FCF229008226B2 /* NRC_App.xcdatamodeld */,
 				268DDEA42103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift */,
 				82A0F4352114EBEC00C4C13A /* RadiationVC.swift */,
@@ -131,6 +159,7 @@
 		26813EEF20FCF229008226B2 /* NRC-AppTests */ = {
 			isa = PBXGroup;
 			children = (
+				26813EE720FCF229008226B2 /* Info.plist */,
 				26813EF020FCF229008226B2 /* NRC_AppTests.swift */,
 				26813EF220FCF229008226B2 /* Info.plist */,
 			);
@@ -292,9 +321,16 @@
 				82A0F4362114EBEC00C4C13A /* RadiationVC.swift in Sources */,
 				268DDEA52103B1DE00AF1995 /* TreatmentsDiagnosticsVC.swift in Sources */,
 				26813EDB20FCF229008226B2 /* ViewController.swift in Sources */,
+				2258DE86212DFB5000BE0F11 /* WhatToExpectEBRT.swift in Sources */,
 				820F74A92122823800CB41BB /* Safety.swift in Sources */,
+				2675AB322128BF3700CF5E57 /* IodineContainerVC.swift in Sources */,
+				221FF08B212A1D4D00514958 /* LINAC.swift in Sources */,
 				26813ED920FCF229008226B2 /* AppDelegate.swift in Sources */,
 				22F2A1C42122057900E0EA54 /* LearnMoreBrachy.swift in Sources */,
+				221FF08D212A516400514958 /* CobaltMachine.swift in Sources */,
+				2675AB302128BF2000CF5E57 /* TechnetiumContainerVC.swift in Sources */,
+				2675AB342128BF5700CF5E57 /* ThalliumContainerVC.swift in Sources */,
+				2675AB2E2128BEE800CF5E57 /* FlourineContainerVC.swift in Sources */,
 				22D0372F2114F498007AB683 /* IntroVCViewController.swift in Sources */,
 				26813EE120FCF229008226B2 /* NRC_App.xcdatamodeld in Sources */,
 			);
