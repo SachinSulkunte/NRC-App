@@ -11,6 +11,7 @@ import UIKit
 struct Result {
     var bodypart: String
     var isotope: String
+    var cname: String
     var dose: Double
     var isPregnant: Bool
     var pregnantDose: Double
@@ -65,27 +66,16 @@ class RadiationVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
         return pickerData[row]
     }
     
-    func getItemFromDict(_ bodypart: String, isotope: String, isPregnant: Bool) -> Result {
-        if let data = sourceData[bodypart] as? [[String:Any]] {
-            var pos = 0
-            for (index, val) in data.enumerated() {
-                if(isotope == val["isotope"] as? String){
-                    pos = index
-                    break
-                }
-            }
-            var info = data[pos]
+    func getItemFromDict(_ bodypart: String, isPregnant: Bool) -> Result? {
+        if let data = sourceData[bodypart] as? [String:Any] {
             
-            return Result(bodypart: bodypart, isotope: isotope, dose: info["dose"] as! Double, isPregnant: isPregnant, pregnantDose: info["pregnant_dose"] as! Double)
+            return Result(bodypart: bodypart, isotope: data["isotope"] as! String,cname: data["cname"] as! String, dose: data["dose"] as! Double, isPregnant: isPregnant, pregnantDose: data["pregnant_dose"] as! Double)
         }else{
             print("Something went wrong, check the dictionary for any unimplemented structural changes")
-            return Result(bodypart: bodypart, isotope: isotope, dose: 0.0, isPregnant: false, pregnantDose: 0.0)
+            return nil
         }
     }
     
-    @IBAction func calculateResults(_ sender: Any) {
-        
-    }
     
     
     
