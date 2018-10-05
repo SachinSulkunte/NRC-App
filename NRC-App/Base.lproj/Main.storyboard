@@ -50,7 +50,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.88493567709999998" green="0.96901029350000001" blue="0.95442503690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
                         <viewLayoutGuide key="safeArea" id="TzV-MB-r8u"/>
                     </view>
@@ -300,7 +300,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.88493567709999998" green="0.96901029350000001" blue="0.95442503690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="Dme-Cu-QXp"/>
                     </view>
                 </viewController>
@@ -443,7 +443,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.88493567709999998" green="0.96901029350000001" blue="0.95442503690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Vap-9a-6ch"/>
                     </view>
                 </viewController>
@@ -508,7 +508,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.88493567709999998" green="0.96901029350000001" blue="0.95442503690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="lbz-iQ-55a"/>
                     </view>
                     <navigationItem key="navigationItem" id="0RV-Ri-b11"/>
@@ -972,7 +972,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.88493567709999998" green="0.96901029350000001" blue="0.95442503690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="qoY-vq-zDo"/>
                     </view>
                     <toolbarItems/>
@@ -1285,7 +1285,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.88493567709999998" green="0.96901029350000001" blue="0.95442503690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Ahs-II-vfF"/>
                     </view>
                 </viewController>
@@ -1362,7 +1362,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.88493567709999998" green="0.96901029350000001" blue="0.95442503690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="tjp-Cz-Do4"/>
                     </view>
                     <navigationItem key="navigationItem" id="S8b-af-bF8">
@@ -1456,7 +1456,7 @@ The radiation they emit tends not to be more than what you would get normally ov
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.97510582208633423" green="0.8883432149887085" blue="0.91576999425888062" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1200" id="AkT-pu-7cq"/>
                                         </constraints>
@@ -1535,7 +1535,7 @@ The radiation they emit tends not to be more than what you would get normally ov
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.97474569079999995" green="0.88839084099999999" blue="0.91864037440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <rect key="contentStretch" x="0.0" y="0.25" width="1" height="1"/>
                         <viewLayoutGuide key="safeArea" id="H0N-4g-iGb"/>
                     </view>
@@ -1728,7 +1728,7 @@ The radiation they emit tends not to be more than what you would get normally ov
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.97474569079999995" green="0.88839084099999999" blue="0.91864037440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="QXf-g5-oOk"/>
                     </view>
                 </viewController>
@@ -1776,7 +1776,7 @@ The radiation they emit tends not to be more than what you would get normally ov
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.97474569079999995" green="0.88839084099999999" blue="0.91864037440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="AyW-xT-COL"/>
                     </view>
                 </viewController>
@@ -1824,7 +1824,7 @@ The radiation they emit tends not to be more than what you would get normally ov
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.97474569079999995" green="0.88839084099999999" blue="0.91864037440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="RNL-SK-7Vn"/>
                     </view>
                 </viewController>
@@ -2150,7 +2150,7 @@ The radiation they emit tends not to be more than what you would get normally ov
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.97474569079999995" green="0.88839084099999999" blue="0.91864037440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="GGa-93-eAH"/>
                     </view>
                 </viewController>
@@ -5840,17 +5840,17 @@ The radiation they emit tends not to be more than what you would get normally ov
         <image name="xray" width="1400" height="898"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="flh-xY-Nq5"/>
+        <segue reference="jdk-Tm-XfS"/>
         <segue reference="sGi-Ry-39O"/>
         <segue reference="biy-DZ-KzY"/>
         <segue reference="zU3-E5-QlP"/>
         <segue reference="UnZ-vB-zVf"/>
         <segue reference="yCh-Vm-ESW"/>
         <segue reference="Vfe-t6-d81"/>
-        <segue reference="1jI-wa-gIr"/>
-        <segue reference="i1w-TT-GG0"/>
-        <segue reference="HxU-ax-DxN"/>
-        <segue reference="z5j-ye-NGq"/>
+        <segue reference="evj-SZ-PDg"/>
+        <segue reference="mmN-7v-NrQ"/>
+        <segue reference="jKE-v1-YUu"/>
+        <segue reference="Yly-se-l6A"/>
         <segue reference="5aI-vr-jWL"/>
     </inferredMetricsTieBreakers>
 </document>
