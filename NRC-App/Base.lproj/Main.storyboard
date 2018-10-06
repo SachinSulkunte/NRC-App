@@ -2007,7 +2007,7 @@ The radiation they emit tends not to be more than what you would get normally ov
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jat-P9-7ql">
                                                 <rect key="frame" x="36" y="1476" width="298" height="227"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Please note that though you are recieving a dosage of radiation, it is not at all fatal. The NRC works hard to ensure that the dosage each patient is exposed to is not dangerous to the patient. For more information, see the Safety page. </string>
+                                                <string key="text">Please note that though you are recieving a dosage of radiation, it is not at all fatal. Medical researchers work hard to ensure that the dosage each patient is exposed to is not overly risky.</string>
                                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
